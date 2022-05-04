@@ -1,0 +1,22 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'main.blg'
+[54] biber-darwin:322> INFO - === Mon May  2, 2022, 15:10:46
+[66] Biber.pm:415> INFO - Reading 'main.bcf'
+[132] Biber.pm:943> INFO - Found 6 citekeys in bib section 0
+[143] Biber.pm:4256> INFO - Processing section 0
+[143] Utils.pm:75> INFO - Globbing data source 'lit.bib'
+[143] Utils.pm:91> INFO - Globbed data source 'lit.bib' to lit.bib
+[143] Utils.pm:75> INFO - Globbing data source 'programme.bib'
+[143] Utils.pm:91> INFO - Globbed data source 'programme.bib' to programme.bib
+[151] Biber.pm:4455> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[152] bibtex.pm:1653> INFO - LaTeX decoding ...
+[155] bibtex.pm:1471> INFO - Found BibTeX data source 'lit.bib'
+[171] Biber.pm:4455> INFO - Looking for bibtex format file 'programme.bib' for section 0
+[171] bibtex.pm:1653> INFO - LaTeX decoding ...
+[175] bibtex.pm:1471> INFO - Found BibTeX data source 'programme.bib'
+[194] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[194] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[194] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[194] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[201] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[203] bbl.pm:755> INFO - Output to main.bbl
