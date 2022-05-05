@@ -40,6 +40,29 @@
       \field{title}{Titel (deutsch): Vakuumtechnik;Benennung und Definitionen;Allgemeine Benennungen}
       \field{year}{1990-05}
     \endentry
+    \entry{turbo}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=089f0033d59ba391465d3d52e82704a9}{%
+           family={Chemgaroo},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{089f0033d59ba391465d3d52e82704a9}
+      \strng{fullhash}{089f0033d59ba391465d3d52e82704a9}
+      \strng{bibnamehash}{089f0033d59ba391465d3d52e82704a9}
+      \strng{authorbibnamehash}{089f0033d59ba391465d3d52e82704a9}
+      \strng{authornamehash}{089f0033d59ba391465d3d52e82704a9}
+      \strng{authorfullhash}{089f0033d59ba391465d3d52e82704a9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{note}{[Online; Stand 4. Mai 2022]}
+      \verb{urlraw}
+      \verb http://www.chemgapedia.de/vsengine/vlu/vsc/de/ch/3/anc/masse/ms_vakuumsystem.vlu/Page/vsc/de/ch/3/anc/masse/2_massenspektrometer/2_2_vakuumsystem/2_2_2_turbop/turbomol_ms5ht0202.vscml.html
+      \endverb
+      \verb{url}
+      \verb http://www.chemgapedia.de/vsengine/vlu/vsc/de/ch/3/anc/masse/ms_vakuumsystem.vlu/Page/vsc/de/ch/3/anc/masse/2_massenspektrometer/2_2_vakuumsystem/2_2_2_turbop/turbomol_ms5ht0202.vscml.html
+      \endverb
+    \endentry
     \entry{luft}{misc}{}
       \name{author}{1}{}{%
         {{hash=56da9ea55b98c33a763e5e3aa5fee4e0}{%

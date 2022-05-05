@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.1.27)  4 MAY 2022 15:35
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020)  (format=lualatex 2021.1.27)  5 MAY 2022 13:07
  restricted system commands enabled.
  file:line:error style messages enabled.
 **"/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/main.tex"
@@ -1392,7 +1392,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15.
  [2
 
 ] ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/content/zielsetzung.tex") ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/content/theorie.tex"
-<abb/Vakuum.png, id=47, 689.57625pt x 629.35126pt>
+<abb/Vakuum.png, id=49, 689.57625pt x 629.35126pt>
 File: abb/Vakuum.png Graphic file (type png)
 <use abb/Vakuum.png>
 Package luatex.def Info: abb/Vakuum.png  used on input line 20.
@@ -1411,18 +1411,18 @@ LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/LatinModernMath(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 57.
  [4</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/Vakuum.png>]
-<abb/Strömungen.png, id=79, 375.4025pt x 239.89626pt>
+<abb/Strömungen.png, id=81, 375.4025pt x 239.89626pt>
 File: abb/Strömungen.png Graphic file (type png)
 <use abb/Strömungen.png>
 Package luatex.def Info: abb/Strömungen.png  used on input line 90.
 (luatex.def)             Requested size: 209.12778pt x 133.64182pt.
  [5</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/Strömungen.png>]
-<abb/leitwert.png, id=98, 371.3875pt x 283.0575pt>
+<abb/leitwert.png, id=100, 371.3875pt x 283.0575pt>
 File: abb/leitwert.png Graphic file (type png)
 <use abb/leitwert.png>
 Package luatex.def Info: abb/leitwert.png  used on input line 110.
 (luatex.def)             Requested size: 292.7776pt x 223.15082pt.
-<abb/pumpen.png, id=102, 765.86125pt x 528.97626pt>
+<abb/pumpen.png, id=104, 765.86125pt x 528.97626pt>
 File: abb/pumpen.png Graphic file (type png)
 <use abb/pumpen.png>
 Package luatex.def Info: abb/pumpen.png  used on input line 124.
@@ -1432,7 +1432,7 @@ Package luatex.def Info: abb/pumpen.png  used on input line 124.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/leitwert.png>]
-<abb/drehpumpe.png, id=118, 374.39874pt x 265.99374pt>
+<abb/drehpumpe.png, id=120, 374.39874pt x 265.99374pt>
 File: abb/drehpumpe.png Graphic file (type png)
 <use abb/drehpumpe.png>
 Package luatex.def Info: abb/drehpumpe.png  used on input line 157.
@@ -1441,36 +1441,56 @@ Package luatex.def Info: abb/drehpumpe.png  used on input line 157.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/pumpen.png>]) ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/content/durchfuehrung.tex") ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/content/auswertung.tex") ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/content/diskussion.tex") [8</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/drehpumpe.png>]
+[7</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/pumpen.png>]
+<abb/Turbopumpe.png, id=134, 530.98375pt x 457.71pt>
+File: abb/Turbopumpe.png Graphic file (type png)
+<use abb/Turbopumpe.png>
+Package luatex.def Info: abb/Turbopumpe.png  used on input line 179.
+(luatex.def)             Requested size: 292.7776pt x 252.37683pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/drehpumpe.png>]
+<abb/wärme.png, id=147, 376.40625pt x 324.21124pt>
+File: abb/wärme.png Graphic file (type png)
+<use abb/wärme.png>
+Package luatex.def Info: abb/wärme.png  used on input line 214.
+(luatex.def)             Requested size: 209.12778pt x 180.1323pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/content/durchfuehrung.tex" [9</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/Turbopumpe.png>]) ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/content/auswertung.tex") ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/content/diskussion.tex") [10</Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/abb/wärme.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 31.
- [9]
+ [11]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 31.
  ("/Users/sebastian/Dropbox/Mein Mac (MacBook Air von Sebastian)/Documents/Praktikum/FP/V70/main.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 31.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 31.
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: 195EA48EAAD979EFFF4963AB6B05DA10;10769.
+(rerunfilecheck)             Checksum: C8A57CD8D9C4C22C4512F220F667D4F0;12223.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 0C4943D52AB18ED03D4924A48A5150F4;961.
+(rerunfilecheck)             Checksum: 978A38542C501F6F04B068FFC00389F2;1043.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 35412 strings out of 480992
+ 35447 strings out of 480992
  100000,1977958 words of node,token memory allocated
- 847 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 10 glue, 4 kern, 1 glyph, 50 attribute, 82 glue_spec, 27 attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 1:6,2:619,3:162,4:29,5:218,6:25,7:2859,8:80,9:132,10:10,11:323
- 51889 multiletter control sequences out of 65536+600000
- 140 fonts using 49984811 bytes
+ 859 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 10 glue, 4 kern, 1 glyph, 52 attribute, 82 glue_spec, 28 attribute_list, 1 write, 4 pdf_action nodes
+   avail lists: 1:6,2:667,3:205,4:35,5:219,6:25,7:2860,8:192,9:132,10:19,11:323
+ 51904 multiletter control sequences out of 65536+600000
+ 140 fonts using 49984151 bytes
  59i,8n,114p,10208b,2933s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (9 pages, 2018062 bytes).
+Output written on main.pdf (11 pages, 2360382 bytes).
 
-PDF statistics: 285 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 131072)
- 89 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 321 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 131072)
+ 97 words of extra memory for PDF output out of 10000 (max. 100000000)
 
