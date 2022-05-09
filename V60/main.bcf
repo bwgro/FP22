@@ -2187,10 +2187,20 @@
     <bcf:citekey order="2">emission</bcf:citekey>
     <bcf:citekey order="3">enwiki</bcf:citekey>
     <bcf:citekey order="4">enwiki</bcf:citekey>
-    <bcf:citekey order="5" nocite="1">matplotlib</bcf:citekey>
-    <bcf:citekey order="6" nocite="1">scipy</bcf:citekey>
-    <bcf:citekey order="7" nocite="1">numpy</bcf:citekey>
-    <bcf:citekey order="8" nocite="1">uncertainties</bcf:citekey>
+    <bcf:citekey order="5">laser</bcf:citekey>
+    <bcf:citekey order="6">laser</bcf:citekey>
+    <bcf:citekey order="7">laser</bcf:citekey>
+    <bcf:citekey order="8">laser</bcf:citekey>
+    <bcf:citekey order="9">laser</bcf:citekey>
+    <bcf:citekey order="10">laser</bcf:citekey>
+    <bcf:citekey order="11">laser</bcf:citekey>
+    <bcf:citekey order="12">laser</bcf:citekey>
+    <bcf:citekey order="13">aufbau</bcf:citekey>
+    <bcf:citekey order="14">aufbau</bcf:citekey>
+    <bcf:citekey order="15" nocite="1">matplotlib</bcf:citekey>
+    <bcf:citekey order="16" nocite="1">scipy</bcf:citekey>
+    <bcf:citekey order="17" nocite="1">numpy</bcf:citekey>
+    <bcf:citekey order="18" nocite="1">uncertainties</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
