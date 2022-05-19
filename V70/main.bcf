@@ -2362,19 +2362,20 @@
     <bcf:citekey order="15">turbo</bcf:citekey>
     <bcf:citekey order="16">Pfeifer</bcf:citekey>
     <bcf:citekey order="17">Pfeifer</bcf:citekey>
-    <bcf:citekey order="18" nocite="1">matplotlib</bcf:citekey>
-    <bcf:citekey order="19" nocite="1">numpy</bcf:citekey>
-    <bcf:citekey order="20" nocite="1">scipy</bcf:citekey>
-    <bcf:citekey order="21" nocite="1">uncertainties</bcf:citekey>
-    <bcf:citekey order="22">dewiki</bcf:citekey>
-    <bcf:citekey order="23">DIN</bcf:citekey>
-    <bcf:citekey order="24">Pfeifer</bcf:citekey>
-    <bcf:citekey order="25">luft</bcf:citekey>
-    <bcf:citekey order="26">turbo</bcf:citekey>
-    <bcf:citekey order="27">matplotlib</bcf:citekey>
+    <bcf:citekey order="18">numpy</bcf:citekey>
+    <bcf:citekey order="19">matplotlib</bcf:citekey>
+    <bcf:citekey order="20">uncertainties</bcf:citekey>
+    <bcf:citekey order="21">sample</bcf:citekey>
+    <bcf:citekey order="22">sample</bcf:citekey>
+    <bcf:citekey order="23">dewiki</bcf:citekey>
+    <bcf:citekey order="24">DIN</bcf:citekey>
+    <bcf:citekey order="25">Pfeifer</bcf:citekey>
+    <bcf:citekey order="26">luft</bcf:citekey>
+    <bcf:citekey order="27">turbo</bcf:citekey>
     <bcf:citekey order="28">numpy</bcf:citekey>
-    <bcf:citekey order="29">scipy</bcf:citekey>
+    <bcf:citekey order="29">matplotlib</bcf:citekey>
     <bcf:citekey order="30">uncertainties</bcf:citekey>
+    <bcf:citekey order="31">sample</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
