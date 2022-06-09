@@ -1,0 +1,12 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Röntgenröhre}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Brechungsindex}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Fresnelsche Formeln}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Kiessig-Oszillationen}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Parratt-Algorithmus}{6}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Durchführung}{6}{section.2}%
+\contentsline {section}{\numberline {3}Auswertung}{6}{section.3}%
+\contentsline {section}{\numberline {4}Diskussion}{6}{section.4}%
+\contentsline {section}{\nonumberline Literatur}{6}{section*.11}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
