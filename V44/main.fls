@@ -1,0 +1,425 @@
+PWD d:\GitHub\FP\V44
+INPUT d:\GitHub\FP\V44\main.tex
+OUTPUT main.log
+OUTPUT main.log
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\latexconfig\lualatexquotejobname.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ltluatex.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-main.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-init.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\lualibs\lualibs.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\lualibs\lualibs-basic.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\lualibs\lualibs-basic-merged.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\lualibs\lualibs-compat.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\lualibs\lualibs-extended.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\lualibs\lualibs-extended-merged.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-log.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\fontloader-basics-gen.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\m_t_x_t_e_s_t.tmp
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-parsers.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-configuration.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-status.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\fontloader-2022-02-24.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-fallback.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-multiscript.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-scripts.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\ScriptExtensions.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\Scripts.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-loaders.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-database.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-unicode.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\CaseFolding.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\PropList.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\WordBreakProperty.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\SpecialCasing.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-colors.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-resolvers.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-features.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\lua-uni-algos\lua-uni-normalize.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\lua-uni-algos\lua-uni-parse.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-harf-define.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-harf-var-cff2.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-harf-var-t2-writer.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-harf-var-ttf.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-harf-plug.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-letterspace.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-embolden.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-notdef.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\UnicodeData.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\unicode-data\PropList.txt
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-suppress.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-szss.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-auxiliary.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-tounicode.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\luatex\luaotfload\luaotfload-case.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.lua
+INPUT .\header.tex
+INPUT .\header.tex
+INPUT .\header.tex
+INPUT .\header.tex
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlfile-hook.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrlogo.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo
+INPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-names.luc.gz
+INPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\fonts\otl\lmroman10-regular.luc
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\typearea.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrhack.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrhack.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrhack.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrhack.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrhack.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scrhack.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-luatex.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-luatex.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-luatex.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-luatex.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-luatex.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-luatex.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\scripts\pdftexcmds\pdftexcmds.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\bigintcalc\bigintcalc.sty
+INPUT .\main.aux
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg
+INPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\fonts\otl\lmroman10-bold.luc
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\luababel.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\luababel.def
+INPUT C:\Users\Sebas\AppData\Roaming\MiKTeX\2.9\tex\generic\config\language.dat
+INPUT C:\Users\Sebas\AppData\Roaming\MiKTeX\2.9\tex\generic\config\language.dat
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\luababel.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\luababel.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerman.ldf
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerman.ldf
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerman.ldf
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngerman.ldf
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngermanb.ldf
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ngermanb.ldf
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\hyph-utf8\loadhyph\loadhyph-de-1996.tex
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\hyph-utf8\loadhyph\loadhyph-de-1996.tex
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\hyph-utf8\patterns\tex\hyph-de-1996.tex
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\generic\hyph-utf8\patterns\tex\hyph-de-1996.tex
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-luatex.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fix-cm.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\lualatex\lualatex-math\lualatex-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\lualatex\lualatex-math\lualatex-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\lualatex\lualatex-math\lualatex-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\lualatex\lualatex-math\lualatex-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\lualatex\lualatex-math\lualatex-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\lualatex\lualatex-math\lualatex-math.sty
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\lualatex\lualatex-math\lualatex-math.lua
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-table.tex
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\unicode-math\unicode-math-table.tex
+INPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+INPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\fonts\otl\latinmodern-math.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi5.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi5.tfm
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Sebas\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.lua
+OUTPUT C:\Users\Sebas\AppData\Local\MiKTeX\2.9\luatex-cache\generic\names\luaotfload-lookup-cache.luc
