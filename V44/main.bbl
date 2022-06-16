@@ -1,0 +1,244 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{reflexion}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6c6109044857f7fd6626c426cbe4594e}{%
+           family={Arndlast},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c6109044857f7fd6626c426cbe4594e}
+      \strng{fullhash}{6c6109044857f7fd6626c426cbe4594e}
+      \strng{bibnamehash}{6c6109044857f7fd6626c426cbe4594e}
+      \strng{authorbibnamehash}{6c6109044857f7fd6626c426cbe4594e}
+      \strng{authornamehash}{6c6109044857f7fd6626c426cbe4594e}
+      \strng{authorfullhash}{6c6109044857f7fd6626c426cbe4594e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Röntgenreflexion}
+      \field{urlday}{3}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.x-ray-optics.de/index.php/physik/reflexion
+      \endverb
+      \verb{url}
+      \verb http://www.x-ray-optics.de/index.php/physik/reflexion
+      \endverb
+    \endentry
+    \entry{physik}{book}{}
+      \name{author}{6}{}{%
+        {{hash=13ec57e42d0d317ab4367b484e01079f}{%
+           family={Bartelmann},
+           familyi={B\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cf705015417ef2fb8f91e434cc24df19}{%
+           family={Feuerbacher},
+           familyi={F\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0ac28eb0b4644afc5f56a77196ab8144}{%
+           family={Krüger},
+           familyi={K\bibinitperiod},
+           given={Timm},
+           giveni={T\bibinitperiod}}}%
+        {{hash=355149ca96c9298f9af76a834e0b0acb}{%
+           family={Lüst},
+           familyi={L\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c90c7e0e2d6938d99127ce23f0e0825e}{%
+           family={Rebhan},
+           familyi={R\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1797462f9e57996c25438228b9029094}{%
+           family={Wipf},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag Berlin Heidelberg}%
+      }
+      \strng{namehash}{c236bac34e01696f6368969e4baadbf4}
+      \strng{fullhash}{f7f1113404bd03de1486eefda5d0d5e5}
+      \strng{bibnamehash}{c236bac34e01696f6368969e4baadbf4}
+      \strng{authorbibnamehash}{c236bac34e01696f6368969e4baadbf4}
+      \strng{authornamehash}{c236bac34e01696f6368969e4baadbf4}
+      \strng{authorfullhash}{f7f1113404bd03de1486eefda5d0d5e5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-642-54617-4}
+      \field{title}{Theoretische Physik}
+      \field{year}{2015}
+    \endentry
+    \entry{scipy}{software}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=4b3d26f886661aa723985bcfd835ba18}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d500f4849030f34359cdb3e1513acf83}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=3d6efaaa3d9682e20787eb06ff70a3d7}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Pearu},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2d4b138ebed3e173fcb667b68477029}
+      \strng{fullhash}{c2d4b138ebed3e173fcb667b68477029}
+      \strng{bibnamehash}{c2d4b138ebed3e173fcb667b68477029}
+      \strng{authorbibnamehash}{c2d4b138ebed3e173fcb667b68477029}
+      \strng{authornamehash}{c2d4b138ebed3e173fcb667b68477029}
+      \strng{authorfullhash}{c2d4b138ebed3e173fcb667b68477029}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{SciPy}: Open source scientific tools for {Python}}
+      \field{version}{0.16.0}
+      \verb{urlraw}
+      \verb http://www.scipy.org/
+      \endverb
+      \verb{url}
+      \verb http://www.scipy.org/
+      \endverb
+    \endentry
+    \entry{roehre}{online}{}
+      \name{author}{1}{}{%
+        {{hash=165a7186aa2b656d6263571466866483}{%
+           family={Kiehlmann},
+           familyi={K\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{165a7186aa2b656d6263571466866483}
+      \strng{fullhash}{165a7186aa2b656d6263571466866483}
+      \strng{bibnamehash}{165a7186aa2b656d6263571466866483}
+      \strng{authorbibnamehash}{165a7186aa2b656d6263571466866483}
+      \strng{authornamehash}{165a7186aa2b656d6263571466866483}
+      \strng{authorfullhash}{165a7186aa2b656d6263571466866483}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Röntgenröhre}
+      \field{urlday}{2}
+      \field{urlmonth}{6}
+      \field{urlyear}{2022}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://lp.uni-goettingen.de/get/text/6639
+      \endverb
+      \verb{url}
+      \verb https://lp.uni-goettingen.de/get/text/6639
+      \endverb
+    \endentry
+    \entry{kiessig}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b76f735bd36fcc0416c7543976dfca7c}{%
+           family={Kiessig},
+           familyi={K\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{fullhash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{bibnamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authorbibnamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authornamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authorfullhash}{b76f735bd36fcc0416c7543976dfca7c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annalen der Physik}
+      \field{number}{7}
+      \field{title}{Interferenz von Röntgenstrahlen an dünnen Schichten}
+      \field{volume}{402}
+      \field{year}{1931}
+    \endentry
+    \entry{nolting}{book}{}
+      \name{author}{1}{}{%
+        {{hash=edc40101c83f862d56e8171d61feebd0}{%
+           family={Nolting},
+           familyi={N\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag Berlin}%
+      }
+      \strng{namehash}{edc40101c83f862d56e8171d61feebd0}
+      \strng{fullhash}{edc40101c83f862d56e8171d61feebd0}
+      \strng{bibnamehash}{edc40101c83f862d56e8171d61feebd0}
+      \strng{authorbibnamehash}{edc40101c83f862d56e8171d61feebd0}
+      \strng{authornamehash}{edc40101c83f862d56e8171d61feebd0}
+      \strng{authorfullhash}{edc40101c83f862d56e8171d61feebd0}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{3-540-20509-8}
+      \field{title}{Grundkurs Theoretische Physik 3: Elektrodynamik}
+      \field{year}{2002}
+    \endentry
+    \entry{wert}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d04d4a108c1b26418bf71ae6fe3f2767}{%
+           family={Tolan},
+           familyi={T\bibinitperiod},
+           given={Metin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{fullhash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{bibnamehash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{authorbibnamehash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{authornamehash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \strng{authorfullhash}{d04d4a108c1b26418bf71ae6fe3f2767}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Springer}
+      \field{title}{X-Ray Scattering from Soft-Matter Thin Films}
+      \field{year}{1999}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

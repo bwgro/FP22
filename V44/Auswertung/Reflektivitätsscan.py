@@ -1,17 +1,10 @@
+from turtle import color
 import numpy as np
 import matplotlib.pyplot as pl
 import scipy.optimize as op
 import math as ma
 
-#Freneschel Formel
-def fresnel(alpha):
-    n_1 = 1
-    n_2 = 3.35
-    beta = ma.asin(n_1/n_2 * ma.sin(alpha))
-    return (ma.tan(alpha - beta))/(ma.tan(alpha + beta))
 
-def Korrektur(a_g):
-    return (((0.02*ma.sin(a_g))/0.2))
 
 
 
@@ -20,31 +13,41 @@ x,y = np.genfromtxt('Messwerte/omega_tet.txt', unpack=True)
 a,b = np.genfromtxt('Messwerte/diffusor.txt' , unpack=True)
 
 
-#Auswertung
-r = y - b
-k = r
-f = y
-i = 0
-j = 1
 
-while x[i] <=0.4:
-    k[i] = Korrektur(x[i])*y[i]
-    i = i+1
-
-while j <=500:
-    alpha = x[j]
-    f[j] = fresnel(x[j])
-    j = j+1
-    
+#Reflektivität
+I_0 = 1114508.0792544584
+R_ref = y / (5 * I_0)
+R_diff = b / (5 * I_0)
+R= R_ref - R_diff
 
 
+
+#Geometriefaktor
+a_g = 0.4
+R_g = np.zeros(np.size(R))
+
+for i in np.arange(np.size(x)):
+    if(x[i] <= a_g and x[i] > 0 ):
+        R_g[i] = R[i] * np.sin(np.deg2rad(a_g)) / np.sin(np.deg2rad(x[i]))
+    else:
+        R_g[i] = R[i]
+
+
+
+#Frenessel
+f = (0.223 / (2 * x) )**4
+
+#Schichtdicke
+min_x = [x[69],x[78],x[87],x[97],x[106],x[117]]
+min_y = [R[69],R[78],R[87],R[97],R[106],R[117]]
+print('Schichtdicke: ',x[87] - x[78])
 
 
 #Plot
-pl.plot(x, r, label='Messdaten')
-pl.plot(x, k, label='Reflektivität mit Geomitriefaktor')
+pl.plot(x, R, '-', label='Messdaten')
+pl.plot(x, R_g, '-', label='Reflektivität mit Geometriefaktor')
 pl.plot(x, f, label='Ideale Silitzium Oberfläche')
-pl.plot
+pl.scatter(min_x, min_y, marker='o',color = 'red', s=10, label ='Minima')
 pl.yscale('log')
 pl.xlabel("'\u03B1/°'")
 pl.ylabel("R")
