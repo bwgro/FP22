@@ -97,6 +97,27 @@
       \field{title}{Theoretische Physik}
       \field{year}{2015}
     \endentry
+    \entry{sample}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=2821a70f99517ac7757c95300d43e95c}{%
+           family={Dortmund},
+           familyi={D\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{fullhash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{bibnamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorbibnamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authornamehash}{2821a70f99517ac7757c95300d43e95c}
+      \strng{authorfullhash}{2821a70f99517ac7757c95300d43e95c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{V44 Röntgenreflektometrie}
+      \field{year}{2022}
+    \endentry
     \entry{scipy}{software}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -215,6 +236,31 @@
       \field{isbn}{3-540-20509-8}
       \field{title}{Grundkurs Theoretische Physik 3: Elektrodynamik}
       \field{year}{2002}
+    \endentry
+    \entry{Stettner}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=9a2dc3ed2ac20aa9a4aaa6eeab6e4116}{%
+           family={Stettner},
+           familyi={S\bibinitperiod},
+           given={Jochim},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Kiel}%
+      }
+      \strng{namehash}{9a2dc3ed2ac20aa9a4aaa6eeab6e4116}
+      \strng{fullhash}{9a2dc3ed2ac20aa9a4aaa6eeab6e4116}
+      \strng{bibnamehash}{9a2dc3ed2ac20aa9a4aaa6eeab6e4116}
+      \strng{authorbibnamehash}{9a2dc3ed2ac20aa9a4aaa6eeab6e4116}
+      \strng{authornamehash}{9a2dc3ed2ac20aa9a4aaa6eeab6e4116}
+      \strng{authorfullhash}{9a2dc3ed2ac20aa9a4aaa6eeab6e4116}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Charakterisierung von rauhen MBE-CoSi_2-/SiSchichtsystemen mittels Röntgenstreuung}
+      \field{type}{phdthesis}
+      \field{year}{1995}
     \endentry
     \entry{wert}{article}{}
       \name{author}{1}{}{%

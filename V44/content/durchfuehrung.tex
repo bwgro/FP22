@@ -1,2 +1,34 @@
 \section{Durchführung}
 \label{sec:Durchführung}
+Der Versuch wurde an einem D8-Labordiffraktometer durchgeführt.
+Eine Röntgenröhre, die mit \qty{40}{\kilo\volt} und \qty{35}{\milli\ampere} in Betrieb ist,
+bestrahlt eine Probe. Ein Detektor erfasst dabei die reflektierte Strahlung.
+Die Probe, ein mit Polymerfilm beschichteter Siliziumwafer, muss durch eine Vielzahl von Scans zunächst justiert werden
+
+\subsection{Justierung}
+\subsubsection*{Detektorscan}
+Unanbhängig von der Probe werden Röhre und Detektor auf eine Ebene gebracht. Nun fährt der Detektor einen kleinen Winkelbereich um den Strahl der Röhre ab.
+Das Maximum der aufgenommenen Intensität, die einer Gaußglocke ähnelt, ist fortan der neue Nullpunkt der Detektorausrichtung.
+
+\subsubsection*{Z-Scan}
+Im ausgerichteten Strahl wird die Probe positioniert und anschließend leicht in der Höhe verschoben. Je mehr die Probe vom Strahl getroffen wird,
+desto weniger Intensität wird gemessen. Bei etwa der Hälfte dieses Abfalls soll die neue Z-Position liegen, um die Hälfte der Probe mit Röntgenstrahlen zu treffen.
+
+\subsubsection*{Rockingscan}
+Dennoch besteht die Möglichkeit, dass die Probe nicht parallel zur Ausbreitungsrichtung des Röntgenstrahls steht.
+Demnach wird die Probe ungleichmäßig getroffen. Um auch diese Hürde zu bewältigen drehen sich beim Rockingscan
+Röhre und Detektor mit konstanter Winkelsumme um die Probe um diese im Drehpunkt des Diffraktometers zu zentrieren.
+
+\subsubsection*{Feinjustierung}
+Nach den ersten drei Scans folgt ein weiter Z-Scan um nach der Drehung wieder die Hälfte abzudecken.
+Anschließend wird noch einmal der Rockingscan mit einem abschließendem Z-Scan wiederholt um endgültig mit der Messung anzufangen.
+
+\subsection{Messung}
+Gemessen werden ein Reflektivitätsscan und ein diffuser Scan.
+Hierzu wird das eingerichtete Programm, XRD Commander, gemäß der Anleitung\cite{sample} genutzt.
+
+Beim Reflektivitätsscan sind der Röhren- und Detektorwinkel gleich groß. Es wird in
+einem Bereich von 0° bis 2,5° mit einer Schrittweite von 0,005° und einer Messzeit von
+\qty{5}{\second} gemessen.
+Bei dem diffusen Scan ist der Detektorwinkel um 0,1° gegenüber dem Röhrenwinkel
+verschoben. Jedoch bleibt der Vorgang der gleiche. Durch diesen Scan, kann später die wahre Reflektivität berechnet werden.

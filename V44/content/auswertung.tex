@@ -15,7 +15,7 @@ Die gemessene Werte mit der dazugehörigen Gaußdistribution sind in Abbildung \
     \caption{Detektorscan}
     \label{fig:gauß}
 \end{figure}
-Draus ergibt sich mittels \textit{SciPy} \cite{scipy} eine Amplitude  von $I_{max} =(11,1\pm 0,3) \cdot 10^5$ 
+Daraus ergibt sich mittels \textit{SciPy} \cite{scipy} eine Amplitude  von $I_{max} =(11,1\pm 0,3) \cdot 10^5$ 
 und eine Halbwertsbreite von $(0,246 \pm 0,003)^°$.
 
 
@@ -28,7 +28,7 @@ Der Z-Scan ist in Abbildung \ref{fig:Z} dargestellt.
     \caption{Z-Scan}
     \label{fig:Z}
 \end{figure}
-Zu erkennen ist die Abfallende Intesität, wenn die Probe in den Strahl gefahren wird.
+Zu erkennen ist die abfallende Intesität, wenn die Probe in den Strahl gefahren wird.
 Dies dient neben dem Justieren der Z-Achse ebenfalsss zur Bestimmung der Strahlenbreite $d_0$.
 Dies lässt sich als die Differenz zwischen Intensitätsmaximum und Intensitätsminimum ablesen.
 Wie in der Abbildung zu erkennnen ergibt diese sich zu $d_0 \approx 1,9$ mm.
@@ -50,8 +50,8 @@ Daraus lässt sich wie dargestellt der Geomitriewinkel $\alpha_g = 0.4$ ablesen.
 
 \subsection{Reflektivitätsscan}
 Die Hauptuntersuchung der Probe findet per Reflektivitätsscan statt.
-Um Effekte durch Rückstreuung zu verhindern wird der difuffe Scan vom Reflektivitätsscan subtrahiert.
-Dies in Abbildung \ref{fig:ref} dargestellt.
+Um Effekte durch Rückstreuung zu verhindern wird der diffuse Scan vom Reflektivitätsscan subtrahiert.
+Dies ist in Abbildung \ref{fig:ref} dargestellt.
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.7\textwidth]{Auswertung/Graphen/Reflektivitaetsscan.pdf}
@@ -63,21 +63,21 @@ Dabei ist zu beachten das neben dem Winkel die Reflektivität
     R = \frac{I}{5\cdot I_{max}} 
 \end{equation*}
 aufgetragen wird.
-Neben der Reflektivität ist auch die Korrektur durch den Geometriefaktor aufgetragen,
-welcher berücksichtigt,
+Zusätzlich ist auch die Korrektur durch den Geometriefaktor aufgetragen,
+der berücksichtigt,
 dass erst ab einem gewissen Winkel der komplette Strahl die Oberfläche trifft.
-Ebendso ist die berechnete Reflektivität einer Glatten Silizium Oberfläche dargestellt,
-welche mittels
+Ebenso ist die Reflektivität einer glatten Silizium Oberfläche dargestellt,
+die mittels
 \begin{equation}
     R = \left(\frac{\alpha_c}{2\alpha_i}\right)^4
 \end{equation}
 berechnet wird. 
-Der Literatur Wert für den kritischen Winkel $\alpha_c$ liegt für Silizium bei $\alpha_{Si} = 0,223°$ \cite{wert}
+Der Literaturwert für den kritischen Winkel $\alpha_c$ liegt für Silizium bei $\alpha_{Si} = 0,223°$ \cite{wert}
 
-Die Schichtdicke lässt sich mit hilfe der Kiesling-Oszillation aus der gemessenen Reflektivität bestimmen.
-Dazu werden die auftretenden Minima untersucht und der gemittelte abstand zwischen ihnen bestimmt.
-Dabei schaut man sich nur die deutlich auftretenden ersten Minima an.
-Der gemittelte Abstand der Minima ergibt sich zu
+Die Schichtdicke lässt sich mithilfe der Kiesling-Oszillation aus der gemessenen Reflektivität bestimmen.
+Dazu werden die auftretenden Minima untersucht und der gemittelte Abstand zwischen ihnen bestimmt.
+Relevant sind hierbei nur die deutlichen ersten Minima.
+Der gemittelte Abstand dieser ergibt sich zu
 \begin{equation}
     \Delta\alpha = (4,5 \pm 0,3)\cdot10^{-2}°.
 \end{equation}
@@ -95,25 +95,24 @@ ergibt sich daraus eine Schichtdicke von
 
 Mit hilfe des Parratt-Algorithmus lässt sich das Dispersionsprofil bestimmen,
 wie auch die kritischen Winkel von Silizium und Polystrol.
-Verwendet werden dazu die modifizierten Frenesselkoeffizienten,
-denn dadurch kannm man die Rauhigkeit der Probe mit modilieren.
+Verwendet werden dazu die modifizierten Fresnelkoeffizienten.
 Das Modell funktioniert mit zwei Schichten, eine aus Polystrol und eine aus Silizium.
 Die Umgebungsluft wird als eine Schicht mit der Schichtdicke und der Disperison von $d = \delta = 0$ angenommen.
-Die sich so ergebende Kurve ist in Abbildung \ref{fig:parratt} dargestellt.
+Die entsprechende Kurve ist in Abbildung \ref{fig:parratt} dargestellt.
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.7\textwidth]{Auswertung/Graphen/Parrat_Algorthmus.pdf}
     \caption{Die Parrat Kurve im Vergleich zur gemessenen Reflektivität}
     \label{fig:parratt}
 \end{figure}
-Mittels der Gleichung \eqref{eq:krit} lässt sich der Kritische Winkel der beiden Schichten jeweils bestimmen als:
+Mittels der Gleichung \eqref{eq:krit} lässt sich der kritische Winkel der beiden Schichten jeweils bestimmen als:
 \begin{align}
     \alpha_{Pol} &= 0,068^° \\
     \alpha_{Si}  &= 0,214^°
 \end{align}
 Die Parameter der Schichtdicke $d_2$, der Dispersion $\delta$ und der Rauigkeit $\sigma$ müssen per Hand so bestimmt werden,
-dass die Paratkurve eine möglichst große Übereinbstimmung zeigt.
-Sie ergeben sich zu
+dass die Parrattkurve eine möglichst große Übereinstimmung zeigt.
+Demnachzufolge sind:
 \begin{align*} 
     d_2 &=  1.7\cdot 10^{-6} \\
     \delta_{Poly} &= 7\cdot 10^{-7} \\

@@ -1,10 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-
-
-
 def parratt(a_i, delta_1, delta_2, sigma_1, sigma_2, d_2, b_1, b_2):
     n_2 = 1.0 - delta_1 +b_1
     n_3 = 1.0 - delta_2 + b_2
@@ -22,8 +18,6 @@ def parratt(a_i, delta_1, delta_2, sigma_1, sigma_2, d_2, b_1, b_2):
 
     return np.abs(x_1) **2
 
-
-
 #Import Messwerte
 ref_x, ref_y = np.genfromtxt('Messwerte/omega_tet.txt', unpack=True)
 diff_x, diff_y = np.genfromtxt('Messwerte/diffusor.txt' , unpack=True)
@@ -33,7 +27,6 @@ I_0 = 1114508.0792544584
 R_ref = ref_y / (5 * I_0)
 R_diff = diff_y / (5 * I_0)
 R= R_ref - R_diff
-
 
 #Parratt Parameter
 n_1 = 1.0               #Brechungsindex Luft
@@ -47,10 +40,6 @@ sigma_1 = 5.5 * 10 ** (-10)
 sigma_2 = 6.45 *10 ** (-10)
 b_1 = (delta_1 / 200) * 1j
 b_2 = (delta_2/ 40) * 1j
-
-
-
-
 
 
 print(delta_1, delta_2, sigma_1, sigma_2, d_2, b_1, b_2)

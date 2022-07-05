@@ -28,13 +28,13 @@ Das entstandende Loch schließt sich anschließend durch ein Elektron einer höh
 Aus dem Reflexionsgesetz, das besagt dass der Wellenvektor einer reflektierten Welle zum Lot der Grenzfläche den gleichen Winkel wie die einfallende Welle hat,
 folgt durch die Stetigkeit an einer Grenzfläche
 \begin{equation}
-    k \sin \phi_1 = k' \sin \phi_2
+    k \sin \alpha_1 = k' \sin \alpha_2
     \label{eq:Stetigkeit}
 \end{equation}
 für eine gebrochene Welle.
 Durch Umstellen lässt sich das Snellius'sche Brechnungsgesetz,
 \begin{equation}
-    \frac{\sin \phi_1}{\sin \phi_2} = \frac{c_1}{c_2} = \frac{\sqrt{\epsilon_2\mu_2}}{\sqrt{\epsilon_1\mu_1}} = \frac{n_2}{n_1} \text{,}
+    \frac{\sin \alpha_1}{\sin \alpha_2} = \frac{c_1}{c_2} = \frac{\sqrt{\epsilon_2\mu_2}}{\sqrt{\epsilon_1\mu_1}} = \frac{n_2}{n_1} \text{,}
     \label{eq:Snellius}
 \end{equation}
 aufstellen. Hierbei wird der Brechungsindex definiert durch
@@ -62,36 +62,36 @@ Jegliche andere Fälle kann man als Linearkombination dieser sehen.\cite{physik}
 \subsubsection*{Senkrechte Polarisation}
 Zwischen den Amplituden der reflektierten bzw. der gebrochenen und der einfallenden Welle besteht der Zusammenhang
 \begin{equation}
-    \left(\frac{E_{0,R}}{E_0}\right)_\perp = \frac{\frac{N_1}{\mu_1}\cos\phi_1 - \frac{N_2}{\mu_2}\cos\phi_2}{\frac{N_1}{\mu_1}\cos\phi_1 + \frac{N_2}{\mu_2}\cos\phi_2}
+    \left(\frac{E_{0,R}}{E_0}\right)_\perp = \frac{\frac{N_1}{\mu_1}\cos\alpha_1 - \frac{N_2}{\mu_2}\cos\alpha_2}{\frac{N_1}{\mu_1}\cos\alpha_1 + \frac{N_2}{\mu_2}\cos\alpha_2}
 \end{equation}
 und
 \begin{equation}
-    \left(\frac{E_{0,T}}{E_0}\right)_\perp = \frac{2\frac{N_1}{\mu_1}\cos\phi_1}{\frac{N_1}{\mu_1}\cos\phi_1 + \frac{N_2}{\mu_2}\cos\phi_2}\text{.}
+    \left(\frac{E_{0,T}}{E_0}\right)_\perp = \frac{2\frac{N_1}{\mu_1}\cos\alpha_1}{\frac{N_1}{\mu_1}\cos\alpha_1 + \frac{N_2}{\mu_2}\cos\alpha_2}\text{.}
 \end{equation}
 \subsubsection*{Parallele Polarisation}
 Zwischen den Amplituden der reflektierten bzw. der gebrochenen und der einfallenden Welle besteht der Zusammenhang
 \begin{equation}
-    \left(\frac{E_{0,R}}{E_0}\right)_\parallel = -\frac{\frac{N_2}{\mu_2}\cos\phi_1 - \frac{N_1}{\mu_1}\cos\phi_2}{\frac{N_2}{\mu_2}\cos\phi_1 + \frac{N_1}{\mu_1}\cos\phi_2}
+    \left(\frac{E_{0,R}}{E_0}\right)_\parallel = -\frac{\frac{N_2}{\mu_2}\cos\alpha_1 - \frac{N_1}{\mu_1}\cos\alpha_2}{\frac{N_2}{\mu_2}\cos\alpha_1 + \frac{N_1}{\mu_1}\cos\alpha_2}
 \end{equation}
 und
 \begin{equation}
-    \left(\frac{E_{0,T}}{E_0}\right)_\parallel = -\frac{2\frac{N_1}{\mu_1}\cos\phi_1}{\frac{N_2}{\mu_2}\cos\phi_1 + \frac{N_1}{\mu_1}\cos\phi_2}\text{.}
+    \left(\frac{E_{0,T}}{E_0}\right)_\parallel = -\frac{2\frac{N_1}{\mu_1}\cos\alpha_1}{\frac{N_2}{\mu_2}\cos\alpha_1 + \frac{N_1}{\mu_1}\cos\alpha_2}\text{.}
 \end{equation}
 \subsubsection*{Röntgenstrahlung}
 Mit $n_1 = 1$ und $n_2 < 1$ bei der Grenzfläche Luft-Materie ist $n_2 < n_1$ und somit sind ab einem bestimmten Winkel die Amplitudenverhältnisse komplex.\cite{nolting}
 Dadurch unterziehen sich Röntgenstrahlen, die unter einem kritischen Winkel zum Lot auf der Grenzfläche treffen, bei Materieeinfall einer externen Totalreflexion.\cite{reflexion}
-Dies ist gegeben, wenn $\phi_2 = \qty{90}{\degree}$ erreicht und somit $\sin\phi_2 = 1$. Der kritische Winkel kann mit \autoref{eq:Snellius} bestimmt werden durch
+Dies ist gegeben, wenn $\alpha_2 = \qty{90}{\degree}$ erreicht und somit $\sin\alpha_2 = 1$. Der kritische Winkel kann mit \autoref{eq:Snellius} bestimmt werden durch
 \begin{equation}
     \alpha_{krit} = \arcsin n_2 \text{.} \label{eq:krit}
 \end{equation}
 
 \subsection{Kiessig-Oszillationen}
-Nach Überschreiten des Grenzwinkels $\phi_{krit}$ der Totalreflexion sind Maxima und Minima der reflektierten Intensität zu beobachten.
+Nach Überschreiten des Grenzwinkels $\alpha_{krit}$ der Totalreflexion sind Maxima und Minima der reflektierten Intensität zu beobachten.
 Diese Erscheinung ist ein Konstrukt der Interferenz der reflektierten Röntgenstrahlen an Oberfläche und Unterseite der Grenzflächenschicht (vgl. Abb. \ref{fig:kiessig}).
 Durch die Lage der Minima und Maxima lassen sich mit den Ordnungszahlen $m$ und den Winkeln zweier Extremstellen sowohl die Dicke der Schichten als auch der Brechungsindex berechnen: \cite{kiessig}
 \begin{align}
-    d &= \frac{\lambda}{2}\sqrt{\frac{m_2²-m_1²}{\phi_2²-\phi_1²}} \\
-    \delta &= \frac{1}{2}\frac{\phi_1² m_2² - \phi_2² m_1²}{m_2²-m_1²}
+    d &= \frac{\lambda}{2}\sqrt{\frac{m_2²-m_1²}{\alpha_2²-\alpha_1²}} \\
+    \delta &= \frac{1}{2}\frac{\alpha_1² m_2² - \alpha_2² m_1²}{m_2²-m_1²}
 \end{align}
 
 \begin{figure}
@@ -104,4 +104,20 @@ Durch die Lage der Minima und Maxima lassen sich mit den Ordnungszahlen $m$ und 
 \subsection{Parratt-Algorithmus}
 Der Parratt-Algorithmus beschäftigt sich mit der Form der Kurve von reflektierter Röntgenstrahlung gegenüber ihrem Glanzwinkel um die Materialbeschaffenheit der Spiegeloberfläche zu bestimmen.
 Das Hauptaugenmerk ist dabei auf den Vergleich einer aufgenommenen Intensität mit der berechneten idealen Kurve oder vor und nach Anpassung des Materials.
+Bei einem mehrschichtigen System (vgl. Abb. \ref{fig:mehrschicht}) wird durch den Parratt-Algorithmus rekursiv die Reflektivität berechnet.
+Dabei wird die Annahme getroffen, dass die Schicht N+1 eine unendliche Dicke besitzt und somit Transmission verhindert.
+\begin{figure}
+    \center
+    \includegraphics[width=0.6\linewidth]{abb/mehrschicht.png}
+    \caption{Mehrschichtsystem mit N+1 Schichten verschiedener Brechungsindizes und N Grenzflächen \cite{Stettner}}
+    \label{fig:mehrschicht}
+\end{figure}
+Die Rekursionsformel des Verhältnisses von reflektierter und transmittierter Welle an der i-ten Grenzfläche lautet
+\begin{equation}
+    X_{j}=\frac{R_{j}}{T_{j}}=\exp \left(-2 i k_{z, j} z_{j}\right) \cdot \frac{r_{j, j+1}+X_{j+1} \exp \left(2 i k_{z, j+1} z_{j}\right)}{1+r_{j, j+1} X_{j+1} \exp \left(2 i k_{z, j+1} z_{j}\right)}
+\end{equation}
+mit der Fresnelreflektivität $r_{i,i+1} = \frac{k_{z,i}-k_{z,i+1}}{k_{z,i}+k_{z,i+1}}$, die aus der Z-Komponente des Wellenvektors $k_{z,i}=k\sqrt{n^2_i - \cos²\alpha_i}$ berechnet wird.
 
+Diese muss jedoch bei einer realen Oberfläche mit mikroskopischen Unebenheiten modifiziert werden. Folglich wird in der
+Rekursionsformel durch $\tilde{r}_{i, i+1}=r_{i, i+1} \exp \left(-2 k_{z, i} k_{z, i+1} \sigma_{i}^{2}\right)$ ersetzt um die geringere reflektierte
+Intensität der rauen Oberflächen zu berücksichtigen.
