@@ -66,5 +66,112 @@ Durch das anschließende abkühlen wird diese Polarisation auch bei abgeschaltet
 Bei der stattfindenden Depolarisation wird ein Strom induziert,
 welcher gemessen werden kann. 
 Aus diesem Depolarisationsstrom lassen sich die Größen Aktivierungsenergie und Relaxionszeit bestimmen.
+Ermittelt werden kann er durch zwei Ansätze.
+
+\subsubsection{Polarisationsansatz}
+Der Depolarisationsstrom beträgt dabei im allgemeinen
+\begin{equation}
+    i(T) = -\frac{\mathrm{d}P(t)}{\mathrm{d}t}\,.
+    \label{eqn:polstrom2}
+\end{equation}
+Die Polarisationsrate hängt von der übrigen Polarisation zur Zeit $t$
+und von der Relaxationsrate $\tau(T)$ ab.
+\begin{equation}
+    \frac{\text{d}{P(t)}}{\text{d}{t}} = -\frac{P(t)}{\tau(T)}
+    \label{eqn:polrate}
+\end{equation}
+Aus den beiden Gleichungen \eqref{eqn:polrate} und \eqref{eqn:polstrom2} ergibt sich daher
+\begin{equation}
+    i(T) = \frac{P(t)}{\tau(T)}\,.
+    \label{eqn:i_t_polstart}
+\end{equation}
+Integriert man Gleichung \eqref{eqn:polrate} erhält man einen Zusammenhang für $P(t)$.
+\begin{equation}
+    P(t) = P_{0} \exp\!\left(-\frac{t}{\tau(T)}\right)\,,
+\end{equation}
+welcher sich mit Gleichung \eqref{eqn:i_t_polstart} zu
+\begin{equation}
+    i(T) = \frac{P_0}{\tau} \exp\!\left(-\frac{t}{\tau(T)}\right) 
+\end{equation}
+bestimmt wird.
+Die Zeit $t$ wird n un als Integral über den Startpunkt bis zum Beginn des Depolarisationsstroms beschrieben
+\begin{equation}
+    i(T) = \frac{P_{0}}{\tau} \exp\!\left(-\int_0^t \frac{\text{d}{t}}{\tau(T)}\right)\,.
+\end{equation}
+Bei einer konstanten Heizrate $b$ nimmt der der Depolarisationsstrom die Form
+\begin{equation}
+    i(T) = \frac{P_0}{\tau} \exp\!\left(-\int_{T_0}^T
+      \exp\!\left(- \frac{W}{k_B T}\right) \text{d}{T}\right)
+    \label{eq:final}
+\end{equation}
+an.
+
+Zur Berechnung der Aktivierungsenergie $W$ und der Relaxationszeit wird angenommen,
+das $W$ groß im Vergleich zur thermischen Energie $k_B T$
+und die Temperaturdiferenz $T - T_0$ gering ist.
+Mit der Annahme wird aus \refeq{eq:final}
+\begin{equation}
+    i(T) = \frac{P_0}{\tau} \exp\!\left(-\int_{T_0}^T
+      \exp\!\left(- \frac{W}{k_B T}\right) \text{d}{T}\right) \approx 0
+\end{equation}
+und der Ausdruck für den Strom vereinfacht sich zu 
+\begin{equation}
+    I(T) \approx \frac{p^2E}{3k_B}\cdot\frac{N_0}{\tau_0}\cdot\exp{\frac{-W}{k_B T}}.
+\end{equation}
+Mit dem Bilden des Logarithmus ergibt sich
+\begin{equation}
+    \log(I(T)) = \text{const} -\frac{W}{k_B T}
+\end{equation}
+was in der Auswertung für eine lineare Ausgleichsrechnung zwischen $\log(I)$
+und $T^{-1}$ zur bestimmung von W verwendet wird.
+
+Die charakteristische Relaxionszeit bestimmt sich aus dem maximum der Stromkurve bei einer Temperatur $T_{\text{max}}$
+\begin{equation}
+    T^2_{\text{max}} = bW\frac{\tau (T_{\text{max}})}{k_B T}
+\end{equation}
 
 
+\subsubsection{Stromdichtenansatz}
+Der zweite Ansatz zur Bestimmung der Aktivierungsenergie $W$ geht über die Annahme,
+dass die Änderung der Polarisation $P$ mit der Zeit zum Betrag der Stromdichte $j(T)$
+entspricht.
+Aus dem Debye-Modell für hohe Temperaturen erhalten wir die mittlere Polarisation $\bar{\symup{P}}(T)$ als
+\begin{equation}
+    \bar{\symup{P}}(T) = \frac{N}{N_V}\frac{p^2 E}{3k_B T}\,,
+\end{equation}
+wobei $p$ das Dipolmoment beschreibt, 
+$E$ das elektrische Feld und $T$ die Temperatur.
+Die Dichte der Dipole wird mit $N_V$ erfasst.
+Die Änderung der Anzahl $N$ an Dipolen, 
+die in der Zeit $t$ relaxieren, 
+ist ein thermisch aktivierter Prozess,
+wird also durch Temperaturerhöhung gefördert und lässt sich schreiben als
+\begin{equation}
+    \frac{\text{d}{N}}{\text{d}{t}} = -\frac{N}{\tau(T)}\,.
+    \label{eqn:dNdt}
+\end{equation}
+Dabei ist
+\begin{equation*}
+    N = N_\mathrm{P} \exp\!\left( -\frac{1}{b} \int_{T_0}^T
+      \frac{\text{d}{T'}}{\tau(T')} \right)
+    \label{eqn:anzahlDipole}
+\end{equation*}
+
+mit $\mathrm{P}$ als Zahl der zu Beginn des Aufheizens vorhandenen orientierten Dipole pro Volumeneinheit
+und somit ergibt sich für den Depolarisationsstrom $i(T)$, welcher sich auch als Rate an Dipolrelaxationen verstehen lässt
+\begin{equation}
+    i(T) = \bar{\symup{P}}(T) \frac{\text{d}{N}}{\text{d}{t}}\,.
+    \label{eqn:polstrom}
+\end{equation}
+Aus Gleichung \eqref{eqn:dNdt} und Gleichung \eqref{eqn:polstrom} erhält man so eine geschlossene Formel für den Depolarisationsstrom.
+\begin{equation}
+    i(T) = -\bar{P}(T) \frac{\symup{N}}{\tau(T)}\,.
+\end{equation}
+
+Einsetzen von allen bekannten Termen ergibt
+\begin{equation}
+    i(T) = \frac{ p^2 E }{ 3 k_\mathrm{B} T_\mathrm{P} } \frac{ N_\mathrm{P} }{ \tau_0 } \exp{ \left( - \frac{ 1 }{ b \tau_0 }
+    \int_{T_0}^T \exp{ \left( - \frac{ W }{ k_\mathrm{B} T' } \right) \mathrm{d}T' } \right) } \exp{
+    \left( -\frac{ W }{ k_\mathrm{B} T } \right) }
+    \label{eqn:i_t}
+\end{equation}
