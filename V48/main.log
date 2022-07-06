@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.15)  4 JUL 2022 21:25
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.6.15)  6 JUL 2022 18:47
  restricted system commands enabled.
  file:line:error style messages enabled.
 **d:/GitHub/FP/V48/main.tex
@@ -1648,58 +1648,59 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 15
 \openout4 = main.toc
  [2
 
-] (./content/zielsetzung.tex) (./content/theorie.tex [3])
-(./content/durchfuehrung.tex
-<abb/aufbau.JPG, id=47, 413.29407pt x 226.59656pt>
+] (./content/zielsetzung.tex) (./content/theorie.tex [3]
+[4] [5]) (./content/durchfuehrung.tex
+<abb/aufbau.JPG, id=83, 413.29407pt x 226.59656pt>
 File: abb/aufbau.JPG Graphic file (type jpg)
 <use abb/aufbau.JPG>
 Package luatex.def Info: abb/aufbau.JPG  used on input line 14.
 (luatex.def)             Requested size: 376.42744pt x 206.38643pt.
-) (./content/auswertung.tex [4<./abb/aufbau.JPG>])
-(./content/diskussion.tex)
+) (./content/auswertung.tex [6<./abb/aufbau.JPG>]) (./content/diskussion.tex)
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [5] (./main.aux)
+ [7] (./main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: CBBBBBF54106CE930C2BAF6046BEB1A1;6039.
+(rerunfilecheck)             Checksum: 9DC9DCBA9FAD2ED65D32896E5121037F;7599.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: EA411A882763C7802D80CC146BAD4B57;770.
+(rerunfilecheck)             Checksum: 6D2E4CFC4186ACA5FB0D7BB885586DE2;959.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 38118 strings out of 477494
+ 38161 strings out of 477494
  100000,1977958 words of node,token memory allocated
- 748 words of node memory still in use:
+ 956 words of node memory still in use:
    8 hlist, 2 vlist, 2 rule, 1 local_par, 7 glue, 4 kern, 1 penalty, 1 margin_ke
-rn, 3 glyph, 24 attribute, 76 glue_spec, 14 attribute_list, 1 write, 2 pdf_actio
+rn, 3 glyph, 90 attribute, 78 glue_spec, 47 attribute_list, 1 write, 2 pdf_actio
 n nodes
-   avail lists: 1:2,2:721,3:213,4:88,5:373,6:31,7:6523,8:49,9:206,10:7,11:816,12
-:1
- 57946 multiletter control sequences out of 65536+600000
- 70 fonts using 20734863 bytes
- 113i,7n,117p,10634b,2363s stack positions out of 10000i,1000n,20000p,200000b,80000s
+   avail lists: 1:2,2:735,3:213,4:90,5:409,6:37,7:6523,8:80,9:547,10:10,11:816,1
+2:1
+ 57969 multiletter control sequences out of 65536+600000
+ 70 fonts using 20734623 bytes
+ 113i,8n,117p,10634b,2363s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <//?/c:/users/sebas/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/l
 mmono10-regular.otf><//?/c:/users/sebas/appdata/local/programs/miktex 2.9/fonts/
 opentype/public/lm/lmromancaps10-regular.otf><//?/c:/users/sebas/appdata/local/p
 rograms/miktex 2.9/fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/users/s
-ebas/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmroman8-regular
-.otf><//?/c:/users/sebas/appdata/local/programs/miktex 2.9/fonts/opentype/public
-/lm/lmroman10-bold.otf><C:/Users/Sebas/AppData/Local/Programs/MiKTeX 2.9/fonts/o
+ebas/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmroman10-bold.o
+tf><//?/c:/users/sebas/appdata/local/programs/miktex 2.9/fonts/opentype/public/l
+m/lmroman8-regular.otf><C:/Users/Sebas/AppData/Local/Programs/MiKTeX 2.9/fonts/o
 pentype/public/lm-math/latinmodern-math.otf><C:/Users/Sebas/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/opentype/public/lm-math/latinmodern-math.otf><//?/c:/users/s
-ebas/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmroman10-regula
-r.otf><//?/c:/users/sebas/appdata/local/programs/miktex 2.9/fonts/opentype/publi
-c/lm/lmroman12-regular.otf><//?/c:/users/sebas/appdata/local/programs/miktex 2.9
-/fonts/opentype/public/lm/lmsans10-bold.otf><//?/c:/users/sebas/appdata/local/pr
-ograms/miktex 2.9/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (5 pages, 98800 bytes).
+ms/MiKTeX 2.9/fonts/opentype/public/lm-math/latinmodern-math.otf><C:/Users/Sebas
+/AppData/Local/Programs/MiKTeX 2.9/fonts/opentype/public/lm-math/latinmodern-mat
+h.otf><//?/c:/users/sebas/appdata/local/programs/miktex 2.9/fonts/opentype/publi
+c/lm/lmroman10-regular.otf><//?/c:/users/sebas/appdata/local/programs/miktex 2.9
+/fonts/opentype/public/lm/lmroman12-regular.otf><//?/c:/users/sebas/appdata/loca
+l/programs/miktex 2.9/fonts/opentype/public/lm/lmsans10-bold.otf><//?/c:/users/s
+ebas/appdata/local/programs/miktex 2.9/fonts/opentype/public/lm/lmroman12-bold.o
+tf>
+Output written on main.pdf (7 pages, 117144 bytes).
 
-PDF statistics: 175 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 131072)
- 73 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 227 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 131072)
+ 89 words of extra memory for PDF output out of 10000 (max. 100000000)
 
