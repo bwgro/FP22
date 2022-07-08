@@ -121,57 +121,46 @@ und der Ausdruck für den Strom vereinfacht sich zu
 Mit dem Bilden des Logarithmus ergibt sich
 \begin{equation}
     \log(I(T)) = \text{const} -\frac{W}{k_B T}
+    \label{eq:W1}
 \end{equation}
 was in der Auswertung für eine lineare Ausgleichsrechnung zwischen $\log(I)$
 und $T^{-1}$ zur bestimmung von W verwendet wird.
-
-Die charakteristische Relaxionszeit bestimmt sich aus dem maximum der Stromkurve bei einer Temperatur $T_{\text{max}}$
+Für die Relaxationszeit gilt am Maximum 
 \begin{equation}
-    T^2_{\text{max}} = bW\frac{\tau (T_{\text{max}})}{k_B T}
+    \tau_{\text{max}} (T_{\text{max}}) = \frac{k_\text{B} T^2_{\text{max}}}{b W}\, ,
 \end{equation}
+woraus die charakteristische Relaxationszeit $\tau_0$ 
+\begin{equation}
+    \tau_0 = \tau_{\text{max}} (T_{\text{max}}) \exp \left(- \frac{W}{k_{\text{B}} \cdot T_\text{max}}\right) = \frac{k_\text{B} T^2_{\text{max}}}{b W} \cdot\exp \left(- \frac{W}{k_{\text{B}} \cdot T_\text{max}}\right)
+    \label{eq:relax}
+\end{equation}
+berechnet werden kann.
 
 
 \subsubsection{Stromdichtenansatz}
 Der zweite Ansatz zur Bestimmung der Aktivierungsenergie $W$ geht über die Annahme,
 dass die Änderung der Polarisation $P$ mit der Zeit zum Betrag der Stromdichte $j(T)$
 entspricht.
-Aus dem Debye-Modell für hohe Temperaturen erhalten wir die mittlere Polarisation $\bar{\symup{P}}(T)$ als
-\begin{equation}
-    \bar{\symup{P}}(T) = \frac{N}{N_V}\frac{p^2 E}{3k_B T}\,,
-\end{equation}
-wobei $p$ das Dipolmoment beschreibt, 
-$E$ das elektrische Feld und $T$ die Temperatur.
-Die Dichte der Dipole wird mit $N_V$ erfasst.
-Die Änderung der Anzahl $N$ an Dipolen, 
-die in der Zeit $t$ relaxieren, 
-ist ein thermisch aktivierter Prozess,
-wird also durch Temperaturerhöhung gefördert und lässt sich schreiben als
-\begin{equation}
-    \frac{\text{d}{N}}{\text{d}{t}} = -\frac{N}{\tau(T)}\,.
-    \label{eqn:dNdt}
-\end{equation}
-Dabei ist
+Die Änderung der Polarisation $P$ ist definiert als
 \begin{equation*}
-    N = N_\mathrm{P} \exp\!\left( -\frac{1}{b} \int_{T_0}^T
-      \frac{\text{d}{T'}}{\tau(T')} \right)
-    \label{eqn:anzahlDipole}
+    \frac{\text{d}P}{\text{d}t} = -\frac{P(t)}{\tau(T)}\, .
 \end{equation*}
-
-mit $\mathrm{P}$ als Zahl der zu Beginn des Aufheizens vorhandenen orientierten Dipole pro Volumeneinheit
-und somit ergibt sich für den Depolarisationsstrom $i(T)$, welcher sich auch als Rate an Dipolrelaxationen verstehen lässt
+Nach umstellen und erweitern mit $\frac{\text{d}T}{\text{d}T}$ folgt 
+\begin{equation*}
+    \tau(T) = P(T) \cdot \frac{\text{d}T}{\frac{\text{d}P}{\text{d}t}\text{d}T } =  \frac{P(t)}{b} \frac{\text{d}T}{\text{d}P}\,.
+\end{equation*}
+Durch erneute Erweiterung mit $\frac{\text{d}t}{\text{d}t}$ ergibt sich:
+\begin{equation*}
+    \tau(T) = \frac{P(t)}{b} \frac{\frac{\text{d}T}{\text{d}t}}{\frac{\text{d}P}{\text{d}t}}
+\end{equation*}
+Nun wird durch die vorhergehende Annahme und $P =\int\text{d}P$ der Term für die Relaxationszeit umgeformt zu: 
+\begin{equation*}
+    \tau(T) = \frac{\int \frac{\text{d}P}{\text{d}t} \text{d}T}{I(T) \cdot b} = \frac{\int_T^\infty I(T') \, \text{d}T'}{I(T) \cdot b}
+\end{equation*}
+Einsetzen und die Gleichung zur Aktivierungsenergie $W$ umstellen ergibt:
 \begin{equation}
-    i(T) = \bar{\symup{P}}(T) \frac{\text{d}{N}}{\text{d}{t}}\,.
-    \label{eqn:polstrom}
+    W = k_\text{B} T \cdot \ln\left( \frac{\int_T^\infty I(T') \, \text{d}T'}{b \tau_0 \cdot I(T)}\right)
+    \label{eq:Int}
 \end{equation}
-Aus Gleichung \eqref{eqn:dNdt} und Gleichung \eqref{eqn:polstrom} erhält man so eine geschlossene Formel für den Depolarisationsstrom.
-\begin{equation}
-    i(T) = -\bar{P}(T) \frac{\symup{N}}{\tau(T)}\,.
-\end{equation}
-
-Einsetzen von allen bekannten Termen ergibt
-\begin{equation}
-    i(T) = \frac{ p^2 E }{ 3 k_\mathrm{B} T_\mathrm{P} } \frac{ N_\mathrm{P} }{ \tau_0 } \exp{ \left( - \frac{ 1 }{ b \tau_0 }
-    \int_{T_0}^T \exp{ \left( - \frac{ W }{ k_\mathrm{B} T' } \right) \mathrm{d}T' } \right) } \exp{
-    \left( -\frac{ W }{ k_\mathrm{B} T } \right) }
-    \label{eqn:i_t}
-\end{equation}
+Somit lässt sich nun die Aktivierungsenergie $W$ berechnen. In der Praxis wird die obere Integrationsgrenze von $\infty$ in $T^*$ geändert, mit
+$I\left(T^*\right)\approx 0$. Demnach soll $T^*$ groß genug sein, um eine Gleichverteilung der Dipole hervorzurufen. 

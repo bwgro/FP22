@@ -1,2 +1,65 @@
 \section{Diskussion}
 \label{sec:Diskussion}
+Das Ablesen am Picoamperemeter gestaltete sich äußerst schwierig. Vor allem bei der zweiten Messung ist dies zu festzustellen.
+Der erwartete exponentielle Verlauf ist lediglich im Groben zu erkennen.
+In der bereits erfolgten Auswertung wurde zugunsten der Übersichtlichkeit auf nur wenige Nachkommastellen gerundet.
+Demnach ist kein Unterschied in den Aktivierungsenergien der einzelnen Methoden zu erkennen.
+In \autoref{tab:W} sind die Ergebnisse mit ausreichend Nachkommastellen aufgeführt um erkenntlich zu machen,
+dass beide Verfahren zur Auswertung der Messergebnisse gleichwertig sind. Ein Unterschied in lediglich der sechszehnten Nachkommastelle
+kann in diesem Sinne vernachlässigbar sein.
+\begin{table}[h]
+    \centering
+    \caption{Direkter Vergleich der Aktivierungsenergien.}
+    \label{tab:W}
+    \begin{tabular}{cS}
+        \toprule
+        {Ansatz} & {Messreihe 1}\\
+        \cmidrule(lr){2-2} 
+        &{$W \, / \, \si{\electronvolt}$} \\
+        \midrule
+        {Polarisation} & {$0.68017317334993044(4070451497351078)$} \\   
+        {Stromdichte}  & {$0.68017317334992955(4070451497351080)$} \\
+        \bottomrule
+        \\
+        \toprule
+        {Ansatz} & {Messreihe 2}\\ 
+        \cmidrule(lr){2-2} 
+        &{$W \, / \, \si{\electronvolt}$} \\
+        \midrule
+        {Polarisation} & {$0.69228766608574221(3139876552290468)$} \\ 
+        {Stromdichte}  & {$0.69228766608574244(3139876552290468)$} \\
+        \bottomrule
+        \end{tabular}
+\end{table}
+
+\noindent
+Die relative Abweichung
+\begin{equation}
+    \Delta x = \left| \frac{x_\text{exp} - x_\text{lit}}{x_\text{lit}}\right|
+\end{equation}
+dieser Werte zum Literaturwert $W_\text{lit} = \qty{0.66(1)}{\electronvolt}$\cite{Buch} liegen bei:
+\begin{align}
+    \Delta W_1 = \qty{3}{\percent} \\
+    \Delta W_2 = \qty{5}{\percent}
+\end{align}
+Bei der ersten Messung liegt der Literaturwert in den Fehlergrenzen, jedoch ist er bei der zweiten Messung knapp außerhalb.
+Dies kann unteranderem auch Rückschlüsse zum fehlerbehafteten Ablesen am Picoamperemeter ziehen.
+
+Im Gegensatz dazu weichen die charakteristischen Relaxationszeiten weiter von einander ab (vgl. Tab. \ref{tab:t}).
+Dies ist aber auf eine zusätzliche andere Vorhergehensweise in der Ausgleichsrechnung des Stromdichtenansatzes zurückzuführen.
+Wendet man anstelle der angewandten Umformung ebenfalls \autoref{eq:relax} an, so verringern auch hier sich die anliegenden Unterschiede.
+\begin{table}[h]
+    \centering
+    \caption{Direkter Vergleich der charakteristischen Relaxationszeiten.}
+    \label{tab:t}
+    \begin{tabular}{cSS}
+        \toprule
+        {Ansatz} & {Messreihe 1} & {Messreihe 2} \\
+        \cmidrule(lr){2-2}  \cmidrule(lr){3-3} 
+        & {$\tau \, / \, \si{\second}$} & {$\tau \, / \, \si{\second}$} \\
+        \midrule
+        {Polarisation} & {$2.25(4.18)e-11$} & {$4.96(6.90)e-11$} \\   
+        {Stromdichte}  & {$1.97(3.70)e-11$} & {$4.52(6.35)e-11$} \\
+        \bottomrule
+    \end{tabular}
+\end{table}

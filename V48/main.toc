@@ -8,6 +8,14 @@
 \contentsline {subsubsection}{\numberline {2.3.2}Stromdichtenansatz}{5}{subsubsection.2.3.2}%
 \contentsline {section}{\numberline {3}Durchführung}{6}{section.3}%
 \contentsline {section}{\numberline {4}Auswertung}{7}{section.4}%
-\contentsline {section}{\numberline {5}Diskussion}{7}{section.5}%
-\contentsline {section}{\nonumberline Literatur}{7}{section*.4}%
+\contentsline {subsection}{\numberline {4.1}Heizrate}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Untergrund}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Aktivierungsenergie}{8}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Polarisationsansatz}{9}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Stromdichtenansatz}{9}{subsubsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.4}Relaxationszeit}{11}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}charakteristische Relaxationszeit}{11}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}temperaturabhängige Relaxationszeit}{12}{subsubsection.4.4.2}%
+\contentsline {section}{\numberline {5}Diskussion}{14}{section.5}%
+\contentsline {section}{\nonumberline Literatur}{15}{section*.15}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

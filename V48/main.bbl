@@ -76,6 +76,34 @@
       \verb http://matplotlib.org/
       \endverb
     \endentry
+    \entry{Buch}{book}{}
+      \name{author}{1}{}{%
+        {{hash=2b6828a3a7e6cae17d8eb756602f9208}{%
+           family={J.\bibnamedelimi Rolfe},
+           familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={R.\bibnamedelimi Muccillo},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b6828a3a7e6cae17d8eb756602f9208}
+      \strng{fullhash}{2b6828a3a7e6cae17d8eb756602f9208}
+      \strng{bibnamehash}{2b6828a3a7e6cae17d8eb756602f9208}
+      \strng{authorbibnamehash}{2b6828a3a7e6cae17d8eb756602f9208}
+      \strng{authornamehash}{2b6828a3a7e6cae17d8eb756602f9208}
+      \strng{authorfullhash}{2b6828a3a7e6cae17d8eb756602f9208}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{"Effect of Irradiation on Impurity–Vacancy Dipoles in KBr Crystals Doped with Strontium". In: physica status solidi (b) 61.2 (), S. 579–587}
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/pssb.2220610223
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/pssb.2220610223
+      \endverb
+    \endentry
     \entry{scipy}{software}{}
       \true{moreauthor}
       \true{morelabelname}
