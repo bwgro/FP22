@@ -1,14 +1,15 @@
 # Fdb version 3
-["biber main"] 1657744136 "main.bcf" "main.bbl" "main" 1657748670
-  "lit.bib" 1602434216 104 86a179d4531778a9d3936100d09f088a ""
-  "main.bcf" 1657748670 107518 c9bdfa3796a1bef8999f1d7719633dd1 "lualatex"
+["biber main"] 1657753939 "main.bcf" "main.bbl" "main" 1657753948
+  "lit.bib" 1657753879 148 faf45cf515d043525239db05aa124675 ""
+  "main.bcf" 1657753947 107664 cd745b42f014b08cab7cfba0a208ec95 "lualatex"
   "programme.bib" 1602434216 1042 681836d224c758e678e4f1a862d141da ""
   (generated)
   "main.bbl"
   "main.blg"
-["lualatex"] 1657748668 "/home/bwg/Uni/FP/V47/main.tex" "main.pdf" "main" 1657748670
+["lualatex"] 1657753945 "/home/bwg/Uni/FP/V47/main.tex" "main.pdf" "main" 1657753948
   "/home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf" 1429396570 733736 0b8cd5044567d896491fd777c12d5cda ""
   "/home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf" 1255129361 64684 15a2082c8e31f411875a86ea2d29a0ee ""
+  "/home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf" 1255129361 111240 0af0b64d6d3df41bead3f9de314afbd4 ""
   "/home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf" 1255129361 118828 4d461c73423fe2666dad2ff0dfc3ca68 ""
   "/home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf" 1255129361 111536 ae9d1b331000d544f47e5223081b7b54 ""
   "/home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf" 1255129361 110496 b9c8767d4cc3bf3f4b21f676bf89aa78 ""
@@ -227,18 +228,19 @@
   "/home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz" 1652355531 381195 b525c86e87506d5f0cbc88f455d3d72a ""
   "/home/bwg/.local/texlive/2022/texmf-var/tex/generic/config/language.dat" 1652355299 6647 d5443b2683a9ac01a6c782bae47f4db1 ""
   "/home/bwg/.local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt" 1652355325 4564334 08aab7bb5a76632183d4a043710bceca ""
-  "/home/bwg/Uni/FP/V47/main.tex" 1657727640 475 cdd625d6ac7c063c4f4d27c100c67b17 ""
+  "/home/bwg/Uni/FP/V47/main.tex" 1657753894 513 92e72a9973f376df7ea01d6b7c9d9d80 ""
+  "abb/aufbau.png" 1657751366 73243 f211d98b98cefad35eb15d605a94e78c ""
   "content/auswertung.tex" 1657005045 49 0d1290e9c62bab1a72b435c6841d5f3f ""
   "content/diskussion.tex" 1602434216 44 402cc6c9751419c0f1a455b2d4ed1f51 ""
-  "content/durchfuehrung.tex" 1602434216 50 21282d8bb0cc9b2f3316d3739203a5a9 ""
+  "content/durchfuehrung.tex" 1657753805 2146 4cb573a8e9d0ec820f1153eb77159939 ""
   "content/theorie.tex" 1657748666 7121 3e07dcba199a75fd35b47820f81945a1 ""
   "content/zielsetzung.tex" 1657005045 22 32afc1032932247d5e1c80f8ba1fd976 ""
   "header.tex" 1657744123 3432 f415a250451edea213dd9e23678fc508 ""
-  "main.aux" 1657748670 5820 514ed5f99cf441a4875251436c694ad1 "lualatex"
-  "main.bbl" 1657744140 5821 8aa5cf4768fad9ab51a0c9006d7a3dd7 "biber main"
-  "main.run.xml" 1657748670 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
-  "main.tex" 1657727640 475 cdd625d6ac7c063c4f4d27c100c67b17 ""
-  "main.toc" 1657748670 812 450771e406f24987e48dbb4d082305fd "lualatex"
+  "main.aux" 1657753947 6431 ad0212fe5e0606e401fb088e12e48148 "lualatex"
+  "main.bbl" 1657753940 6732 0cfdca12b14b989fac456025963d3345 "biber main"
+  "main.run.xml" 1657753947 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "main.tex" 1657753894 513 92e72a9973f376df7ea01d6b7c9d9d80 ""
+  "main.toc" 1657753947 812 d4420ac39ebf8eb3686c029466aaca9c "lualatex"
   (generated)
   "main.aux"
   "main.bcf"

@@ -461,6 +461,9 @@ INPUT /home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmr
 INPUT /home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./content/durchfuehrung.tex
 INPUT ./content/durchfuehrung.tex
+INPUT ./abb/aufbau.png
+INPUT ./abb/aufbau.png
+INPUT ./abb/aufbau.png
 INPUT ./content/auswertung.tex
 INPUT ./content/auswertung.tex
 INPUT ./content/diskussion.tex
