@@ -2,8 +2,8 @@
 \label{sec:Auswertung}
 
 Die Auswertung wurde mit Hilfe eines Programms in Python unter Verwendung der Pakete \texttt{numpy}\cite{numpy} für numerische Rechnungen,
- \texttt{matplotlib}\cite{matplotlib} für die graphische Darstellung und \texttt{uncertainties}\cite{uncertainties} für die Fehlerrechnung.
-Die tatsächliche Fehlerberechnung erfolgt durch das Programm, welches auf der Gaußschen Fehlerfortpflazung beruht.
+ \texttt{matplotlib}\cite{matplotlib} für die graphische Darstellung und \texttt{uncertainties}\cite{uncertainties} für die Fehlerrechnung ausgeführt.
+Die tatsächliche Fehlerberechnung erfolgt durch das Programm, welches auf der Gaußschen Fehlerfortpflanzung beruht.
 Im Folgenden werden für die Auswertung im Wesentlichen Produkte der Form
 \begin{equation*}
   f(x_1,\ldots,x_n) = \prod_{i=1}^n x_i
@@ -13,7 +13,7 @@ Dann hat die Größe $f$ den Fehler
 \begin{equation*}
   \Delta f = f(x_1,\ldots,x_n) \cdot \sqrt{\sum_{i=1}^n \left(\frac{\Delta x_i}{x_i}\right)^2}
 \end{equation*}
-und für Summen, die insbesondere bei der Mittlung verwendet werden, also für Funktionen vom Typ
+und für Summen, die insbesondere bei der Mittelung verwendet werden, also für Funktionen vom Typ
 \begin{equation*}
   g(x_1,\ldots,x_n) = \sum_{i=1}^n x_i
 \end{equation*}
@@ -23,14 +23,25 @@ ist der Fehler
   \label{eq:fehlerDesMittelwertes}
 \end{equation}
 
+Die Fehler der einzelnen Messwerte hängen von der jeweiligen Messmethode ab.
+Bei jeglicher Zeitmessung wurde eine Abweichung von \qty{0.2}{\second} gewählt.
+Diese Wahl nimmt eine mögliche Ungenauigkeit des Ablesens durch das menschliche Auge jeglicher Messwerte an.
+Auch wenn der Wert zuerst willkürlich erscheint, wurde durch eine mehrfache Messung der Reaktionszeit zwischen Abschließen des Messintervalls und
+Ablesen der Vakuummessgeräte eine großzügige Obergrenze angenommen. Nach 10 unabhängigen Messungen wurde höchstens eine Abweichung von einem Zehntel plus mehreren Hundertsteln Sekunden festgestellt.
+Die Fehlerwerte der Messergebnisse im Zusammenhang der Drehschieberpumpe folgen aus der Messungenauigkeit des verwendeten kombinierten Piezo-/Pirani-Sensors.
+Im Druckbereich von \num{1200} bis \qty{10}{\milli\bar} liegt sie bei \qty{0.3}{\percent} und von \num{10} bis \qty{2e-3}{\milli\bar} bei \qty{10}{\percent}\cite{sample}.
+Dahingegen folgen sie bei den Messungen zur Turbomolekularpumpe aus der Messungenauigkeit des verwendeten kombinierten Pirani-/Kalthkatoden-Sensors.
+Diese liegt bei \qty{30}{\percent} im gesamten relevanten Druckbereich \cite{sample}.
+Im Folgenden werden für jegliche Messungen beider Pumpen, auch Start-/ und Enddruck, die Fehlerwerte aus diesen Angaben berechnet.
+
 \subsection{Drehschieberpumpe}
     Zur Auswertung wurde das Rezipientenvolumen $V_0 = \SI{34(3.4)}{\liter}$\cite{sample}, der Enddruck $p_E = \qty{6.7(7)e-3}{\milli\bar}$
-    und der Umgebungsdruck $p_0 = \qty{1000(0.3)}{\milli\bar}$ benutzt.
+    und der Startdruck $p_0 = \qty{1000(0.3)}{\milli\bar}$ benutzt.
 
     \subsubsection{Evakuierungskurve}
 
     In \autoref{tab:drehEvac} sind die Messergebnisse aufgelistet. Der Mittelwert $p$ dieser Messreihe und der logarithmische Ausdruck
-    $\ln\left(\frac{p-p_E}{p_0-p_E}\right)$, dessen Fehler sich mit dem Fehler des Mittelwertes $\sigma_p$ (\refeq{eq:fehlerDesMittelwertes}) explizit durch \autoref{eq:ln} ausrechnen lässt, sind in \autoref{tab:drehEvacMean} zu sehen.
+    $\ln\left(\frac{p-p_E}{p_0-p_E}\right)$, dessen Fehler sich mit dem Fehler des Mittelwertes $\sigma_p$ (Gl. \refeq{eq:fehlerDesMittelwertes}) explizit durch \autoref{eq:ln} ausrechnen lässt, sind in \autoref{tab:drehEvacMean} aufgeführt.
     \begin{equation}
         \sigma_{ln} = \sqrt{\left(\frac{\sigma_p}{p-p_E}\right)^2+\left(\frac{\sigma_{p_0}}{p_0-p_E}\right)^2+\left(\frac{(p-p_0)\cdot\sigma_{p_E}}{(p-p_E)(p_0-p_E)}\right)^2}
         \label{eq:ln}
@@ -58,19 +69,19 @@ ist der Fehler
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/dreh_evac.pdf}
-        \caption{Die logarithmische Evakuierungskurve der Drehschieberpumpe}
+        \caption{Die logarithmische Evakuierungskurve der Drehschieberpumpe.}
         \label{fig:drehEvac}
     \end{figure}
 
     \begin{longtable}{S[table-format=3.1(1)] S[table-format=3.3(3)] S[table-format=3.3(3)] S[table-format=3.3(3)]}
         \centering\\
         \label{tab:drehEvac}\\
-        \caption{Messergebnisse der Evakuierungskurve zur Drehschieberpumpe}\\
+        \caption{Messergebnisse der Evakuierungskurve zur Drehschieberpumpe.}\\
         \toprule
         {$t/\si{\second}$} & {$p_1/\si{\milli\bar}$} & {$p_2/\si{\milli\bar}$} & {$p_3/\si{\milli\bar}$} \\
         \midrule
         \endfirsthead
-        \caption{Messergebnisse der Evakuierungskurve zur Drehschieberpumpe}\\
+        \caption{Messergebnisse der Evakuierungskurve zur Drehschieberpumpe.}\\
         \toprule
         {$t/\si{\second}$} & {$p_1/\si{\milli\bar}$} & {$p_2/\si{\milli\bar}$} & {$p_3/\si{\milli\bar}$} \\
         \midrule
@@ -144,11 +155,11 @@ ist der Fehler
     \begin{longtable}{S[table-format=3.1(1)] S[table-format=3.4(4)] S[table-format=3.4(4)]}
         \centering\\
         \label{tab:drehEvacMean}\\
-        \caption{Mittelwert und logarithmischer Ausdruck der Evakuierungskurve der Drehschieberpumpe}\\
+        \caption{Mittelwert und logarithmischer Ausdruck der Evakuierungskurve der Drehschieberpumpe.}\\
         {$t/\si{\second}$} & {$p/\si{\milli\bar}$} & {$\ln\left(\frac{p-p_E}{p_0-p_E}\right)$} \\
         \hline
         \endfirsthead
-        \caption{Mittelwert und logarithmischer Ausdruck der Evakuierungskurve der Drehschieberpumpe}\\
+        \caption{Mittelwert und logarithmischer Ausdruck der Evakuierungskurve der Drehschieberpumpe.}\\
         {$t/\si{\second}$} & {$p/\si{\milli\bar}$} & {$\ln\left(\frac{p-p_E}{p_0-p_E}\right)$} \\
         \hline
         \endhead
@@ -221,18 +232,29 @@ ist der Fehler
     \subsubsection{Leckratenmessung}
     Die Messung wurde mit den Gleichgewichtsdrücken $p_g$ = 0.5; 10; 50; und 100 \unit{\milli\bar} durchgeführt.
     Die zugehörigen Messergebnisse sind in Tabellen \ref{tab:drehLeckRaw05}, \ref{tab:drehLeckRaw10}, \ref{tab:drehLeckRaw50} und \ref{tab:drehLeckRaw100}
-    gelistet. Dabei wurde der Fehler des Mittelwertes $p$ nach \autoref{eq:fehlerDesMittelwertes} berechnet.\\
+    gelistet. Dabei wurde der Fehler des Mittelwertes
+    nach \autoref{eq:fehlerDesMittelwertes} berechnet.\\
 
     Der lineare Ausgleichsparameter $a$ aus
     \begin{equation*}
         p(t) = a\cdot t + b
     \end{equation*}
     wird benötigt um als Steigung $\frac{\text{d}p}{\text{d}p}$ der $p(t)$ Kurve in \autoref{eq:leckSaug} einzusetzen.
-    Die erhaltenen Parameter und die daraus resultierenden Saugvermögen sind in Abhängigkeit der anfänglichen Gleichgewichtsdrücke in \autoref{tab:drehLeckSaug} aufgeführt.\\
+    Die erhaltenen Parameter und die daraus resultierenden Saugvermögen sind in Abhängigkeit der anfänglichen Gleichgewichtsdrücke in \autoref{tab:drehLeckSaug} aufgeführt. Mit 
+    \begin{equation*}
+        \sigma_Q = \sqrt{(a\cdot\sigma_{V_0})^2 + (V_0 \cdot \sigma_a)^2}
+    \end{equation*}
+    lässt sich der Fehler des Saugvermögens
+    \begin{equation}
+        \sigma_S = \sqrt{\left(\frac{\sigma_Q}{p_g}\right)^2 + (Q\cdot\sigma_{p_g})^2} = \sqrt{\frac{1}{p_g^2}\left[(a\cdot\sigma_{V_0})^2 + (V_0 \cdot \sigma_a)^2\right] + (Q\cdot\sigma_{p_g})^2}
+        \label{eq:errS}
+    \end{equation}
+    berechnen.
+    
     In Abbildungen \ref{fig:drehLeck05}, \ref{fig:drehLeck10}, \ref{fig:drehLeck50} und \ref{fig:drehLeck100} sind die $p(t)$-Kurven samt ihrer Ausgleichsgeraden graphisch dargstellt.
     \begin{table}
         \centering
-        \caption{Ausgleichsparameter und Saugvermögen der Leckratenmessung zur Drehschieberpumpe}
+        \caption{Ausgleichsparameter und Saugvermögen der Leckratenmessung zur Drehschieberpumpe.}
         \label{tab:drehLeckSaug}
         \begin{tabular}{c|S[table-format=1.5(5)] S[table-format=3.3(3)] S[table-format=1.2(2)]}
             \toprule
@@ -248,7 +270,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g=\qty{0.5}{\milli\bar}$}
+        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g=\qty{0.5}{\milli\bar}$.}
         \label{tab:drehLeckRaw05}
         \sisetup{table-format=1.2(2)}
         \begin{tabular}{S[table-format=3.1(1)]SSSS}
@@ -283,7 +305,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g = \qty{10}{\milli\bar}$}
+        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g = \qty{10}{\milli\bar}$.}
         \label{tab:drehLeckRaw10}
         \sisetup{table-format=2.2(2)}
         \begin{tabular}{S[table-format=3.1(1)]SSSS}
@@ -318,7 +340,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g=\qty{50}{\milli\bar}$}
+        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g=\qty{50}{\milli\bar}$.}
         \label{tab:drehLeckRaw50}
         \sisetup{table-format=3.2(2)}
         \begin{tabular}{S[table-format=3.1(1)]SSSS}
@@ -353,7 +375,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g=\qty{100}{\milli\bar}$}
+        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g=\qty{100}{\milli\bar}$.}
         \label{tab:drehLeckRaw100}
         \sisetup{table-format=3.1(1)}
         \begin{tabular}{SSSSS}
@@ -389,35 +411,35 @@ ist der Fehler
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/dreh_leck0.5.pdf}
-        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Drehschieberpumpe mit $p_g = \qty{0.5}{\milli\bar}$}
+        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Drehschieberpumpe mit $p_g = \qty{0.5}{\milli\bar}$.}
         \label{fig:drehLeck05}
     \end{figure}
 
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/dreh_leck10.pdf}
-        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Drehschieberpumpe mit $p_g = \qty{10}{\milli\bar}$}
+        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Drehschieberpumpe mit $p_g = \qty{10}{\milli\bar}$.}
         \label{fig:drehLeck10}
     \end{figure}
 
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/dreh_leck50.pdf}
-        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Drehschieberpumpe mit $p_g = \qty{50}{\milli\bar}$}
+        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Drehschieberpumpe mit $p_g = \qty{50}{\milli\bar}$.}
         \label{fig:drehLeck50}
     \end{figure}
 
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/dreh_leck100.pdf}
-        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Drehschieberpumpe mit $p_g = \qty{100}{\milli\bar}$}
+        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Drehschieberpumpe mit $p_g = \qty{100}{\milli\bar}$.}
         \label{fig:drehLeck100}
     \end{figure}
     
 \newpage
 \subsection{Turbomolekularpumpe}
     Zur Auswertung wurde das Rezipientenvolumen $V_0 = \SI{33(3.3)}{\liter}$\cite{sample}, der Enddruck $p_E = \qty{1.4(4)e-5}{\milli\bar}$
-    und der Umgebungsdruck $p_0 = \qty{5(1.5)e-3}{\milli\bar}$ benutzt.
+    und der Startdruck $p_0 = \qty{5(1.5)e-3}{\milli\bar}$ benutzt.
 
     \subsubsection{Evakuierungskurve}
 
@@ -433,9 +455,10 @@ ist der Fehler
         a_2 &= \qty{-0.11626}{\per\second} & b_2 &= \num{-2.341} \\
         a_3 &= \qty{-0.00439(29)}{\per\second} & b_3 &= \num{-4.837(23)}
     \end{align*}
-    Hierbei enthalen die Paramter für den ersten und zweiten Abschnitt keine Abweichungen, da jeweils nicht genügend Messwerte verfügbar sind um den Grad der
-    linearen Regression zu übersteigen.
-    Die zugehörigen Ausgleichsgeraden sind in \autoref{fig:turboEvac} eingezeichnet.
+    Hierbei enthalten die Paramter für den ersten und zweiten Abschnitt keine Abweichungen, da jeweils lediglich zwei Messwerte benutzt werden können und eine direkte
+    Verbindung dieser Beiden Steigung und Startwert der Ausgleichsgerade festlegt. Es bräuchte mindestens einen weiteren Messwert um durch die lineare Regression eine Kovarianz zu erhalten.
+    Die zugehörigen Ausgleichsgeraden sind in \autoref{fig:turboEvac} eingezeichnet. Aufgrund der logarithmischen Skala ist zu Beginn der Messung nur schwer ein Messfehler zu erkennen,
+    da er ausreichend klein ist, um in der graphischen Darstellung fast gänzlich hinter der Markierung des Messwertes zu verschwinden.
 
     Nach Umstellen von \autoref{eq:evacSaug} und mit Einsetzen von $a_i$ für $\frac{dp}{dt}$
     lässt sich das Saugvermögen abschnittsweise berechnen zu:
@@ -448,13 +471,13 @@ ist der Fehler
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/turbo_evac.pdf}
-        \caption{Die logarithmische Evakuierungskurve der Turbomolekularpumpe}
+        \caption{Die logarithmische Evakuierungskurve der Turbomolekularpumpe.}
         \label{fig:turboEvac}
     \end{figure}
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Evakuierungskurve zur Turbomolekularpumpe}
+        \caption{Messergebnisse der Evakuierungskurve zur Turbomolekularpumpe.}
         \label{tab:turboEvac}
         \sisetup{table-format=1.2(2)e-04}
         \begin{tabular}{S[table-format=3.1(1)]SSS}
@@ -479,7 +502,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Evakuierungskurve zur Turbomolekularpumpe}
+        \caption{Messergebnisse der Evakuierungskurve zur Turbomolekularpumpe.}
         \label{tab:turboEvacMean}
         \begin{tabular}{S[table-format=3.1(1)]S[table-format=1.2(2)e-04]S[table-format=3.2(2)]}
             \toprule
@@ -505,18 +528,20 @@ ist der Fehler
     \subsubsection{Leckratenmessung}
     Die Messung wurde mit den Gleichgewichtsdrücken $p_g = \num{2e-4}$; $\num{1e-4}$; $\num{7e-5}$; und $\qty{5e-5}{\milli\bar}$ durchgeführt.
     Die zugehörigen Messergebnisse sind in Tabellen \ref{tab:turboLeckRaw2}, \ref{tab:turboLeckRaw1}, \ref{tab:turboLeckRaw7} und \ref{tab:turboLeckRaw5}
-    gelistet. Dabei wurde der Fehler des Mittelwertes $p$ nach \autoref{eq:fehlerDesMittelwertes} berechnet.\\
+    gelistet. Dabei wurde der Fehler des Mittelwertes
+    nach \autoref{eq:fehlerDesMittelwertes} berechnet.\\
 
     Der lineare Ausgleichsparameter $a$ aus
     \begin{equation*}
         p(t) = a\cdot t + b
     \end{equation*}
     wird benötigt um als Steigung $\frac{\text{d}p}{\text{d}p}$ der $p(t)$ Kurve in \autoref{eq:leckSaug} einzusetzen.
-    Die erhaltenen Parameter und die daraus resultierenden Saugvermögen sind in Abhängigkeit der anfänglichen Gleichgewichtsdrücke in \autoref{tab:turboLeckSaug} aufgeführt.\\
+    Die erhaltenen Parameter und die daraus resultierenden Saugvermögen sind in Abhängigkeit der anfänglichen Gleichgewichtsdrücke in \autoref{tab:turboLeckSaug} aufgeführt.
+    Dabei wird der Fehler des Saugvermögens analog zu \autoref{eq:errS} berechnet.
     In Abbildungen \ref{fig:turboLeck2}, \ref{fig:turboLeck1}, \ref{fig:turboLeck7} und \ref{fig:turboLeck5} sind die $p(t)$-Kurven samt ihrer Ausgleichsgeraden graphisch dargstellt.
     \begin{table}
         \centering
-        \caption{Ausgleichsparameter und Saugvermögen der Leckratenmessung zur Turbomolekularpumpe}
+        \caption{Ausgleichsparameter und Saugvermögen der Leckratenmessung zur Turbomolekularpumpe.}
         \label{tab:turboLeckSaug}
         \begin{tabular}{S[table-format=1e-4]|S[table-format=1.2(2)e-05] S[table-format=3.2(2)e-04] S[table-format=1.2(2)]}
             \toprule
@@ -532,7 +557,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Leckratenmessung zur Turbomolekularpumpe für $p_g=\qty{2e-4}{\milli\bar}$}
+        \caption{Messergebnisse der Leckratenmessung zur Turbomolekularpumpe für $p_g=\qty{2e-4}{\milli\bar}$.}
         \label{tab:turboLeckRaw2}
         \sisetup{table-format=2.3(3)}
         \begin{tabular}{S[table-format=3.1(1)]SSSS}
@@ -559,7 +584,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Leckratenmessung zur Turbomolekularpumpe für $p_g = \qty{1e-4}{\milli\bar}$}
+        \caption{Messergebnisse der Leckratenmessung zur Turbomolekularpumpe für $p_g = \qty{1e-4}{\milli\bar}$.}
         \label{tab:turboLeckRaw1}
         \sisetup{table-format=2.3(3)}
         \begin{tabular}{S[table-format=3.1(1)]SSSS}
@@ -586,7 +611,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Leckratenmessung zur Turbomolekularpumpe für $p_g=\qty{7e-5}{\milli\bar}$}
+        \caption{Messergebnisse der Leckratenmessung zur Turbomolekularpumpe für $p_g=\qty{7e-5}{\milli\bar}$.}
         \label{tab:turboLeckRaw7}
         \sisetup{table-format=3.3(3)}
         \begin{tabular}{S[table-format=3.1(1)]SSSS}
@@ -613,7 +638,7 @@ ist der Fehler
 
     \begin{table}
         \centering
-        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g=\qty{5e-5}{\milli\bar}$}
+        \caption{Messergebnisse der Leckratenmessung zur Drehschieberpumpe für $p_g=\qty{5e-5}{\milli\bar}$.}
         \label{tab:turboLeckRaw5}
         \sisetup{table-format=2.2(2)}
         \begin{tabular}{S[table-format=3.1(1)]SSSS}
@@ -641,28 +666,28 @@ ist der Fehler
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/turbo_leck2e-4.pdf}
-        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Turbomolekularpumpe mit $p_g = \qty{2e-4}{\milli\bar}$}
+        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Turbomolekularpumpe mit $p_g = \qty{2e-4}{\milli\bar}$.}
         \label{fig:turboLeck2}
     \end{figure}
 
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/turbo_leck1e-4.pdf}
-        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Turbomolekularpumpe mit $p_g = \qty{1e-4}{\milli\bar}$}
+        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Turbomolekularpumpe mit $p_g = \qty{1e-4}{\milli\bar}$.}
         \label{fig:turboLeck1}
     \end{figure}
 
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/turbo_leck7e-5.pdf}
-        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Turbomolekularpumpe mit $p_g = \qty{7e-5}{\milli\bar}$}
+        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Turbomolekularpumpe mit $p_g = \qty{7e-5}{\milli\bar}$.}
         \label{fig:turboLeck7}
     \end{figure}
 
     \begin{figure}
         \centering
         \includegraphics[width=0.8\textwidth]{abb/turbo_leck5e-5.pdf}
-        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Turbomolekularpumpe mit $p_g = \qty{5e-5}{\milli\bar}$}
+        \caption{Messergebnisse und Ausgleichsgeraden der Leckratenmessung zur Turbomolekularpumpe mit $p_g = \qty{5e-5}{\milli\bar}$.}
         \label{fig:turboLeck5}
     \end{figure}
 

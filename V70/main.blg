@@ -1,20 +1,20 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'main.blg'
-[48] biber:340> INFO - === Do Mai 19, 2022, 05:43:59
-[57] Biber.pm:418> INFO - Reading 'main.bcf'
-[104] Biber.pm:972> INFO - Found 9 citekeys in bib section 0
-[113] Biber.pm:4383> INFO - Processing section 0
-[120] Biber.pm:4574> INFO - Looking for bibtex file 'lit.bib' for section 0
-[121] bibtex.pm:1713> INFO - LaTeX decoding ...
-[124] bibtex.pm:1518> INFO - Found BibTeX data source 'lit.bib'
-[150] Biber.pm:4574> INFO - Looking for bibtex file 'programme.bib' for section 0
-[150] bibtex.pm:1713> INFO - LaTeX decoding ...
-[153] bibtex.pm:1518> INFO - Found BibTeX data source 'programme.bib'
-[171] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[171] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[171] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[171] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
-[180] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[182] bbl.pm:757> INFO - Output to main.bbl
-[182] Biber.pm:130> WARN - legacy year field '1990-05' in entry 'DIN' is not an integer - this will probably not sort properly.
-[182] Biber.pm:132> INFO - WARNINGS: 1
+[48] biber:340> INFO - === Do Jul 14, 2022, 19:35:11
+[58] Biber.pm:418> INFO - Reading 'main.bcf'
+[105] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
+[114] Biber.pm:4383> INFO - Processing section 0
+[121] Biber.pm:4574> INFO - Looking for bibtex file 'lit.bib' for section 0
+[122] bibtex.pm:1713> INFO - LaTeX decoding ...
+[125] bibtex.pm:1518> INFO - Found BibTeX data source 'lit.bib'
+[154] Biber.pm:4574> INFO - Looking for bibtex file 'programme.bib' for section 0
+[154] bibtex.pm:1713> INFO - LaTeX decoding ...
+[157] bibtex.pm:1518> INFO - Found BibTeX data source 'programme.bib'
+[175] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[175] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[175] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[175] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[183] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[186] bbl.pm:757> INFO - Output to main.bbl
+[186] Biber.pm:130> WARN - legacy year field '1990-05' in entry 'DIN' is not an integer - this will probably not sort properly.
+[186] Biber.pm:132> INFO - WARNINGS: 1

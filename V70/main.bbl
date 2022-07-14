@@ -40,6 +40,30 @@
       \field{title}{Titel (deutsch): Vakuumtechnik;Benennung und Definitionen;Allgemeine Benennungen}
       \field{year}{1990-05}
     \endentry
+    \entry{boyle}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a1a82803a4ca9424b6c10482d6c199d5}{%
+           family={Boyle},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \strng{namehash}{a1a82803a4ca9424b6c10482d6c199d5}
+      \strng{fullhash}{a1a82803a4ca9424b6c10482d6c199d5}
+      \strng{bibnamehash}{a1a82803a4ca9424b6c10482d6c199d5}
+      \strng{authorbibnamehash}{a1a82803a4ca9424b6c10482d6c199d5}
+      \strng{authornamehash}{a1a82803a4ca9424b6c10482d6c199d5}
+      \strng{authorfullhash}{a1a82803a4ca9424b6c10482d6c199d5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{New experiments physico-mechanical, touching the air}
+      \field{year}{1682}
+    \endentry
     \entry{turbo}{misc}{}
       \name{author}{1}{}{%
         {{hash=089f0033d59ba391465d3d52e82704a9}{%
