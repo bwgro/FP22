@@ -1,6 +1,6 @@
 PWD /home/bwg/Uni/FP/V70
 INPUT /home/bwg/.local/texlive/2022/texmf-var/web2c/luahbtex/lualatex.fmt
-INPUT ./main.tex
+INPUT /home/bwg/Uni/FP/V70/main.tex
 OUTPUT main.log
 INPUT /home/bwg/.local/texlive/2022/texmf-dist/tex/latex/latexconfig/lualatexquotejobname.lua
 INPUT /home/bwg/.local/texlive/2022/texmf-dist/tex/latex/base/ltluatex.lua
@@ -470,7 +470,9 @@ INPUT ./abb/Vakuum.png
 INPUT ./abb/Vakuum.png
 INPUT ./abb/Vakuum.png
 INPUT /home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc
+INPUT /home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT /home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-regular.luc
+INPUT /home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc
 INPUT /home/bwg/.local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /home/bwg/.local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /home/bwg/.local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
@@ -480,7 +482,6 @@ INPUT /home/bwg/.local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols
 INPUT /home/bwg/.local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /home/bwg/.local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /home/bwg/.local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc
 INPUT ./abb/Stroemungen.png
 INPUT ./abb/Stroemungen.png
 INPUT ./abb/Stroemungen.png
@@ -496,7 +497,6 @@ INPUT ./abb/drehpumpe.png
 INPUT ./abb/Turbopumpe.png
 INPUT ./abb/Turbopumpe.png
 INPUT ./abb/Turbopumpe.png
-INPUT /home/bwg/.local/texlive/2022/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
 INPUT ./abb/waerme.png
 INPUT ./abb/waerme.png
 INPUT ./abb/waerme.png

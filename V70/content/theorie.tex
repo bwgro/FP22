@@ -3,47 +3,45 @@
 
 \subsection{Grundlagen}
 \subsubsection{Vakuum}
-Für den Begriff des Vakuums finden sich verschiedenen Definitionen
-wie die von Wikipedia \cite[Vakuum ist in der technischen Praxis ein Raum mit weitgehender Abwesenheit von Materie.]{dewiki}.
-Normgerecht ist Vakuum definiert als 
-\cite[der Zustand eines Gases, 
-wenn in einem Behälter der Druck des Gases 
+Für den Begriff des Vakuums finden sich verschiedenen Definitionen.
+Auf Wikipedia wird er ein Raum in der technischen Praxis mit weitgehender Abwesenheit von Materie definiert\cite{dewiki}.
+Normgerecht ist Vakuum definiert als der Zustand eines Gases, wenn in einem Behälter der Druck des Gases 
 und damit die Teilchenzahldichte niedriger ist als außerhalb oder wenn der Druck des Gases niedriger ist als 300 mbar,
-d. h. kleiner als der niedrigste auf der Erdoberfläche vorkommende Atmosphärendruck.]{DIN} 
-Fest steht, der Vakuum Begriff hängt mit dem Begriff des Druckes zusammen,
-dadurch gibt es nicht das eine Vakuum, sondern vielmehr eine druckabhängige Gliederung,
-welche in Abbildung (\ref{fig:Vakuum}) dargestellt ist. 
-Zusätzlich sind in der Grafik typische Anwendungen dieser,
+d. h. kleiner als der niedrigste auf der Erdoberfläche vorkommende Atmosphärendruck \cite{DIN}.
+Der Vakuum Begriff hängt mit dem Begriff des Druckes zusammen.
+Dadurch gibt es nicht das eine Vakuum, sondern vielmehr eine druckabhängige Gliederung,
+welche in Abbildung \ref{fig:Vakuum} dargestellt ist. 
+Zusätzlich sind in der Grafik typische Anwendungen dieser Druckbereiche,
 sowie Arbeitsbereiche erschiedener Pumpbauweisen aufgelistet.
 \begin{figure}[ht]
     \centering
     \includegraphics[width=\textwidth]{abb/Vakuum.png}
-    \caption{Vakuum im Überblicke \cite{Pfeifer}}
+    \caption{Vakuum im Überblicke \cite{Pfeifer}.}
     \label{fig:Vakuum}
 \end{figure}
 
 \subsubsection{Druck}
-Der Druck ist definiert als die normale Kraft $F$, die auf eine Fläche $A$ wirkt
-\begin{equation}
-    p = \frac{F}{A}. \label{eq:Druck}
-\end{equation}
-Der Einfachheit halber gehen wir im folgendem davon aus, 
+Der Druck $p$ ist definiert als die Kraft $F$, die auf eine Fläche $A$ wirkt
+\begin{align}
+    p = \frac{F}{A}\label{eq:Druck} && [p] = \unit{\pascal} = \qty{10e-5}{\bar} = \unit{\newton\per\metre\squared} = \unit{\kilogram\per\metre\per\second\squared}\,.
+\end{align}
+Der Einfachheit halber gehen wir im Folgenden davon aus, 
 dass es sich bei den verwendeten Gasen um \textit{Ideale Gase} handelt.
 Diese besitzen im Vergleich zu reellen Gasen folgende vereinfachende Eigenschaften:
 \begin{itemize}
     \item Ideale Gasteilchen bewegen sich frei und wechselwirken nur durch elastische Stöße
-    \item Ideale Gasteilchen punktförmig
-    \item Ideale Gasteilchen Vibrieren und Rotieren nicht 
+    \item Ideale Gasteilchen sind punktförmig
+    \item Ideale Gasteilchen vibrieren und rotieren nicht 
 \end{itemize}
-Nun lässt sich der Druck als Impulsübertrag zwischen den Gasteilchen und der Fläche $A$ verstehen.  
+Demnachzufolge lässt sich der Druck als Impulsübertrag zwischen den Gasteilchen und der Fläche $A$ verstehen.  
 
 Viele Gase treten nicht im einheitlichen Zustand auf, sondern als Gemisch.
 So ist die Luft größtenteils ein Gemisch aus Stickstoff ($78\%$) und Sauerstoff ($21\%$) \cite{luft}. 
-Dafür wird der Partialdruck $p_p$ eingeführt, 
+Dafür wird der Partialdruck $p_i$ eingeführt, 
 welcher den Druck beschreibt den jede Gaskomponente unabhängig voneinander ausübt.
 Die Summe der Partialdrücke ergibt den Totaldruck
 \begin{equation}
-    p = \sum p_p.
+    p_g = \sum_i p_i.
 \end{equation}
 
 \subsubsection{Ideale Gasgleichung}
@@ -54,7 +52,7 @@ Ihr Zusammenhang ist bei idealen Gasen gegeben durch die ideale Gasgleichung
 \begin{equation}
     pV=N\cdot k_b\cdot T. \label{eq:idealgaß}
 \end{equation}
-Dabei steht $k_b$ für die Boltzmann-Konstante. \footnote{$k_b = 1,3806649\cdot10^{-23}$J/K}
+Dabei steht $k_b$ für die Boltzmann-Konstante\footnote{$k_b = 1,3806649\cdot10^{-23}$J/K} und $N$ für die Teilchenzahl.
 
 \subsubsection{Mittlere freie Weglänge}
 Der Fluss und die Ausbreitung von Gasmolekülen wird immer wieder unterbrochen durch Zusammenstöße zwischen den Gasteilchen.
@@ -71,15 +69,16 @@ Da $\tilde{I}$ proportional zum Druck ist ändert sich die Strömungsart im bess
 Herrscht im Aufbau ein Grobvakuum kommt es zu vielen Kollisionen zwischen den Teilchen,
 aber zu wenigen zwischen Teilchen und Gefäßwand.
 Die mittlere freie Weglänge ist deutlich kleiner als die Gefäßabmessungen.
-Diese Strömung wird \textit{Visköse Strömung} genannt 
+Diese Strömung wird \textit{Viskose Strömung} genannt 
 und kann in laminar und turbulent unterteilt werden.
 Bei der laminaren Strömung bleiben die Gasteilchen in parallelen Schichten mit verschiedener Geschwindigkeit.
 Mit hohen Geschwindigkeiten lösen sich diese Schichten auf, 
 sodass von einer turbulenten Strömung gesprochen wird. 
-Diese gilt es wenn möglich in der Vakuumtechnik zu vermeiden,
-da sie eine höhere Pumpleistung verlangen.
+Diese gilt es wenn möglich in der Vakuumtechnik zu vermeiden.
+Denn die Fluidteilchen laufen hierbei völlig durcheinander und rufen höhere Strömungswiderstände hervor.
+Demnach wird ein höheres Saugvermögen verlangt, das einhergeht mit einer höheren Pumpleistung.
 
-Im Hoch- und Ultrahochvakuum geht die visköse Strömung in eine molekulare Strömung über.
+Im Hoch- und Ultrahochvakuum geht die viskose Strömung in eine molekulare Strömung über.
 Die mittlere freie Weglänge ist nun deutlich größer als die Ausdehnung der Teilchen,
 damit findet so gut wie keine Wechselwirkung zwischen den Gasteilchen statt,
 sondern nur noch mit den Gefäßwänden.
@@ -88,7 +87,7 @@ In Abbildung (\ref{fig:strömung}) sind die verschiedenen Strömungsarten modell
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{abb/Stroemungen.png}
-    \caption{Profile der Verschiedenen Strömungsarten \cite{Pfeifer}}
+    \caption{Schematische Darstellung der verschiedenen Strömungsarten \cite{Pfeifer}.}
     \label{fig:strömung}
 \end{figure}
 
@@ -103,8 +102,11 @@ Diese Gesetzmäßigkeit ist analog zum ohmschen Widerstand.
 Offensichtlich hängt der Leitwert von der vorliegenden Strömungsart ab
 und damit in Hinsicht der Vakuumphysik vom Druck.
 Dieser Zusammenhang zwischen Druck und Leitwert ist in Abbildung \ref{fig:leitwert} dargestellt.
-Es ist zu beobachten, dass gerade für schlechte Vakuume der Leitwert besonders hoch ist,
+Es ist zu beobachten, dass gerade für schlechte Vakuen der Leitwert besonders hoch ist,
 welches sich in einem Saugleistungsverlust der Pumpen bemerkbar macht.
+Der Übergangsbereich der beiden Strömungsarten bildet sich aus der Knudsenströmung.
+Die Leitwerte ändern sich hier mit der Knudsenzahl $K$,
+die als Verhältnis der mittleren freien Weglänge und dem Durchmesser des Strömungskanals definiert ist.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{abb/leitwert.png}
@@ -112,7 +114,20 @@ welches sich in einem Saugleistungsverlust der Pumpen bemerkbar macht.
     \label{fig:leitwert}
 \end{figure} 
 
+\subsubsection{Sorption und Lecks}
+Treffen Atome oder Moleküle einer Gas- oder Dampfphase auf die Oberfläche eines Festkörpers, hier das innere des Rezipienten oder der Rohre, werden sie mit einer Haftwahrscheinlichkeit an dieser Oberfläche gehalten.
+Dieser Vorgang wird Adsorption genannt. Die haftenen Teilchen, gennant das Adsorpt, werden entweder durch Dipolkräfte, van der Waals-Kräfte (Physisorption) oder durch Austauschkräfte (kovalente Bindung, Chemisorption) gehalten.
+Die daraus resultierende Bindungsenergie wird Adsorptionsenergie genannt. Wird eine Desorptionsenegie aufgebracht die gleich dieser Adsorptionsenergie ist, kann das Adsorpt wieder durch Desorption abgegeben werden.
 
+Jedes Adteilchen eines Adsorpts kann grundsätzlich in das innere eines Festkörpers absorbiert werden, indem es auf Zwischengitterplätze oder Fehlstellen des Gitters springt.
+Dabei ist bei jedem Sprung eine Platzwechselenergie aufzubringen.
+Die Gesamtheit dieser Platzwechselprozesse der Teilchen wird Diffusion genannt.
+Eine absorbierte Teilchenmenge kann im Vergleich von der Anzahl an möglichen Plätzen im Innenraum zur Oberfläche wesentlich größer als eine adsorbierte sein.
+
+Teilchen die an die Oberfläche diffundieren sind wiederum auch einer möglichen Desorption ausgesetzt.
+Selbst wenn die dabei auftretenden Gasmengen bzw. Gasströme gering sind, können sie die Ursache für vakuumtechnisch beträchtliche Druckänderungen sein.
+Dieses Durchdringen von Dichtungen oder sogar Metallwänden wird als virtuelles Leck wahrgenommen.
+Hingegen zu Lecks aus einer Undichtigkeit des Versuchaufbaues sind sie nicht zu vermeiden und hängen von Material, Wandstärke und Oberfläche der Bauteile sowie des anliegenden Druckgradienten ab.
 
 \subsection{Vakuumerzeugung}
 \subsubsection{Grundlagen}
@@ -122,18 +137,18 @@ Verdränger-, kinetische und gasbindende Vakuumpumpen.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.9\textwidth]{abb/pumpen.png}
-    \caption{Übersicht Vakuumpumpen\cite{Pfeifer}} 
+    \caption{Übersicht Vakuumpumpen\cite{Pfeifer}.} 
     \label{fig:pumpen}
 \end{figure} 
 Dabei liegt der Fokus in diesem Versuch auf der Drehschieberpumpe und der Turbomolekularpumpe (rot markiert).
-Beide Pumpen arbeiten in einem anderen Druck Bereich (vgl. Abb. \ref{fig:Vakuum}), 
+Beide Pumpen arbeiten in einem anderen Druckbereich (vgl. Abb. \ref{fig:Vakuum}), 
 sodass die Drehschieberpumpe der Turbomolekularpumpe vorangestellt werden muss (vgl. Kapitel \ref{sec:Durchführung}).
 Klassifiziert werden die Pumpen neben ihrem Funktionsprinzip durch ihr \textit{Saugvermögen}, ihre
 \textit{Saugleistung} und ihrem \textit{Enddruck}.
 
 \subsubsection{Enddruck}
-Der Enddruck ist der niedrigste Druck, den eine Pumpe theoretisch erreichen kann.
-Sie nährt sich ihm asymptotisch und kann ihn niemals ganz erreichen,
+Der Enddruck ist der niedrigste Druck den eine Pumpe theoretisch erreichen kann.
+Sie nähert sich ihm asymptotisch und kann ihn niemals ganz erreichen,
 da nahe des Enddruckes die Saugleistung null beträgt.
 In diesem Bereich arbeitet die Pumpe ausschließlich gegen ihren Rücklaufstrom.
 
@@ -141,11 +156,11 @@ In diesem Bereich arbeitet die Pumpe ausschließlich gegen ihren Rücklaufstrom.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{abb/drehpumpe.png}
-    \caption{Aufbau einer Drehschieberpumpe \cite{Pfeifer}} 
+    \caption{Aufbau einer Drehschieberpumpe \cite{Pfeifer}.} 
     \label{fig:drehpumpe}
 \end{figure} 
 Die Drehschieberpumpe besteht aus einem asymmetrisch eingesetzten Schieber, 
-welcher sich dreht und dadurch das Gas vom Einlassventil zum Auslassventil transportiert.
+welcher sich dreht und dadurch das Gas vom Einlassventil zum Auslassventil transportiert (vgl. Abb. \ref{fig:drehpumpe}).
 Abgedichtet wird der Aufbau durch eine dünne Ölschicht an den Innenwänden.
 Die Funktionsweise lässt sich gut durch die ideale Gasgleichung verstehen \eqref{eq:idealgaß}.
 Der Schieber entspannt zuerst das Gas, 
@@ -164,9 +179,9 @@ Die Turbomolekularpumpe ist ähnlich einer Turbine aufgebaut.
     \centering
     \includegraphics[width=0.5\textwidth]{abb/Turbopumpe.png}
     \caption{Skizzenhafter Aufbau einer Turbomolekularpumpe \cite{turbo}}
-    \label{fig:turbo}
+    \label{fig:turbo0}
 \end{figure}
-Sie besteht aus einem sich schnell drehendem Rotor und einem Stator (vgl. Abb. \ref{fig:turbo}).
+Sie besteht aus einem sich schnell drehendem Rotor und einem Stator (vgl. Abb. \ref{fig:turbo0}).
 Das zugrundeliegende Funktionsprinzip ist die Impulsübertragung.
 Die Rotorblätter absorbieren die Gasmoleküle, 
 wenn diese die Rotorblätter wieder verlassen, besitzen sie zusätzlich zu ihrer thermischen Geschwindigkeit den Impuls des Rotors.
@@ -184,9 +199,9 @@ Dadurch sind wesentlich niedrigere Enddrücke zu erreichen.
 \subsection{Saugvermögen}
 Das Saugvermögen ist gegeben durch 
 \begin{equation}
-    S =\frac{\text{d}V}{\text{d}t}
+    S =\frac{\text{d}V}{\text{d}t}\, .
 \end{equation}
-Sie gibt den mittlere Volumenstrom an,
+Es gibt den mittleren Volumenstrom an,
 der durch die Ansaugöffnung der Vakuumpumpe pro Zeit durchgesetzt wird.
 
 Die Saugleistung gibt das Saugvermögen in Abhängigkeit vom Ansaugdruck an
@@ -197,7 +212,7 @@ Die Saugleistung gibt das Saugvermögen in Abhängigkeit vom Ansaugdruck an
 da das Saugvermögen mit abnehmendem Druck ebenfalls abnimmt.
 
 \subsubsection{Evakuierungskurve}
-Für ideale Gase gilt nach Boyle mit konstanter Temperatur $T$:
+Für ideale Gase gilt nach Boyle\cite{boyle} mit konstanter Temperatur $T$:
 \begin{equation*}
     p\cdot V = \text{const.}
 \end{equation*}
@@ -205,7 +220,7 @@ Durch Ableiten nach der Zeit ergibt sich
 \begin{equation*}
     S = \frac{\text{d}V}{\text{d}t} = -\frac{V}{p}\frac{\text{d}p}{\text{d}t}.
 \end{equation*}
-Aufgelöst nach $p(t)$ mit dem Rezipientenvolumen $V_0$ und dem Anfangsdruck $p_0$ ergibt sich unter der Berücksichtigung des Enddruckes $p_E$
+Aufgelöst nach $p(t)$, mit dem Rezipientenvolumen $V_0$ und dem Anfangsdruck $p_0$ ergibt sich unter der Berücksichtigung des Enddruckes $p_E$
 \begin{equation*}
     p(t)=(p_0-p_E)\exp\left(-\frac{S}{V_0}t\right) + p_E
 \end{equation*}
@@ -216,7 +231,7 @@ und damit für S:
 \end{equation}
 
 \subsubsection{Leckratenmessung}
-Das manuelle Einstellen eines künstlichen Lecks erbringt einen Gleichgewichtsdruck $p_g$, wenn die Pumpe genauso viel Gas absaugen kann wie in den Rezipienten reinströmt.
+Das manuelle Einstellen eines künstlichen Lecks führt zu einem Gleichgewichtsdruck $p_g$, wenn die Pumpe genauso viel Gas absaugen kann wie in den Rezipienten reinströmt.
 In diesem Zustand gilt nach \autoref{eq:leckQ} bei Abschalten der Pumpe
 \begin{equation*}
     S = \frac{Q}{p_g}
@@ -250,13 +265,13 @@ In einem gewissen Druckbereich (vgl. Abb. \ref{fig:wärme}) ist die Wärmeleitf�
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{abb/waerme.png}
-    \caption{Zusammenhang zwischen Wärmeleitfähigkeit und Druck \cite{Pfeifer}}
+    \caption{Zusammenhang zwischen Wärmeleitfähigkeit und Druck \cite{Pfeifer}.}
     \label{fig:wärme}
 \end{figure}
 In diesem Bereich kann der Druck mithilfe eines Pirani-Vakuummeter gemessen werden.
-Im Zentrum des Messgerätes wird ein Draht auf eine konstante Temperatur geheizt.
-Durch das umgebene Gas wird die Wärme an eine Rohrwand übertragen.
-Die dort gemessene Temperatur gibt Aufschluss über den Druck.
+Im Zentrum des Messgerätes wird ein Draht elektrisch durch Stromdurchgang auf eine konstante Temperatur geheizt.
+Durch das umgebene Gas wird die Wärme an eine Rohrwand übertragen. 
+Der gemessene elektrische Widerstand des Drahtes gibt dabei Aufschluss über die anliegende Temperatur und somit über die druckabhängige Heizleistung.
 Zu beachten ist das jedes Gas eine eigene Kennlinie besitzt,
 auf die das Messgerät eingestellt werden muss.
 
@@ -265,8 +280,8 @@ Ionisationsvakuummeter bestehen aus einer Kathode und einer Anode,
 welche in einem Magnetfeld eingelassen sind.
 An der Kathode werden nun Elektronen emittiert,
 hierbei unterscheiden sich Kalt- und Heißkathode.
-Bei der Heißkathode geschieht dies durch den glühelektrischen Effekt,
-bei der Kaltkathode durch eine angelegte Spannung.
+Bei der Heißkathode geschieht dies durch thermische Elektronenemission,
+bei der Kaltkathode durch elektrische Feldemission aus der Kathode.
 Die emittierten Elektronen fliegen
 durch die Lorentzkraft auf Kreisbahnen gezwungen
 Richtung Anode.
