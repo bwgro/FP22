@@ -38,6 +38,6 @@ alpha = alpha*10**(-6)
 
 #Aufgabe b)
 
-C_v = -9*alpha**2*Kompressionsmodul*Molaresvolumen
+C_v = -9*alpha**2*Kompressionsmodul*Molaresvolumen*T
 
 print(C_v)
