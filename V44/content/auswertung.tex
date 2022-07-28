@@ -12,7 +12,7 @@ Die gemessene Werte mit der dazugehörigen Gaußdistribution sind in Abbildung \
 \begin{figure}[ht]
     \centering
     \includegraphics[width = 0.7\textwidth]{Auswertung/Graphen/Detektorscan.pdf}
-    \caption{Detektorscan}
+    \caption{Messdaten des Detektorscans mit angelegter Gaußdistribution.}
     \label{fig:gauß}
 \end{figure}
 Daraus ergibt sich mittels \textit{SciPy} \cite{scipy} eine Amplitude  von $I_{max} =(11,1\pm 0,3) \cdot 10^5$ 
@@ -25,7 +25,7 @@ Der Z-Scan ist in Abbildung \ref{fig:Z} dargestellt.
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.7\textwidth]{Auswertung/Graphen/z_Scan.pdf}
-    \caption{Z-Scan}
+    \caption{Messdaten des durchgeführten Z-Scans, sowie die dadurch bestimmten Strahlengrenzen.}
     \label{fig:Z}
 \end{figure}
 Zu erkennen ist die abfallende Intesität, wenn die Probe in den Strahl gefahren wird.
@@ -40,7 +40,7 @@ Der durchgeführte Rockingscan ist in Abbildung \ref{fig:roc} dargestellt.
 \begin{figure}[h]
     \centering
     \includegraphics[width = 0.7\textwidth]{Auswertung/Graphen/Rocking_Scan.pdf}
-    \caption{Rockingscan}
+    \caption{Messdaten des Rockingscans, sowie der dadurch bestimmte Geometriewinkel}
     \label{fig:roc}
 \end{figure}
 
@@ -76,10 +76,28 @@ Der Literaturwert für den kritischen Winkel $\alpha_c$ liegt für Silizium bei 
 
 Die Schichtdicke lässt sich mithilfe der Kiesling-Oszillation aus der gemessenen Reflektivität bestimmen.
 Dazu werden die auftretenden Minima untersucht und der gemittelte Abstand zwischen ihnen bestimmt.
-Relevant sind hierbei nur die deutlichen ersten Minima.
+Relevant sind hierbei nur die deutlichen ersten Minima (vg. Tabelle´v\ref{tab:scan})
+\begin{table}
+    \centering
+    \caption{Ermittelte deutliche Minima des Rockingscans} 
+    \label{tab:scan}
+    \begin{tabular}{ r | r}
+        \hline			
+        Winkel [$\alpha/^°$] & R \\
+        \hline
+        0.345  & 0.0077  \\
+        0.39   & 0.0043  \\
+        0.435  & 0.0027  \\
+        0.485  & 0.0016  \\
+        0.53   & 0.0011  \\
+        0.585  & 0.0007  \\
+    \hline  
+  \end{tabular}
+\end{table}
+
 Der gemittelte Abstand dieser ergibt sich zu
 \begin{equation}
-    \Delta\alpha = (4,5 \pm 0,3)\cdot10^{-2}°.
+    \Delta\alpha = (15.4 \pm 0,3)\cdot10^{-4}°.
 \end{equation}
 Mittels der Gleichung
 \begin{equation}
@@ -87,7 +105,7 @@ Mittels der Gleichung
 \end{equation}
 ergibt sich daraus eine Schichtdicke von
 \begin{equation}
-    (1.71 \pm 0,2)\cdot 10^{-8} m.
+    (4.99 \pm 0,2)\cdot 10^{-8} m.
 \end{equation}
 
 

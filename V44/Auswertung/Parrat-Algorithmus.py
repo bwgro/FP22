@@ -15,8 +15,8 @@ def parratt(a_i, delta_1, delta_2, sigma_1, sigma_2, d_2, b_1, b_2):
 
     x_2 = np.exp(-2j * kd_2 * d_2) * r_23
     x_1 = (r_12 + x_2) / (1 + r_12 * x_2)
-
-    return np.abs(x_1) **2
+    par = np.abs(x_1)**2
+    return par
 
 #Import Messwerte
 ref_x, ref_y = np.genfromtxt('Messwerte/omega_tet.txt', unpack=True)
@@ -27,17 +27,26 @@ I_0 = 1114508.0792544584
 R_ref = ref_y / (5 * I_0)
 R_diff = diff_y / (5 * I_0)
 R= R_ref - R_diff
+#Geometriefaktor
+a_g = 0.4
+R_g = np.zeros(np.size(R))
+
+for i in np.arange(np.size(ref_x)):
+    if(ref_x[i] <= a_g and ref_x[i] > 0 ):
+        R_g[i] = R[i] * np.sin(np.deg2rad(a_g)) / np.sin(np.deg2rad(ref_x[i]))
+    else:
+        R_g[i] = R[i]
 
 #Parratt Parameter
 n_1 = 1.0               #Brechungsindex Luft
 d_1 = 0.0               #Schichtdicke Luft
-d_2 = 1.7 * 10 ** (-6) #Schichtdicke der Porbe
+d_2 = 8.6 * 10 ** (-8) #Schichtdicke der Porbe      !!!!! 1.7!!!!
 wl = 1.54e-10           #Wellenlänge
 
-delta_1 = 7 * 10 ** (-7)
-delta_2 = 7 * 10 ** (-6)
-sigma_1 = 5.5 * 10 ** (-10) 
-sigma_2 = 6.45 *10 ** (-10)
+delta_1 = 0.3 * 10 ** (-6)
+delta_2 = 6.3 * 10 ** (-6)
+sigma_1 = 1.0 * 10 ** (-10) 
+sigma_2 = 5.5 *10 ** (-10)
 b_1 = (delta_1 / 200) * 1j
 b_2 = (delta_2/ 40) * 1j
 
@@ -53,7 +62,7 @@ print('Kritischer Winkel Polys:', a_Poly)
 print('Kritischer Winkel Silicium: ', a_Si)
 
 #Plot
-plt.plot(ref_x, R, '-', label = 'Reflektivität mit Geometriefaktor')
+plt.plot(ref_x, R_g, '-', label = 'Reflektivität mit Geometriefaktor')
 plt.plot(ref_x, par, '-', label = 'Parratt-Kurve')
 plt.xlabel('\u03B1 / °')
 plt.ylabel('R')

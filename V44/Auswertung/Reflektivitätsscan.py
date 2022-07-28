@@ -38,12 +38,25 @@ for i in np.arange(np.size(x)):
 f = (0.223 / (2 * x) )**4
 
 #Schichtdicke
-min_x = [x[69],x[78],x[87],x[97],x[106],x[117]]
-min_y = [R[69],R[78],R[87],R[97],R[106],R[117]]
-print('Schichtdicke: ',x[87] - x[78])
+wl = 1.54e-10           #Wellenlänge
+min_x = [x[67],x[78],x[87],x[97],x[106],x[117]]
+min_y = [R[67],R[78],R[87],R[97],R[106],R[117]]
+print('Minimum werte:', min_x, min_y)
+i = 0
+d = [0,0,0,0,0]
+while i <= 4:
+    d[i] = min_y[i] - min_y[i + 1]
+    i = i + 1
+Schichtdicke_min = np.mean(d)
+Abweichung_min = np.std(d)
+print('delta Alpha:', Schichtdicke_min)
+print('Schichtdicke Min: ',wl/(2*Schichtdicke_min))
+print('Standartabweichung Schichtdicke Min:', Abweichung_min)
+
 
 
 #Plot
+pl.ylim(1*10**-8, 1*10*1)
 pl.plot(x, R, '-', label='Messdaten')
 pl.plot(x, R_g, '-', label='Reflektivität mit Geometriefaktor')
 pl.plot(x, f, label='Ideale Silitzium Oberfläche')
