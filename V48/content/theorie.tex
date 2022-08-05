@@ -5,9 +5,9 @@
 
 \subsection{Ionenkristalle}
 Ein Ionenkristall setzt sich zusammen aus Kationen (positiv geladen) und Anionen (negativ geladen),
-welche in einer fcc-Struktur angeordnet sind.
+welche in einer Gitterstruktur angeordnet sind. Im Falle von Kaliumbromid ist dies in einer fcc-Struktur.
 In einem perfektem Krtistall wären alle Plätze der Struktur durch diese Ionen alternierend besetzt.
-Dies würde ein homogenen, elektrisch neutralen Kristall ergeben.
+Dies würde einen homogenen, elektrisch neutralen Kristall ergeben.
 In reelen Kristallen hingegen befinden sich immer wieder Störstellen,
 die die Struktur des Gitters unterbrechen.
 Für diesen Versuch besonders interessant sind die Leerstellen,
@@ -16,18 +16,16 @@ Diese können ihre Position im Kristall verändern,
 indem Ionen ihren Platz einehmen und einen leeren Platz hinterlassen.
 
 Bei der Dotierung werden dem Ionenkristall Fremdatome im geringen Maße hinzugefügt,
-welche den Platz einer leerstelle einehmen können.
+welche den Platz einer Leerstelle einehmen können.
 Dabei muss auf mikoskopischer Ebene Ladungsneutralität herschen.
-Das bedeutet,
-wenn das Fremdatom eine Ladungsänderung im Kristall vornimmt,
-dass sich eine entsprechende Anzahl an Ionen in der Nähe sich im Gitter entfernen und Leerstellen füllen,
-oder an die Oberfläche wandern.
-Bei einem durch Strontium dotierten Kaliumbromid
-ersetzen zweifach positiv geladene Strontium-Ione ein einfach positiv geladenes Kalium-Ion.
+Sobald das Fremdatom eine Ladungsänderung im Kristall vornimmt,
+lösen sich eine entsprechende Anzahl an Ionen aus ihren Gitterplätzen und füllen Leerstellen
+oder wandern an die Oberfläche.
+Bei einem durch Strontium dotierten Kaliumbromidkristall
+ersetzt ein zweifach positiv geladenes Strontium-Ion ein einfach positiv geladenes Kalium-Ion.
 Zum mikroskopischen Ladungsausgleich entsteht in der Umgebeung eine Leerstelle 
 und das Kation wandert im Festkörper an den Rand.
-Leerstelle und Dotierung bilden hier einen Dipol mit der Folge, 
-dass der Kristall im Markroskopischen leicht geladen ist. 
+Leerstelle und Dotierung bilden hier einen Dipol.
 
 
 
@@ -38,15 +36,15 @@ Das zugehörige Dipolmoment $\vec{p}$ berechnet sich durch
     \vec{p} = \sum_i q_i \cdot \vec{r_i}
 \end{equation*}
 mit den Ladungen $q_i$ an den Orten $\vec{r_i}$ 
-und zeigt immer in Richtung der Positiven Ladung.
-Innerhalb eines Elektrischen Feld richten sich diese Dipole entlang der Feldlinien aus,
-um einen Zustand minimaler Energie ein nehmen zu können.
-Daduch bildet sich eine Forzugsrichtung für das Dipolmoment.
+und zeigt immer in Richtung der positiven Ladung.
+Innerhalb eines elektrischen Feldes richten sich diese Dipole entlang der Feldlinien aus,
+um einen Zustand minimaler Energie einnehmen zu können.
+Daduch bildet sich eine Vorzugsrichtung für das Dipolmoment.
 Ohne elektrisches Feld sind die Dipole so verteilt, 
 dass sich ihr Gesammtdipolmoment zu Null addiert.
 
-Die Zeit welche die Dipole nachd er Polarisation benötigen,
-um sich wieder zu depolarisieren nennt sich Relaxionszeit:
+Die Zeit welche die Dipole nach der Polarisation benötigen,
+um eine Richtungsänderung zu vollführen nennt sich Relaxionszeit:
 \begin{equation}
     \tau(T) = \tau_0 \cdot \exp\left(\frac{W}{k_B T}\right) , \tau_0 =\tau(\infty).
 \end{equation}
@@ -56,9 +54,9 @@ um die Coulomb-Barriere des Ionengitters zu überwinden,
 so wie der Temperatur $T$.
 Zu erkennen ist,
 dass die Relaxionszeit bei niedrigen Temperaturen niedrig und bei hohen hoch ist.
-Daher wird der Ionenkristall bei Raumtemperatur in ein E-Feld gegeben,
-um schnell eine polarisation im Kristall zu erhalten.
-Durch das anschließende abkühlen wird diese Polarisation auch bei abgeschaltetem E-Feld quasi festgehalten. 
+Daher wird der Ionenkristall bei etwa \qty{320}{\kelvin} in ein E-Feld gegeben,
+damit die Einschaltdauer möglichst groß gegenüber der Relaxationszeit ist und eine Polarisation im Kristall möglich ist.
+Durch das anschließende Abkühlen wird diese Polarisation auch bei abgeschaltetem E-Feld quasi festgehalten. 
 
 
 
@@ -66,7 +64,7 @@ Durch das anschließende abkühlen wird diese Polarisation auch bei abgeschaltet
 Bei der stattfindenden Depolarisation wird ein Strom induziert,
 welcher gemessen werden kann. 
 Aus diesem Depolarisationsstrom lassen sich die Größen Aktivierungsenergie und Relaxionszeit bestimmen.
-Ermittelt werden kann er durch zwei Ansätze.
+Ermittelt werden kann der Depolarisationsstrom durch zwei Ansätze.
 
 \subsubsection{Polarisationsansatz}
 Der Depolarisationsstrom beträgt dabei im allgemeinen
@@ -85,7 +83,7 @@ Aus den beiden Gleichungen \eqref{eqn:polrate} und \eqref{eqn:polstrom2} ergibt 
     i(T) = \frac{P(t)}{\tau(T)}\,.
     \label{eqn:i_t_polstart}
 \end{equation}
-Integriert man Gleichung \eqref{eqn:polrate} erhält man einen Zusammenhang für $P(t)$.
+Gleichung \eqref{eqn:polrate} integriert führt zu einen Zusammenhang für $P(t)$
 \begin{equation}
     P(t) = P_{0} \exp\!\left(-\frac{t}{\tau(T)}\right)\,,
 \end{equation}
@@ -93,8 +91,8 @@ welcher sich mit Gleichung \eqref{eqn:i_t_polstart} zu
 \begin{equation}
     i(T) = \frac{P_0}{\tau} \exp\!\left(-\frac{t}{\tau(T)}\right) 
 \end{equation}
-bestimmt wird.
-Die Zeit $t$ wird n un als Integral über den Startpunkt bis zum Beginn des Depolarisationsstroms beschrieben
+ergibt.
+Die Zeit $t$ wird nun als Integral über den Startpunkt bis zum Beginn des Depolarisationsstroms beschrieben
 \begin{equation}
     i(T) = \frac{P_{0}}{\tau} \exp\!\left(-\int_0^t \frac{\text{d}{t}}{\tau(T)}\right)\,.
 \end{equation}
@@ -107,7 +105,7 @@ Bei einer konstanten Heizrate $b$ nimmt der der Depolarisationsstrom die Form
 an.
 
 Zur Berechnung der Aktivierungsenergie $W$ und der Relaxationszeit wird angenommen,
-das $W$ groß im Vergleich zur thermischen Energie $k_B T$
+dass $W$ groß im Vergleich zur thermischen Energie $k_B T$
 und die Temperaturdiferenz $T - T_0$ gering ist.
 Mit der Annahme wird aus \refeq{eq:final}
 \begin{equation}
@@ -116,7 +114,7 @@ Mit der Annahme wird aus \refeq{eq:final}
 \end{equation}
 und der Ausdruck für den Strom vereinfacht sich zu 
 \begin{equation}
-    I(T) \approx \frac{p^2E}{3k_B}\cdot\frac{N_0}{\tau_0}\cdot\exp{\frac{-W}{k_B T}}.
+    I(T) \approx \frac{p^2E}{3k_B T_0}\cdot\frac{N_0}{\tau_0}\cdot\exp{\frac{-W}{k_B T}}.
 \end{equation}
 Mit dem Bilden des Logarithmus ergibt sich
 \begin{equation}
@@ -124,7 +122,7 @@ Mit dem Bilden des Logarithmus ergibt sich
     \label{eq:W1}
 \end{equation}
 was in der Auswertung für eine lineare Ausgleichsrechnung zwischen $\log(I)$
-und $T^{-1}$ zur bestimmung von W verwendet wird.
+und $T^{-1}$ zur Bestimmung von W verwendet wird.
 Für die Relaxationszeit gilt am Maximum 
 \begin{equation}
     \tau_{\text{max}} (T_{\text{max}}) = \frac{k_\text{B} T^2_{\text{max}}}{b W}\, ,
