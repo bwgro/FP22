@@ -2362,15 +2362,22 @@
     <bcf:citekey order="15">wert</bcf:citekey>
     <bcf:citekey order="16">wert</bcf:citekey>
     <bcf:citekey order="17">wert</bcf:citekey>
-    <bcf:citekey order="18">roehre</bcf:citekey>
-    <bcf:citekey order="19">physik</bcf:citekey>
-    <bcf:citekey order="20">nolting</bcf:citekey>
-    <bcf:citekey order="21">reflexion</bcf:citekey>
-    <bcf:citekey order="22">kiessig</bcf:citekey>
-    <bcf:citekey order="23">Stettner</bcf:citekey>
-    <bcf:citekey order="24">sample</bcf:citekey>
-    <bcf:citekey order="25">scipy</bcf:citekey>
-    <bcf:citekey order="26">wert</bcf:citekey>
+    <bcf:citekey order="18" nocite="1">numpy</bcf:citekey>
+    <bcf:citekey order="19" nocite="1">matplotlib</bcf:citekey>
+    <bcf:citekey order="20">scipy</bcf:citekey>
+    <bcf:citekey order="21" nocite="1">cheat</bcf:citekey>
+    <bcf:citekey order="22">roehre</bcf:citekey>
+    <bcf:citekey order="23">physik</bcf:citekey>
+    <bcf:citekey order="24">nolting</bcf:citekey>
+    <bcf:citekey order="25">reflexion</bcf:citekey>
+    <bcf:citekey order="26">kiessig</bcf:citekey>
+    <bcf:citekey order="27">Stettner</bcf:citekey>
+    <bcf:citekey order="28">sample</bcf:citekey>
+    <bcf:citekey order="29">scipy</bcf:citekey>
+    <bcf:citekey order="30">wert</bcf:citekey>
+    <bcf:citekey order="31">numpy</bcf:citekey>
+    <bcf:citekey order="32">matplotlib</bcf:citekey>
+    <bcf:citekey order="33">cheat</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

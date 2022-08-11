@@ -118,6 +118,42 @@
       \field{title}{V44 Röntgenreflektometrie}
       \field{year}{2022}
     \endentry
+    \entry{matplotlib}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a2f53dcc6bb05a06b8ad94176f80fe26}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{fullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{bibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorbibnamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authornamehash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \strng{authorfullhash}{a2f53dcc6bb05a06b8ad94176f80fe26}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing in Science \& Engineering}
+      \field{number}{3}
+      \field{title}{{Matplotlib}: A {2D} Graphics Environment}
+      \field{version}{1.4.3}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{pages}{90\bibrangedash 95}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://matplotlib.org/
+      \endverb
+      \verb{url}
+      \verb http://matplotlib.org/
+      \endverb
+    \endentry
     \entry{scipy}{software}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -236,6 +272,64 @@
       \field{isbn}{3-540-20509-8}
       \field{title}{Grundkurs Theoretische Physik 3: Elektrodynamik}
       \field{year}{2002}
+    \endentry
+    \entry{numpy}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d500f4849030f34359cdb3e1513acf83}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{fullhash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{bibnamehash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{authorbibnamehash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{authornamehash}{d500f4849030f34359cdb3e1513acf83}
+      \strng{authorfullhash}{d500f4849030f34359cdb3e1513acf83}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing in Science \& Engineering}
+      \field{number}{3}
+      \field{title}{{NumPy}: {Python} for Scientific Computing}
+      \field{version}{1.9.2}
+      \field{volume}{9}
+      \field{year}{2007}
+      \field{pages}{10\bibrangedash 20}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb http://www.numpy.org/
+      \endverb
+      \verb{url}
+      \verb http://www.numpy.org/
+      \endverb
+    \endentry
+    \entry{cheat}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e973073a26887dad5a61d2c8e3ef3bb2}{%
+           family={Parratt},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{fullhash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{bibnamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authorbibnamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authornamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authorfullhash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Phys. Rev. 95}
+      \field{title}{Surface Studies of Solids by Total Reflection of X-Rays}
+      \field{year}{1954}
     \endentry
     \entry{Stettner}{thesis}{}
       \name{author}{1}{}{%

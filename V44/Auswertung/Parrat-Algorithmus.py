@@ -6,9 +6,9 @@ def parratt(a_i, delta_1, delta_2, sigma_1, sigma_2, d_2, b_1, b_2):
     n_3 = 1.0 - delta_2 + b_2
     a_i = np.deg2rad(a_i)
     k = 2 * np.pi / wl
-    kd_1 = k * np.sqrt(n_1 ** 2 - np.cos(a_i) ** 2)
-    kd_2 = k * np.sqrt(n_2 ** 2 - np.cos(a_i) ** 2)
-    kd_3 = k * np.sqrt(n_3 ** 2 - np.cos(a_i) ** 2)
+    kd_1 = k * np.sqrt(n_1 ** 2 - np.cos(a_i, dtype = np.complex) ** 2)
+    kd_2 = k * np.sqrt(n_2 ** 2 - np.cos(a_i, dtype = np.complex) ** 2)
+    kd_3 = k * np.sqrt(n_3 ** 2 - np.cos(a_i, dtype = np.complex) ** 2)
     
     r_12 = (kd_1 - kd_2) / (kd_1 + kd_2) * np.exp(-2 * kd_1 * kd_2 * sigma_1 ** 2)
     r_23 = (kd_2 - kd_3) / (kd_2 + kd_3) * np.exp(-2 * kd_2 * kd_3 * sigma_2 ** 2)
@@ -40,15 +40,15 @@ for i in np.arange(np.size(ref_x)):
 #Parratt Parameter
 n_1 = 1.0               #Brechungsindex Luft
 d_1 = 0.0               #Schichtdicke Luft
-d_2 = 8.6 * 10 ** (-8) #Schichtdicke der Porbe      !!!!! 1.7!!!!
+d_2 = 8.6 * 10 ** (-8) #Schichtdicke der Porbe      
 wl = 1.54e-10           #Wellenlänge
 
 delta_1 = 0.3 * 10 ** (-6)
 delta_2 = 6.3 * 10 ** (-6)
 sigma_1 = 1.0 * 10 ** (-10) 
 sigma_2 = 5.5 *10 ** (-10)
-b_1 = (delta_1 / 200) * 1j
-b_2 = (delta_2/ 40) * 1j
+b_1 = (delta_1 / 200) # Aus L. G. Parratt. „Surface Studies of Solids by Total Reflection of X-Rays“.
+b_2 = (delta_2/ 40) 
 
 
 print(delta_1, delta_2, sigma_1, sigma_2, d_2, b_1, b_2)
