@@ -4,7 +4,7 @@
 \subsection{Heizrate}
 
 Um zunächst die Messungen zu unterscheiden werden die Heizraten bestimmt. Sie ergeben sich aus dem Differenzquotienten der Temperatur $T$ pro Zeit $t$.
-Durch Auftragen von $T$ gegen $t$ wird eine lineare Ausgleichsrechnung möglich, dessen Steigung die Heizrate $b_i$ beträgt (vgl. Abb. \ref{fig:heiz}).
+Durch Auftragen von $T$ gegen $t$ wird eine lineare Ausgleichsrechnung möglich, deren Steigung die Heizrate $b_i$ beträgt (vgl. Abb. \ref{fig:heiz}).
 Die dazugehörigen Ergebnisse sind
 \begin{align}
     b_1 &= \qty{1.9518(23)}{\kelvin\per\minute} & T_{0,1} &= \qty{223.11(8)}{\kelvin} \\
@@ -20,36 +20,36 @@ Die Indizes $i = 1,2$ stehen dabei für die Nummer der Messung.
 \end{figure}
 
 \subsection{Untergrund}
-Die aufgenommenen Messwerte enthalten einen exponentiellen Untergund, der die Messung verfälscht.
-Dieser lässt sich betrachten indem man eine Ausgleichsrechnung der anfänglichen Messwerte nahe $I=0$ und der Stützstellen nach kompletten Abklingen des Depolarisationsstroms
+Die aufgenommenen Messwerte, dargestellt in \autoref{fig:bgr1} und \autoref{fig:bgr2}, enthalten einen exponentiellen Untergund, der die Messung verfälscht.
+Er wird durch eine Ausgleichsrechnung der anfänglichen Messwerte nahe $I=0$ und der Stützstellen nach komplettem Abklingen des Depolarisationsstroms
 an die Funktion
 \begin{equation}
     bgr(T) = c \cdot \exp(-dT)
 \end{equation}
-durchführt. Dies wird mithilfe der $curve fit$ Funktion aus der Python-Bibliothek SciPy\cite{scipy} umgesetzt. 
+berechnet. Dies wird mithilfe der $curve fit$ Funktion aus der Python-Bibliothek SciPy\cite{scipy} umgesetzt. 
 
 Die berechneten Parameter sind bei der ersten Messung
 \begin{align}
-    c_1 = \qty{1.147(474)e-4}{\ampere} & d_1 = \qty{4460(112)}{\per\kelvin}.
+    c_1 = \qty{1.147(474)e-4}{\ampere} &= d_1 = \qty{4460(112)}{\per\kelvin}.\\
 \end{align}
 Durch Abziehen des Untergrundes ergeben sich somit die wirklichen korrigierten Messwerte.
 In \autoref{fig:bgr1} ist dies graphisch dargestellt.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{scripts/build/plot1_bgr.pdf}
-    \caption{Untergrundbereinigung der Messung 1.}
+    \caption{Untergrundbereinigung der Messung 1.}% To-Do: Bessere Beschreibung
     \label{fig:bgr1}
 \end{figure}
 
 Bei der zweiten Messung betragen die Parameter
 \begin{align}
-    c_1 = \qty{2.93(1.45)e-07}{\ampere} & d_1 = \qty{3018(142)}{\per\kelvin}.
+    c_2 = \qty{2.93(1.45)e-07}{\ampere} &= d_2 = \qty{3018(142)}{\per\kelvin}.\\
 \end{align}
 Die dazugehörigen Messwerte, sowie Bereinigung, sind in \autoref{fig:bgr2} zu sehen.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{scripts/build/plot2_bgr.pdf}
-    \caption{Untergrundbereinigung der Messung 2.}
+    \caption{Untergrundbereinigung der Messung 2.}% To-Do: Bessere Beschreibung
     \label{fig:bgr2}
 \end{figure}
 
