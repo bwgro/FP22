@@ -2347,15 +2347,16 @@
   <bcf:section number="0">
     <bcf:citekey order="1">sample</bcf:citekey>
     <bcf:citekey order="2">sample</bcf:citekey>
-    <bcf:citekey order="3" nocite="1">matplotlib</bcf:citekey>
-    <bcf:citekey order="4" nocite="1">numpy</bcf:citekey>
-    <bcf:citekey order="5" nocite="1">scipy</bcf:citekey>
-    <bcf:citekey order="6" nocite="1">uncertainties</bcf:citekey>
-    <bcf:citekey order="7">sample</bcf:citekey>
-    <bcf:citekey order="8">matplotlib</bcf:citekey>
-    <bcf:citekey order="9">numpy</bcf:citekey>
-    <bcf:citekey order="10">scipy</bcf:citekey>
-    <bcf:citekey order="11">uncertainties</bcf:citekey>
+    <bcf:citekey order="3">sample</bcf:citekey>
+    <bcf:citekey order="4" nocite="1">matplotlib</bcf:citekey>
+    <bcf:citekey order="5" nocite="1">numpy</bcf:citekey>
+    <bcf:citekey order="6" nocite="1">scipy</bcf:citekey>
+    <bcf:citekey order="7" nocite="1">uncertainties</bcf:citekey>
+    <bcf:citekey order="8">sample</bcf:citekey>
+    <bcf:citekey order="9">matplotlib</bcf:citekey>
+    <bcf:citekey order="10">numpy</bcf:citekey>
+    <bcf:citekey order="11">scipy</bcf:citekey>
+    <bcf:citekey order="12">uncertainties</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
