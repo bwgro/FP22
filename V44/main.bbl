@@ -145,6 +145,7 @@
       \field{version}{1.4.3}
       \field{volume}{9}
       \field{year}{2007}
+      \true{nocite}
       \field{pages}{90\bibrangedash 95}
       \range{pages}{6}
       \verb{urlraw}
@@ -300,6 +301,7 @@
       \field{version}{1.9.2}
       \field{volume}{9}
       \field{year}{2007}
+      \true{nocite}
       \field{pages}{10\bibrangedash 20}
       \range{pages}{11}
       \verb{urlraw}
@@ -330,6 +332,7 @@
       \field{journaltitle}{Phys. Rev. 95}
       \field{title}{Surface Studies of Solids by Total Reflection of X-Rays}
       \field{year}{1954}
+      \true{nocite}
     \endentry
     \entry{Stettner}{thesis}{}
       \name{author}{1}{}{%
@@ -352,7 +355,7 @@
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Charakterisierung von rauhen MBE-CoSi_2-/SiSchichtsystemen mittels Röntgenstreuung}
+      \field{title}{Charakterisierung von rauhen MBE-$CoSi_2$-/SiSchichtsystemen mittels Röntgenstreuung}
       \field{type}{phdthesis}
       \field{year}{1995}
     \endentry
