@@ -1,12 +1,12 @@
 # Fdb version 3
-["biber main"] 1662554053 "main.bcf" "main.bbl" "main" 1662555260
-  "lit.bib" 1657788874 153 faf45cf515d043525239db05aa124675 ""
-  "main.bcf" 1662555259 107713 dd734c149af79ac25a697072c7806f5b "lualatex"
+["biber main"] 1663510671 "main.bcf" "main.bbl" "main" 1663511194
+  "lit.bib" 1663510630 268 13b1912c00e37a28c6172b0c47669d40 ""
+  "main.bcf" 1663511193 107805 327516251e7486a7d95b0d9acf240a51 "lualatex"
   "programme.bib" 1657788874 1081 681836d224c758e678e4f1a862d141da ""
   (generated)
   "main.bbl"
   "main.blg"
-["lualatex"] 1662555253 "d:/GitHub/FP/V47/main.tex" "main.pdf" "main" 1662555260
+["lualatex"] 1663511187 "d:/GitHub/FP/V47/main.tex" "main.pdf" "main" 1663511194
   "Auswertung/Plots/C_v.pdf" 1662551815 11107 9b7e98e4a286ff910bb836f7a789d853 ""
   "Auswertung/Plots/alpha.pdf" 1662551815 12708 a7c47576e4d640068fba94fa72ca0aee ""
   "C:/Users/Sebas/AppData/Local/MiKTeX/2.9/fonts/map/pdftex/pdftex.map" 1658415859 158374 65367d4197ffc569275d709e279ac103 ""
@@ -229,18 +229,18 @@
   "Tabellen/Messwerte.tex" 1662551265 1392 59a9ec00145c8f2f35a003a4638039e3 ""
   "Tabellen/debey.JPG" 1662552889 94185 3f549a02b61ae4499da3cf6f26db3153 ""
   "abb/aufbau.png" 1657788873 73243 672341bc0a4745f732a0925690c7269e ""
-  "content/auswertung.tex" 1662555253 3985 33bfaa754459c7203f347cb4053c40c1 ""
-  "content/diskussion.tex" 1657788874 46 402cc6c9751419c0f1a455b2d4ed1f51 ""
+  "content/auswertung.tex" 1663510971 3988 f00aac8879f121025b5f8953582f1b1c ""
+  "content/diskussion.tex" 1663511187 1269 c68c9a7b2cd574cbf488ac05795507ad ""
   "content/durchfuehrung.tex" 1657788874 2174 4cb573a8e9d0ec820f1153eb77159939 ""
   "content/theorie.tex" 1657788874 7253 3e07dcba199a75fd35b47820f81945a1 ""
   "content/zielsetzung.tex" 1657788874 23 32afc1032932247d5e1c80f8ba1fd976 ""
   "d:/GitHub/FP/V47/main.tex" 1657788874 544 92e72a9973f376df7ea01d6b7c9d9d80 ""
   "header.tex" 1657788874 3566 f415a250451edea213dd9e23678fc508 ""
-  "main.aux" 1662555259 9152 408c9162ac184f8b07ca074823e9a5c9 "lualatex"
-  "main.bbl" 1662554056 6916 0cfdca12b14b989fac456025963d3345 "biber main"
-  "main.run.xml" 1662555259 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
+  "main.aux" 1663511193 9281 f9d3f89e2b93be0867a40cdb22969e8a "lualatex"
+  "main.bbl" 1663510674 7808 9b67e8b67605e43cdd6c4107ed72e5d1 "biber main"
+  "main.run.xml" 1663511193 2396 e189e87700d890de7fc36228f7e6118b "lualatex"
   "main.tex" 1657788874 544 92e72a9973f376df7ea01d6b7c9d9d80 ""
-  "main.toc" 1662555259 988 aac99c9f1e3eab2ade8bf7a7a1046c53 "lualatex"
+  "main.toc" 1663511193 998 99344164ceee442b51dc744e631ab9d2 "lualatex"
   (generated)
   "main.aux"
   "main.bcf"

@@ -7,8 +7,8 @@
 \contentsline {subsection}{\numberline {3.3}Debye-Modell}{5}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Durchführung}{5}{section.4}%
 \contentsline {section}{\numberline {5}Auswertung}{7}{section.5}%
-\contentsline {section}{\numberline {6}Messung der Molwärme}{7}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Bestimmung der Debye-Temperatur}{7}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Diskussion}{12}{section.7}%
+\contentsline {subsection}{\numberline {5.1}Messung der Molwärme}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Bestimmung der Debye-Temperatur}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Diskussion}{12}{section.6}%
 \contentsline {section}{\nonumberline Literatur}{12}{section*.9}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

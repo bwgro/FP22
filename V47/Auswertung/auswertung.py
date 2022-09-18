@@ -68,7 +68,7 @@ ausgleichsgerade = np.poly1d(ausgleichsgeradefit)
 
 
 
-print(Temperatur(R_p),C_v)
+
 #Plots###################################################################
 
 #C_V
