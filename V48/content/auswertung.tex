@@ -43,7 +43,7 @@ In \autoref{fig:bgr1} ist dies graphisch dargestellt.
 
 Bei der zweiten Messung betragen die Parameter
 \begin{align}
-    c_2 = \qty{2.93(1.45)e-07}{\ampere} &= d_2 = \qty{3018(142)}{\per\kelvin}.\\
+    c_2 = \qty{2.93(1.45)e-07}{\ampere} && d_2 = \qty{3018(142)}{\per\kelvin}.\\
 \end{align}
 Die dazugehörigen Messwerte, sowie Bereinigung, sind in \autoref{fig:bgr2} zu sehen.
 \begin{figure}
@@ -56,7 +56,7 @@ Die dazugehörigen Messwerte, sowie Bereinigung, sind in \autoref{fig:bgr2} zu s
 \subsection{Aktivierungsenergie}
 Die linearen Ausgleichrechnungen der Geraden werden im folgenden Unterkapitel mit der Funktion $polyfit$ der Python-Bibliothek numpy\cite{numpy} berechnet.
 \subsubsection{Polarisationsansatz}
-Zur Bestimmung der Aktivierungsenergie $W$ werden die gemessenen Depolarisationsströme $I(T)$ in den Temperaturintervallen
+Zur Bestimmung der Aktivierungsenergie $W$ werden die gemessenen Depolarisationsströme $I(T)$ 
 logarithmisch gegenüber $1/T$ aufgetragen (vgl. Abb. \ref{fig:W1_1} \& \ref{fig:W1_2}). Anschließend können durch eine lineare Ausgleichsrechnung an \autoref{eq:W1}, die Parameter
 \begin{align}
     m_1 &= - \frac{W_1}{k_B} = \qty{-7893(472)}{\kelvin} & c_1 &= const = \num{4.97(1.87)} \\
@@ -69,47 +69,36 @@ berechnet werden. Mit $k_B \approx \qty{8,617e-5}{\electronvolt\per\kelvin}$ fol
 \end{align}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{scripts/build/plot1_1.pdf}
-    \caption{Logarithmisches Strom gegen inverse Temperatur Diagramm der Messung 1.}
+    \includegraphics[width=0.7\linewidth]{scripts/build/plot1_1.pdf}
+    \caption{Logarithmisch aufgetragener Strom, aufgetragen gegen die inverse Temperatur, der ersten Messreihe zur Bestimmung von der Aktivierungsenergie per Polarisationsansatz.}
     \label{fig:W1_1}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=0.8\linewidth]{scripts/build/plot2_1.pdf}
-    \caption{Logarithmisches Strom gegen inverse Temperatur Diagramm der Messung 2.}
+    \includegraphics[width=0.7\linewidth]{scripts/build/plot2_1.pdf}
+    \caption{Logarithmisch aufgetragener Strom, aufgetragen gegen die inverse Temperatur, der zweiten Messreihe zur Bestimmung von der Aktivierungsenergie per Polarisationsansatz.}
     \label{fig:W1_2}
 \end{figure}
-
+\newpage
 \subsubsection{Stromdichtenansatz}
-Durch umstellen von \autoref{eq:Int} zu 
+Um durch \autoref{eq:Int} die Aktivierungsenergie zu berechnen ist ein Fit des Ausdrucks der Relaxationszeit an
 \begin{equation*}
-    \ln\left(\frac{\int_{T_0}^{T_{|I=0}} I(T')dT'}{b I(T)}\right) = \frac{W}{k_B}\frac{1}{T} + ln(\tau_0) := m\cdot\frac{1}{T} + y
+    \tau(T) = b \cdot \exp\left(\frac{a}{T}\right)
 \end{equation*}
-kann nach Auftragen von $\ln\left(\frac{\int_{T_0}^{T_{|I=0}} I(T')dT'}{b I(T)}\right)$ gegen $1/T$ (vgl. Abb. \ref{fig:W2_1} \& \ref{fig:W2_2})
-erneut durch eine lineare Ausgleichsrechnung die Aktivierungsenergie berechnet werden.
-Hierbei folgte die Integration der bereinigten Kurve mit $scipy.integrate$ der Python-Bibliothek SciPy\cite{scipy}.
-Die berechneten Fit-Parameter belaufen sich auf
+notwendig.
+Die berechneten Fit-Parameter belaufen sich jeweils bei den beiden verschiedenen Heizraten auf
 \begin{align}
-    m_1 &= \qty{7893(472)}{\kelvin} & y_1 &= \num{-28.74(1.87)} \\
-    m_2 &= \qty{8034(364)}{\kelvin} & y_2 &= \num{-27.92(1.41)} \\
+    b_1 &= \qty{6242(2098)}{\kelvin} & a_1 &= \qty{0.42(3.55)e-09}{\minute} \\
+    b_2 &= \qty{6190.8(1077.6)}{\kelvin} & a_2 &= \qty{1.74(7.42)e-09}{\minute} \\
 \end{align}
 und somit ergibt sich für die Aktivierungsenergien mit $k_B \approx \qty{8,617e-5}{\electronvolt\per\kelvin}$
+und $b = W/k_B$ 
 \begin{align}
-    W_1 &= \qty{0.680(41)}{\electronvolt} \\
-    W_2 &= \qty{0.692(31)}{\electronvolt}.
+    W_1 &= \qty{0.538(181)}{\electronvolt} \\
+    W_2 &= \qty{0.533(93)}{\electronvolt}.
 \end{align}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\linewidth]{scripts/build/plot1_2.pdf}
-    \caption{Nach Vorschrift integrierte Messwerte der ersten Reihe.}
-    \label{fig:W2_1}
-\end{figure}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.8\linewidth]{scripts/build/plot2_2.pdf}
-    \caption{Nach Vorschrift integrierte Messwerte der zweiten Reihe.}
-    \label{fig:W2_2}
-\end{figure}
+Hierbei folgte die Integration der bereinigten Kurve mit $scipy.integrate$ und die Ausgleichsrechnung mit $scipy.curvefit$
+der Python-Bibliothek SciPy\cite{scipy}.
 
 \subsection{Relaxationszeit}
 \subsubsection{Charakteristische Relaxationszeit}
@@ -119,21 +108,15 @@ Die Temperaturen der maximalen Depolarisationsströme sind:
     T_{max,2} &= \qty{270.85}{\kelvin}
 \end{align}
 Nach \autoref{eq:relax} sind mit den Aktivierungsenergien der Auswertung des Polarisationsansatzes
-die charakteristischen Relaxationszeiten:
+die charakteristischen Relaxationszeiten
 \begin{align}
-    \tau_{1,1} &= \qty{2.25(4.18)e-11}{\second}\\
-    \tau_{1,2} &= \qty{4.96(6.90)e-11}{\second}
+    \tau_{1,1} &= \qty{5.49(9.95)e-11}{\second}\\
+    \tau_{1,2} &= \qty{1.50(2.02)e-10}{\second}
 \end{align}
-Aufgrund der Umstellung von \autoref{eq:Int} in der Auswertung des Stromdichtenansatzes ist es ebenfalls möglich,
-die charakteristischen Relaxationszeiten durch die konstanten Fit-Paramter $y$ auszudrücken,
-\begin{equation}
-    \exp(y) = \exp(\ln(\tau_0)) = \tau_0
-\end{equation}
-indem man die Exponentialfunktion anwendet.
-Die dadurch berechneten Zeiten belaufen sich auf:
+und mit den Aktivierungsenergien der Auswertung des Stromdichtenansatzes
 \begin{align}
-    \tau_{2,1} &= \qty{1.97(3.70)e-11}{\second}\\
-    \tau_{2,2} &= \qty{4.52(6.35)e-11}{\second}
+    \tau_{2,1} &= \qty{0.32(2.58)e-07}{\second}\\
+    \tau_{2,2} &= \qty{1.04(4.45)e-07}{\second}
 \end{align}
 \subsubsection{Temperaturabhängige Relaxationszeit}
 Die temperaturabhängige Relaxationszeit beträgt

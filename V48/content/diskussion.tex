@@ -1,49 +1,44 @@
 \section{Diskussion}
 \label{sec:Diskussion}
-Das Ablesen am Picoamperemeter gestaltete sich äußerst schwierig. Vor allem bei der zweiten Messung ist dies zu festzustellen.
-Der erwartete exponentielle Verlauf ist lediglich im Groben zu erkennen.
-In der bereits erfolgten Auswertung wurde zugunsten der Übersichtlichkeit auf nur wenige Nachkommastellen gerundet.
-Demnach ist kein Unterschied in den Aktivierungsenergien der einzelnen Methoden zu erkennen.
-In \autoref{tab:W} sind die Ergebnisse mit ausreichend Nachkommastellen aufgeführt um erkenntlich zu machen,
-dass beide Verfahren zur Auswertung der Messergebnisse gleichwertig sind. Ein Unterschied in lediglich der sechszehnten Nachkommastelle
-kann in diesem Sinne vernachlässigbar sein.
+Das Ablesen am Picoamperemeter gestaltete sich äußerst schwierig. Vor allem bei der zweiten Messung ist dies festzustellen.
+Der Kurvenverlauf des Depolarisationsstroms wurde nur undeutlich aufgenommen. Die äußere Struktur eines Maximas ist zwar zu erkennen,
+jedoch ebenso wie die unvorhersehbaren Ausschläge des verwendeten analogen Messgerätes, die bereits durch geringe Einflüsse auf den Versuchsaufbau hervorgerufen wurden.
+
+In \autoref{tab:W} werden die verschiedenen Auswertungsmethoden der jeweiligen Messung miteinander verglichen.
 \begin{table}[h]
     \centering
     \caption{Direkter Vergleich der Aktivierungsenergien.}
     \label{tab:W}
-    \begin{tabular}{cS}
+    \begin{tabular}{cSS}
         \toprule
-        {Ansatz} & {Messreihe 1}\\
-        \cmidrule(lr){2-2} 
-        &{$W \, / \, \si{\electronvolt}$} \\
+        {Ansatz} & {Messreihe 1} & {Messreihe 2}\\
+        \cmidrule(lr){2-2}\cmidrule(lr){3-3}
+        &{$W_1 \, / \, \si{\electronvolt}$} & {$W_2 \, / \, \si{\electronvolt}$} \\
         \midrule
-        {Polarisation} & {$0.68017317334993044(4070451497351078)$} \\   
-        {Stromdichte}  & {$0.68017317334992955(4070451497351080)$} \\
-        \bottomrule
-        \\
-        \toprule
-        {Ansatz} & {Messreihe 2}\\ 
-        \cmidrule(lr){2-2} 
-        &{$W \, / \, \si{\electronvolt}$} \\
-        \midrule
-        {Polarisation} & {$0.69228766608574221(3139876552290468)$} \\ 
-        {Stromdichte}  & {$0.69228766608574244(3139876552290468)$} \\
+        {Polarisation} & {$0.680(41)$} & {$0.692(31)$} \\   
+        {Stromdichte}  & {$0.538(181)$} & {$0.533(93)$} \\
         \bottomrule
         \end{tabular}
 \end{table}
-
 \noindent
-Die relative Abweichung
+Die relative Abweichungen
 \begin{equation}
     \Delta x = \left| \frac{x_\text{exp} - x_\text{lit}}{x_\text{lit}}\right|
 \end{equation}
-dieser Werte zum Literaturwert $W_\text{lit} = \qty{0.66(1)}{\electronvolt}$\cite{Buch} liegen bei:
+der Werte des Polarisationsansatzes vom Literaturwert $W_\text{lit} = \qty{0.66(1)}{\electronvolt}$\cite{Buch} liegen bei:
 \begin{align}
     \Delta W_1 = \qty{3}{\percent} \\
     \Delta W_2 = \qty{5}{\percent}
 \end{align}
 Bei der ersten Messung liegt der Literaturwert in den Fehlergrenzen, jedoch ist er bei der zweiten Messung knapp außerhalb.
 Dies kann unteranderem auch Rückschlüsse zum fehlerbehafteten Ablesen am Picoamperemeter ziehen.
+Dahingegen liegen sie bei der Auswertung mittels des Stromdichtenansatzes bei:
+\begin{align}
+    \Delta W_1 = \qty{18.5}{\percent} \\
+    \Delta W_2 = \qty{19.3}{\percent}
+\end{align}
+Dieser doch bemerkliche Unterschied der beiden Methoden spiegelt gegebenenfalls die Natur der numerischen Integration gegenüber der
+weniger komplexen Methode der Approximation wieder. 
 
 Im Gegensatz dazu weichen die charakteristischen Relaxationszeiten weiter von einander ab (vgl. Tab. \ref{tab:t}).
 Dies ist aber auf eine zusätzliche andere Vorhergehensweise in der Ausgleichsrechnung des Stromdichtenansatzes zurückzuführen.

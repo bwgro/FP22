@@ -50,8 +50,8 @@ print('\n')
 # correct data
 I_old = I
 I = I - exp(T, p_bgr[0], p_bgr[1])
-I_raw = I[18:35]
-T_raw = T[18:35]
+I_raw = I[18:42]
+T_raw = T[18:42]
 # max temperature
 T_max = np.max(T_raw)
 # plot
@@ -74,8 +74,8 @@ print(f'Intervall für Aktivierungsenergie:')
 print(T_raw[0],T_raw[-1])
 print('\n')
 # log(I) & 1/T
-I_log = np.log(I_raw)
-T_inv = 1/(T_raw)
+I_log = np.log(I_raw[:-7])
+T_inv = 1/(T_raw[:-7])
 # fit linear
 p_log, cov_log = np.polyfit(T_inv, I_log, deg=1, cov=True)
 err_log = np.sqrt(np.diag(cov_log))
@@ -85,7 +85,7 @@ W_1 = -ufloat(p_log[0],err_log[0])*k_ev
 print('Polarisationsansatz linearer Fit:')
 print(f'm = {ufloat(p_log[0],err_log[0]):.3uS}')
 print(f'b = {ufloat(p_log[1],err_log[1]):.3uS}')
-print(f'W = -m*k_B = {W_1:.16uS} [eV]')
+print(f'W = -m*k_B = {W_1:.2uS} [eV]')
 print('\n')
 # plot
 x = np.linspace(T_inv[0], T_inv[-1], 100)
@@ -101,44 +101,26 @@ fig.savefig('build/plot2_1.pdf')
 fig.clf()
 
 ### activation energy 2 by integration
-# integral
-diff = np.zeros(T_raw.size - 1)
-for i in range(T_raw.size - 1):
-    diff[i] = abs(T_raw[i+1] - T_raw[i])
-    
-H = ufloat(np.mean(diff), np.std(diff))
+def exp(x,a,b):
+    return b * np.exp(a/x)
 
-integral = -integrate.simps(I_raw, T_raw) / (I_raw * unp.nominal_values(H))
-ln_integral = np.log(np.abs(integral))
-T_inv = 1/T_raw
-# linear fit
-p_int, cov_int = np.polyfit(T_inv, ln_integral, deg=1, cov=True)
+integral = integrate.simps(I_raw, T_raw) / (I_raw *b)
+# curve fit
+p_int, cov_int = curve_fit(exp,T_raw, unp.nominal_values(integral))
 err_int = np.sqrt(np.diag(cov_int))
 # calculate W
 W_2 = ufloat(p_int[0],err_int[0])*k_ev
 # print results
-print('Stromdichtenansatz linearer Fit:')
-print(f'm = {ufloat(p_int[0],err_int[0]):.3uS}')
+print('Stromdichtenansatz exp. Fit:')
+print(f'm = {ufloat(p_int[0],err_int[0]):.5uS}')
 print(f'b = {ufloat(p_int[1],err_int[1]):.3uS}')
-print(f'W = m*k_B = {W_2:.16uS} [eV]')
+print(f'W = m*k_B = {W_2:.2uS} [eV]')
 print('\n')
-#plot
-X = np.linspace(T_inv[0], T_inv[-1], 100)
-fig, ax = plt.subplots()
-ax.plot(x, p_int[0]*x + p_int[1], color='mediumblue', label='linearer Fit')
-ax.plot(T_inv, ln_integral,'+', color='royalblue', label = 'Integral')
-ax.set_xlabel(r'$1/T/1/\si{\kelvin}$')
-ax.set_ylabel(r"$\ln\left(\frac{\int_{T_0}^{T_{|I=0}} I(T')dT'}{b I(T)}\right)$")
-ax.legend()
-ax.grid()
-fig.tight_layout()
-fig.savefig('build/plot2_2.pdf')
-fig.clf()
 
 ### relaxation time
 # characteristic
 tau_1 = k_ev*T_max**2/b/W_1*unp.exp(-W_1/k_ev/T_max)
-tau_2 = unp.exp(ufloat(p_int[1],err_int[1]))
+tau_2 = ufloat(p_int[1],err_int[1])
 print('charak. Relaxationszeit:')
 print(f'tau_0,1 = {tau_1:.5S} [min] = {tau_1*60:.3S} [s]')
 print(f'tau_0,2 = {tau_2:.5S} [min] = {tau_2*60:.3S} [s]')

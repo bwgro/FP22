@@ -47,6 +47,7 @@ Die Zeit welche die Dipole nach der Polarisation benötigen,
 um eine Richtungsänderung zu vollführen nennt sich Relaxionszeit:
 \begin{equation}
     \tau(T) = \tau_0 \cdot \exp\left(\frac{W}{k_B T}\right) , \tau_0 =\tau(\infty).
+    \label{eq:Relax}
 \end{equation}
 Sie ist abhängig von der Aktivierungsenergie $W$,
 welche benötigt wird,
@@ -155,10 +156,10 @@ Nun wird durch die vorhergehende Annahme und $P =\int\text{d}P$ der Term für di
 \begin{equation*}
     \tau(T) = \frac{\int \frac{\text{d}P}{\text{d}t} \text{d}T}{I(T) \cdot b} = \frac{\int_T^\infty I(T') \, \text{d}T'}{I(T) \cdot b}
 \end{equation*}
-Einsetzen und die Gleichung zur Aktivierungsenergie $W$ umstellen ergibt:
+Einsetzen in \autoref{eq:Relax} ergibt:
 \begin{equation}
-    W = k_\text{B} T \cdot \ln\left( \frac{\int_T^\infty I(T') \, \text{d}T'}{b \tau_0 \cdot I(T)}\right)
+    \frac{\int_T^\infty I(T') \, \text{d}T'}{b \cdot I(T)} = \tau_0 \cdot \exp \left(\frac{W}{k_B T}\right)
     \label{eq:Int}
 \end{equation}
-Somit lässt sich nun die Aktivierungsenergie $W$ berechnen. In der Praxis wird die obere Integrationsgrenze von $\infty$ in $T^*$ geändert, mit
+Somit lässt sich durch eine Ausgleichsrechnung die Aktivierungsenergie $W$ berechnen. In der Praxis wird die obere Integrationsgrenze von $\infty$ in $T^*$ geändert, mit
 $I\left(T^*\right)\approx 0$. Demnach soll $T^*$ groß genug sein, um eine Gleichverteilung der Dipole hervorzurufen. 
