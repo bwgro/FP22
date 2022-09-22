@@ -115,6 +115,27 @@
       \verb http://www.scipy.org/
       \endverb
     \endentry
+    \entry{Lit}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=2c6d8b1aea5118299879670708080fe1}{%
+           family={Kittel},
+           familyi={K\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{fullhash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{bibnamehash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{authorbibnamehash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{authornamehash}{2c6d8b1aea5118299879670708080fe1}
+      \strng{authorfullhash}{2c6d8b1aea5118299879670708080fe1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Einführung in die Festkörperphysik}
+      \field{year}{2005}
+    \endentry
     \entry{uncertainties}{software}{}
       \name{author}{1}{}{%
         {{hash=66ea1cb529a094a7f1c905805191cc4a}{%

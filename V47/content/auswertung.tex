@@ -1,7 +1,83 @@
 \section{Auswertung}
 \label{sec:Auswertung}
+\subsection{Messung der Molwärme}
+
+Die Molwärme $C_V$ bei konstantem Volumen experimentell zu bestimmen,
+gestaltet sich aufgrund der dadurch auftretenden hohen Drücke schwierig.
+Daher wird zuerst $C_p$ bei konstantem Druck bestimmt 
+und anschließend wird durch den Zusammenhang in Gleichung \refeq{eq:korrekt} $C_V$ bestimmt.
+Mit der zugeführten Energeie
+\begin{equation*}
+    E = U\cdot I \cdot \Delta t,
+\end{equation*}
+lässt sich die Volumenabhängige Molwärme $C_p$ bestimmen
+\begin{equation*}
+    C_p = \frac{M}{m} \cdot \frac{E}{\Delta T}.
+\end{equation*}
+Dabei bezeichnet $U$ die gemessene Spannung,
+$I$ die Stromstärke, 
+$\Delta t$ das Zeitintervall zwischen zwei Messungen,
+$\Delta T$ den temperaturunterschied,
+$M$ die molare Masse der Probe und
+$m$ die Probenmasse.
+Die  Werte sind in Tabelle \eqref{tab:Messwerte} dargestelt.
+\input{Tabellen/Messwerte.tex}
+
+Mit dem Linearen Ausdehnungskoeffizienten $\alpha$ aus \cite*{sample} wird $C_V$ berechnet.
+Die Werte für den Temperaturabhängigen Ausdehnungskoeffizienten sind mit Ausgleichsgerade in Abbildung \refeq{fig:alpha} dargestellt.
+\begin{figure}[h] 
+  \centering
+     \includegraphics[width=0.7\textwidth]{Auswertung/Plots/alpha.pdf}
+  \caption{Fit für den linearen Ausdehnungskoeffizienten}
+  \label{fig:alpha}
+\end{figure}
+Daraus ergibt sich mit der Korrekturformel \refeq{eq:korrekt}, die in Abbildung \ref{fig:C_v} dargestelte Temperaturabhängigkeit der Molwärme.
+\begin{figure}[h] 
+    \centering
+       \includegraphics[width=0.7\textwidth]{Auswertung/Plots/C_v.pdf}
+    \caption{Die Molwärme in Abhängigkeit von der Temperatur}
+    \label{fig:C_v}
+\end{figure}
 
 
 
+\subsection{Bestimmung der Debye-Temperatur}
+Um die Debey-Temperatur $\theta_D$ zu bestimmen wird die Tabelle \ref{tab:debey} verwendet werden.
+\begin{figure}[h] 
+    \centering
+       \includegraphics[width=0.8\textwidth]{Tabellen/debey.JPG}
+    \caption{Werte der Debye-Funktion.}
+    \label{tab:debey}
+\end{figure}
+Diese sind in Tabelle \ref{tab:debey2} dargestellt.
+\input{Tabellen/Darbey.tex}
+Es ergibt sich ein Mittelwert von
+\begin{equation*}
+    \frac{\theta_D}{T}\cdot T =  443.08 K
+\end{equation*}
 
+Aus der Forderung 
+\begin{equation}
+    \int_0^{\omega_\text D} Z(\omega) d\omega = 3 N_\text L
+\end{equation}
+kann die Debye-Temperatur für ein gegebenes Material auch bestimmt werden. Dazu wird das Integral über die Verteilungsfunktion 
+\begin{equation}
+    Z(\omega)d\omega = \frac{L^3}{2\pi^2}\omega^2\left(\frac{1}{v_\text{l}^3}+\frac{2}{v_{\text{t}}^3}\right)d\omega.
+\end{equation}
+ausgeführt:
+\begin{align*}
+	\int_0^{\omega_D} \frac{L^3}{2\pi^2}\omega^2\left(\frac{1}{v_\text{l}^3}+\frac{2}{v_\text{tr}^3}\right) d\omega &\overset{!}{=} 3 N_L\\
+	\frac{L^3}{6\pi^2}\omega_D^3\left(\frac{1}{v_\text{l}^3}+\frac{2}{v_\text{tr}^3}\right)  &= 3N_L\\
+	\left[\frac{18\pi^2N_L}{L^3}\left(\frac{1}{v_\text{l}^3}+\frac{2}{v_\text{tr}^3}\right)^{-1} \right]^{\frac{1}{3}} &= \omega_D \,\text.
+\end{align*}
+Die Größe $L$ ist die Länge der Probe, welche nicht gegeben ist. Diese kann aber mittels einer Umrechnung der Loschmidtschen Zahl $N_L$ eliminiert werden. Es ergibt sich:
+\begin{align*}
+	L^3 = V &= \frac{m}{\rho_\text{Cu}}\qquad N_L = N_A\frac{m}{M}\\
+	\Rightarrow \frac{N_L}{L^3} &= N_A\frac{\rho_\text{Cu}}{M}\,\text.
+\end{align*}
+Dabei ist $N_A$ die Avogadrokonstante.
+Mit den Werten $m = \SI{342}{\gram}$, $v_\text{l} = \SI{4.7}{\kilo\metre\per\second}$ und $v_\text{tr} = \SI{2.26}{\kilo\meter\per\second}$ kann über
+\begin{equation*}
+	\theta_D = \frac{\hbar\omega_D}{k_\text{B}}= \frac{\hbar}{k_\text{B}}\left[\frac{18\pi^2\rho_\text{Cu} N_A}{M}\left(\frac{1}{v_\text{l}^3}+\frac{2}{v_\text{tr}^3}\right)^{-1} \right]^{\frac{1}{3}} = \SI{331.991}{\kelvin}
+\end{equation*} bestimmt werden. Dabei sind $k_B$ die Boltzmannkonstante und $\hbar$ das reduzierte Plancksche Wirkungsquantum.
 
