@@ -54,8 +54,8 @@ Um Effekte durch Rückstreuung zu verhindern wird der diffuse Scan vom Reflektiv
 Dies ist in Abbildung \ref{fig:ref} dargestellt.
 \begin{figure}[h]
     \centering
-    \includegraphics[width = 0.7\textwidth]{Auswertung/Graphen/Reflektivitaetsscan.pdf}
-    \caption{Reflektivitaetsscan}
+    \includegraphics[width = 1\textwidth]{Auswertung/Graphen/Reflektivitaetsscan.pdf}
+    \caption{Messwerte des Reflexivitätsscans mit und ohne Korrektur durch den Geometriefaktor im Vergleich zur Idealen Silitzium Oberfläche sowie die Minima der Kiesling-Oszillation.}
     \label{fig:ref}
 \end{figure}
 Dabei ist zu beachten das neben dem Winkel die Reflektivität
@@ -97,7 +97,7 @@ Relevant sind hierbei nur die deutlichen ersten Minima (vg. Tabelle´v\ref{tab:s
 
 Der gemittelte Abstand dieser ergibt sich zu
 \begin{equation}
-    \Delta\alpha = (15.4 \pm 0,3)\cdot10^{-4}°.
+    \Delta\alpha = (0.045 \pm 0,003)°.
 \end{equation}
 Mittels der Gleichung
 \begin{equation}
@@ -105,9 +105,11 @@ Mittels der Gleichung
 \end{equation}
 ergibt sich daraus eine Schichtdicke von
 \begin{equation}
-    (4.99 \pm 0,2)\cdot 10^{-8} m.
+    (882,4 \pm 20) \text{\AA}.
 \end{equation}
-
+Dabei ist zu beachten, 
+dass die gemessenen Winkel im Bogenmaß eingesetzt werden,
+da ansonsten die Dimensionen nicht stimmen.
 
 \subsection{Parratt-Algorithmus}
 
@@ -119,8 +121,8 @@ Die Umgebungsluft wird als eine Schicht mit der Schichtdicke und der Disperison 
 Die entsprechende Kurve ist in Abbildung \ref{fig:parratt} dargestellt.
 \begin{figure}[h]
     \centering
-    \includegraphics[width = 0.7\textwidth]{Auswertung/Graphen/Parrat_Algorthmus.pdf}
-    \caption{Die Parrat Kurve im Vergleich zur gemessenen Reflektivität}
+    \includegraphics[width = 1\textwidth]{Auswertung/Graphen/Parrat_Algorthmus.pdf}
+    \caption{Die Parrat-Kurve im Vergleich zur gemessenen Reflexivität.}
     \label{fig:parratt}
 \end{figure}
 Mittels der Gleichung \eqref{eq:krit} lässt sich der kritische Winkel der beiden Schichten jeweils bestimmen als:
@@ -132,9 +134,9 @@ Die Parameter der Schichtdicke $d_2$, der Dispersion $\delta$ und der Rauigkeit 
 dass die Parrattkurve eine möglichst große Übereinstimmung zeigt.
 Demnachzufolge sind:
 \begin{align*} 
-    d_2 &=  1.7\cdot 10^{-6} \\
-    \delta_{Poly} &= 7\cdot 10^{-7} \\
-    \delta_{Si} &= 7\cdot 10^{-6} \\
-    \sigma_{Poly} &=  5.5\cdot 10^{-10}\\
-    \sigma_{Poly} &=  6.45\cdot 10^{-10}
+    d_2 &=  860 \text{\AA} \\
+    \delta_{Poly} &= 0.3\cdot 10^{-6} m \\
+    \delta_{Si} &= 6.3\cdot 10^{-6}  m\\
+    \sigma_{Poly} &=  1.0\cdot 10^{-10}\\
+    \sigma_{Si} &=  5.5\cdot 10^{-10}
 \end{align*}

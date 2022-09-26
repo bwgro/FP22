@@ -41,16 +41,17 @@ f = (0.223 / (2 * x) )**4
 wl = 1.54e-10           #Wellenlänge
 min_x = [x[67],x[78],x[87],x[97],x[106],x[117]]
 min_y = [R[67],R[78],R[87],R[97],R[106],R[117]]
-print('Minimum werte:', min_x, min_y)
+print('Minimum werte:', min_x)
 i = 0
 d = [0,0,0,0,0]
 while i <= 4:
-    d[i] = min_y[i] - min_y[i + 1]
+    d[i] = min_x[i] - min_x[i + 1]
     i = i + 1
 Schichtdicke_min = np.mean(d)
 Abweichung_min = np.std(d)
 print('delta Alpha:', Schichtdicke_min)
-print('Schichtdicke Min: ',wl/(2*Schichtdicke_min))
+Dicke = wl/(2*np.radians(Schichtdicke_min))
+print('Schichtdicke Min: ', Dicke)
 print('Standartabweichung Schichtdicke Min:', Abweichung_min)
 
 
