@@ -1,9 +1,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import math
 import scipy.constants as const
 from scipy.optimize import curve_fit
 from uncertainties import ufloat
 import uncertainties.unumpy as unp
+import uncertainties.umath as umath
 from scipy import integrate
 
 # create build directory
@@ -104,7 +106,15 @@ fig.clf()
 def exp(x,a,b):
     return b * np.exp(a/x)
 
-integral = integrate.simps(I_raw, T_raw) / (I_raw *b)
+integral = integrate.romb(I_raw, dx=1.4508)
+print(integral)
+logintegral = unp.log(integral/b)
+#print(unp.log(integral/(b*I_raw)))
+n,covariance_matrix = np.polyfit(unp.nominal_values(logintegral - unp.log(I_raw)), 1/T_raw, deg=1, cov=True)
+e = np.sqrt(np.diag(covariance_matrix))
+p = unp.uarray(n,e)
+print(p[0]*k_ev)
+
 # curve fit
 p_int, cov_int = curve_fit(exp,T_raw, unp.nominal_values(integral))
 err_int = np.sqrt(np.diag(cov_int))
