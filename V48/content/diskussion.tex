@@ -1,9 +1,9 @@
 \section{Diskussion}
 \label{sec:Diskussion}
 Das Ablesen am Picoamperemeter gestaltete sich äußerst schwierig. Vor allem bei der zweiten Messung ist dies festzustellen.
-Der Kurvenverlauf des Depolarisationsstroms wurde nur undeutlich aufgenommen. Die äußere Struktur eines Maximas ist zwar zu erkennen,
-jedoch ebenso wie die unvorhersehbaren Ausschläge des verwendeten analogen Messgerätes, die bereits durch geringe Einflüsse auf den Versuchsaufbau hervorgerufen wurden.
-
+Der Kurvenverlauf des Depolarisationsstroms wurde nur undeutlich aufgenommen,
+jedoch ist der erwartete exponentielle Verlauf im Groben zu erkennen.
+Bereits die kleinsten äußerlichen Einwirkungen auf den Versuchsaufbau haben das Messergebnis unvorhersehbar verfälscht.
 In \autoref{tab:W} werden die verschiedenen Auswertungsmethoden der jeweiligen Messung miteinander verglichen.
 \begin{table}[h]
     \centering
@@ -15,34 +15,36 @@ In \autoref{tab:W} werden die verschiedenen Auswertungsmethoden der jeweiligen M
         \cmidrule(lr){2-2}\cmidrule(lr){3-3}
         &{$W_1 \, / \, \si{\electronvolt}$} & {$W_2 \, / \, \si{\electronvolt}$} \\
         \midrule
-        {Polarisation} & {$0.680(41)$} & {$0.692(31)$} \\   
-        {Stromdichte}  & {$0.538(181)$} & {$0.533(93)$} \\
+        {Polarisation} & {$0.680(41)$} & {$0.698(27)$} \\   
+        {Stromdichte}  & {$0.996(14)$} & {$0.861(22)$} \\
         \bottomrule
         \end{tabular}
 \end{table}
+
 \noindent
-Die relative Abweichungen
+Die relativen Abweichungen
 \begin{equation}
     \Delta x = \left| \frac{x_\text{exp} - x_\text{lit}}{x_\text{lit}}\right|
 \end{equation}
 der Werte des Polarisationsansatzes vom Literaturwert $W_\text{lit} = \qty{0.66(1)}{\electronvolt}$\cite{Buch} liegen bei:
 \begin{align}
-    \Delta W_1 = \qty{3}{\percent} \\
-    \Delta W_2 = \qty{5}{\percent}
+    \Delta W_1 \approx \qty{3}{\percent} \\
+    \Delta W_2 \approx \qty{6}{\percent}
 \end{align}
 Bei der ersten Messung liegt der Literaturwert in den Fehlergrenzen, jedoch ist er bei der zweiten Messung knapp außerhalb.
-Dies kann unteranderem auch Rückschlüsse zum fehlerbehafteten Ablesen am Picoamperemeter ziehen.
-Dahingegen liegen sie bei der Auswertung mittels des Stromdichtenansatzes bei:
+Dies kann unteranderem auch als Rückschluss eines fehlerbehafteten Ablesens am Picoamperemeter gezogen werden (vgl. Abb. \ref{fig:bgr2}).
+Dahingegen liegen die relativen Abweichungen der Auswertung mittels des Stromdichtenansatzes bei:
 \begin{align}
-    \Delta W_1 = \qty{18.5}{\percent} \\
-    \Delta W_2 = \qty{19.3}{\percent}
+    \Delta W_1 \approx \qty{51}{\percent} \\
+    \Delta W_2 \approx \qty{30}{\percent}
 \end{align}
-Dieser doch bemerkliche Unterschied der beiden Methoden spiegelt gegebenenfalls die Natur der numerischen Integration gegenüber der
+Zudem hat letztere Methode den Literaturwert deutlich verfehlt.
+Dieser doch bemerkliche Unterschied der beiden Methoden spiegelt wöhlmöglich die Natur der numerischen Integration gegenüber der
 weniger komplexen Methode der Approximation wieder. 
 
-Im Gegensatz dazu weichen die charakteristischen Relaxationszeiten weiter von einander ab (vgl. Tab. \ref{tab:t}).
-Dies ist aber auf eine zusätzliche andere Vorhergehensweise in der Ausgleichsrechnung des Stromdichtenansatzes zurückzuführen.
-Wendet man anstelle der angewandten Umformung ebenfalls \autoref{eq:relax} an, so verringern auch hier sich die anliegenden Unterschiede.
+Die Relaxationszeiten unterscheiden sich vor allem durch Nutzung der Aktivierungsenergien des Stromdichtenansatzes (vgl. Tab. \ref{tab:t}).
+Bereits Abweichungen von einigen \unit{\milli\electronvolt} führen zu einer Veränderung in der Relaxationszeit von mehreren Größenordnungen.
+Die Reproduzierbarkeit der charakteristischen Relaxationszeit unterliegt daher der Genauigkeit der ermittelten Aktivierungsenergien. 
 \begin{table}[h]
     \centering
     \caption{Direkter Vergleich der charakteristischen Relaxationszeiten.}
@@ -53,8 +55,8 @@ Wendet man anstelle der angewandten Umformung ebenfalls \autoref{eq:relax} an, s
         \cmidrule(lr){2-2}  \cmidrule(lr){3-3} 
         & {$\tau \, / \, \si{\second}$} & {$\tau \, / \, \si{\second}$} \\
         \midrule
-        {Polarisation} & {$2.25(4.18)e-11$} & {$4.96(6.90)e-11$} \\   
-        {Stromdichte}  & {$1.97(3.70)e-11$} & {$4.52(6.35)e-11$} \\
+        {Polarisation} & {$1.06(2.02)e-11$} & {$1.64(1.98)e-11$} \\   
+        {Stromdichte}  & {$4.42(2.87)e-18$} & {$1.001(995)e-14$} \\
         \bottomrule
     \end{tabular}
 \end{table}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.5.12)  22 SEP 2022 22:41
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.5.12)  12 JAN 2023 20:54
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/bwg/Uni/FP/V48/main.tex
@@ -1319,77 +1319,88 @@ Package luatex.def Info: abb/aufbau.JPG  used on input line 14.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6]
-<scripts/build/Heizrate.pdf, id=109, 417.7206pt x 258.0049pt>
+<scripts/build/Heizrate.pdf, id=110, 417.7206pt x 258.0049pt>
 File: scripts/build/Heizrate.pdf Graphic file (type pdf)
 <use scripts/build/Heizrate.pdf>
 Package luatex.def Info: scripts/build/Heizrate.pdf  used on input line 17.
 (luatex.def)             Requested size: 334.60571pt x 206.66795pt.
  [7<./abb/aufbau.JPG>]
-<scripts/build/plot1_bgr.pdf, id=128, 417.7206pt x 258.0049pt>
+<scripts/build/plot1_bgr.pdf, id=129, 417.7206pt x 258.0049pt>
 File: scripts/build/plot1_bgr.pdf Graphic file (type pdf)
 <use scripts/build/plot1_bgr.pdf>
 Package luatex.def Info: scripts/build/plot1_bgr.pdf  used on input line 39.
 (luatex.def)             Requested size: 334.60571pt x 206.66795pt.
-<scripts/build/plot2_bgr.pdf, id=130, 417.7206pt x 258.0049pt>
+<scripts/build/plot2_bgr.pdf, id=131, 417.7206pt x 258.0049pt>
 File: scripts/build/plot2_bgr.pdf Graphic file (type pdf)
 <use scripts/build/plot2_bgr.pdf>
 Package luatex.def Info: scripts/build/plot2_bgr.pdf  used on input line 51.
 (luatex.def)             Requested size: 334.60571pt x 206.66795pt.
  [8<./scripts/build/Heizrate.pdf>] [9<./scripts/build/plot1_bgr.pdf><./scripts/build/plot2_bgr.pdf>]
-<scripts/build/plot1_1.pdf, id=217, 417.7206pt x 258.0049pt>
+<scripts/build/plot1_1.pdf, id=215, 417.7206pt x 258.0049pt>
 File: scripts/build/plot1_1.pdf Graphic file (type pdf)
 <use scripts/build/plot1_1.pdf>
 Package luatex.def Info: scripts/build/plot1_1.pdf  used on input line 72.
 (luatex.def)             Requested size: 292.7776pt x 180.83052pt.
-<scripts/build/plot2_1.pdf, id=218, 417.7206pt x 258.0049pt>
+<scripts/build/plot2_1.pdf, id=216, 417.7206pt x 258.0049pt>
 File: scripts/build/plot2_1.pdf Graphic file (type pdf)
 <use scripts/build/plot2_1.pdf>
 Package luatex.def Info: scripts/build/plot2_1.pdf  used on input line 78.
 (luatex.def)             Requested size: 292.7776pt x 180.83052pt.
- [10<./scripts/build/plot1_1.pdf>] [11<./scripts/build/plot2_1.pdf>]
-<scripts/build/plot1_t.pdf, id=278, 417.7206pt x 258.0049pt>
+ [10<./scripts/build/plot1_1.pdf>]
+<scripts/build/plot1_2.pdf, id=250, 417.7206pt x 258.0049pt>
+File: scripts/build/plot1_2.pdf Graphic file (type pdf)
+<use scripts/build/plot1_2.pdf>
+Package luatex.def Info: scripts/build/plot1_2.pdf  used on input line 104.
+(luatex.def)             Requested size: 292.7776pt x 180.83052pt.
+<scripts/build/plot2_2.pdf, id=251, 417.7206pt x 258.0049pt>
+File: scripts/build/plot2_2.pdf Graphic file (type pdf)
+<use scripts/build/plot2_2.pdf>
+Package luatex.def Info: scripts/build/plot2_2.pdf  used on input line 110.
+(luatex.def)             Requested size: 292.7776pt x 180.83052pt.
+ [11<./scripts/build/plot2_1.pdf>] [12<./scripts/build/plot1_2.pdf><./scripts/build/plot2_2.pdf>]
+<scripts/build/plot1_t.pdf, id=338, 417.7206pt x 258.0049pt>
 File: scripts/build/plot1_t.pdf Graphic file (type pdf)
 <use scripts/build/plot1_t.pdf>
-Package luatex.def Info: scripts/build/plot1_t.pdf  used on input line 130.
+Package luatex.def Info: scripts/build/plot1_t.pdf  used on input line 142.
 (luatex.def)             Requested size: 334.60571pt x 206.66795pt.
-<scripts/build/plot2_t.pdf, id=279, 417.7206pt x 258.0049pt>
+<scripts/build/plot2_t.pdf, id=339, 417.7206pt x 258.0049pt>
 File: scripts/build/plot2_t.pdf Graphic file (type pdf)
 <use scripts/build/plot2_t.pdf>
-Package luatex.def Info: scripts/build/plot2_t.pdf  used on input line 136.
+Package luatex.def Info: scripts/build/plot2_t.pdf  used on input line 148.
 (luatex.def)             Requested size: 334.60571pt x 206.66795pt.
-) (./content/diskussion.tex [12] [13<./scripts/build/plot1_t.pdf><./scripts/build/plot2_t.pdf>])
+) (./content/diskussion.tex [13] [14<./scripts/build/plot1_t.pdf><./scripts/build/plot2_t.pdf>])
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14]
+[15]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [15] (./main.aux)
+ [16] (./main.aux)
 Package rerunfilecheck Info: File `main.aux' has not changed.
-(rerunfilecheck)             Checksum: A929A1A238874F4C26C6E5280C7034A4;14732.
+(rerunfilecheck)             Checksum: 7B0EFEAD6EE18D6F20989F76BCDFC4E6;16186.
 Package rerunfilecheck Info: File `main.toc' has not changed.
-(rerunfilecheck)             Checksum: 4200382152E4B7245143B2583F299EC8;1692.
+(rerunfilecheck)             Checksum: DC530C45299EF064FD8CE07C229D9AE9;1696.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 38152 strings out of 477742
+ 38184 strings out of 477742
  100000,1977958 words of node,token memory allocated
- 955 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 97 attribute, 78 glue_spec, 50 attribute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:5,2:1009,3:282,4:115,5:385,6:61,7:6586,8:94,9:759,10:27,11:836,12:1
- 57647 multiletter control sequences out of 65536+600000
+ 967 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 1 local_par, 4 glue, 4 kern, 1 penalty, 1 margin_kern, 3 glyph, 101 attribute, 78 glue_spec, 52 attribute_list, 1 write, 2 pdf_action nodes
+   avail lists: 1:5,2:1069,3:282,4:115,5:426,6:61,7:6609,8:94,9:759,10:20,11:843,12:1
+ 57661 multiletter control sequences out of 65536+600000
  70 fonts using 20734623 bytes
  113i,12n,117p,10638b,2363s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm-math/latinmodern-math.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></home/bwg/.local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on main.pdf (15 pages, 199044 bytes).
+Output written on main.pdf (16 pages, 225685 bytes).
 
-PDF statistics: 519 PDF objects out of 1000 (max. 8388607)
- 399 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 131072)
+PDF statistics: 582 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 99 named destinations out of 1000 (max. 131072)
  153 words of extra memory for PDF output out of 10000 (max. 100000000)
 

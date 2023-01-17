@@ -481,6 +481,12 @@ INPUT ./scripts/build/plot1_1.pdf
 INPUT ./scripts/build/plot2_1.pdf
 INPUT ./scripts/build/plot2_1.pdf
 INPUT ./scripts/build/plot2_1.pdf
+INPUT ./scripts/build/plot1_2.pdf
+INPUT ./scripts/build/plot1_2.pdf
+INPUT ./scripts/build/plot1_2.pdf
+INPUT ./scripts/build/plot2_2.pdf
+INPUT ./scripts/build/plot2_2.pdf
+INPUT ./scripts/build/plot2_2.pdf
 INPUT ./scripts/build/plot1_t.pdf
 INPUT ./scripts/build/plot1_t.pdf
 INPUT ./scripts/build/plot1_t.pdf

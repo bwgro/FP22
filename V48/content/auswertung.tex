@@ -37,7 +37,7 @@ In \autoref{fig:bgr1} ist dies graphisch dargestellt.
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{scripts/build/plot1_bgr.pdf}
-    \caption{Aufgenommene Stromkurve der Messung 1 zur Untergrundbestimmung.}% To-Do: Bessere Beschreibung
+    \caption{Aufgenommene Stromkurve der ersten Messreihe zur Untergrundbestimmung, sowie die bereinigten Messwerte.}% To-Do: Bessere Beschreibung
     \label{fig:bgr1}
 \end{figure}
 
@@ -49,10 +49,10 @@ Die dazugehörigen Messwerte, sowie Bereinigung, sind in \autoref{fig:bgr2} zu s
 \begin{figure}
     \centering
     \includegraphics[width=0.8\linewidth]{scripts/build/plot2_bgr.pdf}
-    \caption{Aufgenommene Stromkurve der Messung 2 zur Untergrundbestimmung.}% To-Do: Bessere Beschreibung
+    \caption{Aufgenommene Stromkurve der zweiten Messreihe zur Untergrundbestimmung, sowie die bereinigten Messwerte.}% To-Do: Bessere Beschreibung
     \label{fig:bgr2}
 \end{figure}
-
+\newpage
 \subsection{Aktivierungsenergie}
 Die linearen Ausgleichrechnungen der Geraden werden im folgenden Unterkapitel mit der Funktion $polyfit$ der Python-Bibliothek numpy\cite{numpy} berechnet.
 \subsubsection{Polarisationsansatz}
@@ -60,45 +60,57 @@ Zur Bestimmung der Aktivierungsenergie $W$ werden die gemessenen Depolarisations
 logarithmisch gegenüber $1/T$ aufgetragen (vgl. Abb. \ref{fig:W1_1} \& \ref{fig:W1_2}). Anschließend können durch eine lineare Ausgleichsrechnung an \autoref{eq:W1}, die Parameter
 \begin{align}
     m_1 &= - \frac{W_1}{k_B} = \qty{-7893(472)}{\kelvin} & c_1 &= const = \num{4.97(1.87)} \\
-    m_2 &= - \frac{W_2}{k_B} = \qty{-8034(364)}{\kelvin} & c_1 &= const = \num{5.86(1.41)}
+    m_2 &= - \frac{W_2}{k_B} = \qty{-8096(309)}{\kelvin} & c_2 &= const = \num{6.09(1.24)}
 \end{align}
 berechnet werden. Mit $k_B \approx \qty{8,617e-5}{\electronvolt\per\kelvin}$ folgen daraus
 \begin{align}
     W_1 &= \qty{0.680(41)}{\electronvolt} \\
-    W_2 &= \qty{0.692(31)}{\electronvolt}.
+    W_2 &= \qty{0.698(27)}{\electronvolt}.
 \end{align}
 \begin{figure}
     \centering
     \includegraphics[width=0.7\linewidth]{scripts/build/plot1_1.pdf}
-    \caption{Logarithmisch aufgetragener Strom, aufgetragen gegen die inverse Temperatur, der ersten Messreihe zur Bestimmung von der Aktivierungsenergie per Polarisationsansatz.}
+    \caption{Logarithmisch aufgetragener Strom, aufgetragen gegen die inverse Temperatur, der ersten Messreihe zur Bestimmung von der Aktivierungsenergie durch den Polarisationsansatz.}
     \label{fig:W1_1}
 \end{figure}
 \begin{figure}
     \centering
     \includegraphics[width=0.7\linewidth]{scripts/build/plot2_1.pdf}
-    \caption{Logarithmisch aufgetragener Strom, aufgetragen gegen die inverse Temperatur, der zweiten Messreihe zur Bestimmung von der Aktivierungsenergie per Polarisationsansatz.}
+    \caption{Logarithmisch aufgetragener Strom, aufgetragen gegen die inverse Temperatur, der zweiten Messreihe zur Bestimmung von der Aktivierungsenergie durch den Polarisationsansatz.}
     \label{fig:W1_2}
 \end{figure}
 \newpage
 \subsubsection{Stromdichtenansatz}
-Um durch \autoref{eq:Int} die Aktivierungsenergie zu berechnen ist ein Fit des Ausdrucks der Relaxationszeit an
+Um durch \autoref{eq:Int} die Aktivierungsenergie zu berechnen ist eine Ausgleichsgerade der Form
 \begin{equation*}
-    \tau(T) = b \cdot \exp\left(\frac{a}{T}\right)
+    F(T) = a \cdot \frac{1}{T} + b
 \end{equation*}
-notwendig.
+notwendig (vgl. Abb. \ref{fig:W2_1} \& \ref{fig:W2_2}).
 Die berechneten Fit-Parameter belaufen sich jeweils bei den beiden verschiedenen Heizraten auf
 \begin{align}
-    b_1 &= \qty{6242(2098)}{\kelvin} & a_1 &= \qty{0.42(3.55)e-09}{\minute} \\
-    b_2 &= \qty{6190.8(1077.6)}{\kelvin} & a_2 &= \qty{1.74(7.42)e-09}{\minute} \\
+    a_1 &= \qty{11559.24(163.02)}{\kelvin} & b_1 &= \num{-43.31(64)} \\
+    a_2 &= \qty{9996.14(251.66)}{\kelvin} & b_2 &= \num{-35.32(95)} \\
 \end{align}
 und somit ergibt sich für die Aktivierungsenergien mit $k_B \approx \qty{8,617e-5}{\electronvolt\per\kelvin}$
-und $b = W/k_B$ 
+und $a = W/k_B$ 
 \begin{align}
-    W_1 &= \qty{0.538(181)}{\electronvolt} \\
-    W_2 &= \qty{0.533(93)}{\electronvolt}.
+    W_1 &= \qty{0.996(14)}{\electronvolt} \\
+    W_2 &= \qty{0.861(22)}{\electronvolt}.
 \end{align}
-Hierbei folgte die Integration der bereinigten Kurve mit $scipy.integrate$ und die Ausgleichsrechnung mit $scipy.curvefit$
+Hierbei folgte die Integration der bereinigten Kurve mit der Funktion $integrate$
 der Python-Bibliothek SciPy\cite{scipy}.
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\linewidth]{scripts/build/plot1_2.pdf}
+    \caption{Logarithmisch aufgetragenes Integral der Relaxationszeit, aufgetragen gegen die inverse Temperatur, der ersten Messreihe zur Bestimmung der Aktivierungsenergie durch den Stromdichtenansatz.}
+    \label{fig:W2_1}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\linewidth]{scripts/build/plot2_2.pdf}
+    \caption{Logarithmisch aufgetragenes Integral der Relaxationszeit, aufgetragen gegen die inverse Temperatur, der zweiten Messreihe zur Bestimmung der Aktivierungsenergie durch den Stromdichtenansatz.}
+    \label{fig:W2_2}
+\end{figure}
 
 \subsection{Relaxationszeit}
 \subsubsection{Charakteristische Relaxationszeit}
@@ -110,18 +122,18 @@ Die Temperaturen der maximalen Depolarisationsströme sind:
 Nach \autoref{eq:relax} sind mit den Aktivierungsenergien der Auswertung des Polarisationsansatzes
 die charakteristischen Relaxationszeiten
 \begin{align}
-    \tau_{1,1} &= \qty{5.49(9.95)e-11}{\second}\\
-    \tau_{1,2} &= \qty{1.50(2.02)e-10}{\second}
+    \tau_{1,1} &= \qty{1.06(2.02)e-11}{\second}\\
+    \tau_{1,2} &= \qty{1.64(1.98)e-11}{\second}
 \end{align}
 und mit den Aktivierungsenergien der Auswertung des Stromdichtenansatzes
 \begin{align}
-    \tau_{2,1} &= \qty{0.32(2.58)e-07}{\second}\\
-    \tau_{2,2} &= \qty{1.04(4.45)e-07}{\second}
+    \tau_{2,1} &= \qty{4.42(2.87)e-18}{\second}\\
+    \tau_{2,2} &= \qty{1.001(995)e-14}{\second}\, .
 \end{align}
 \subsubsection{Temperaturabhängige Relaxationszeit}
-Die temperaturabhängige Relaxationszeit beträgt
+Die temperaturabhängige Relaxationszeit beträgt:
 \begin{equation}
-    \tau(T) = \tau_0 \cdot \exp\left(\frac{W}{k_B T}\right)\, . 
+    \tau(T) = \tau_0 \cdot \exp\left(\frac{W}{k_B T}\right)
 \end{equation}
 Durch das Einsetzen der Werte aus den vorherigen Auswertungsteilen ergibt sich in \autoref{fig:t1} die halblogarithmische Temperaturabhängigkeit der ersten Messung und
 in \autoref{fig:t2} die der Zweiten.

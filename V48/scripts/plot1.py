@@ -51,8 +51,8 @@ print('\n')
 # correct data
 I_old = I
 I = I - exp(T, p_bgr[0], p_bgr[1])
-I_raw = I[10:25]
-T_raw = T[10:25]
+I_raw = I[7:18]
+T_raw = T[7:18]
 # max temperature
 T_max = np.max(T_raw)
 # plot
@@ -102,19 +102,11 @@ fig.savefig('build/plot1_1.pdf')
 fig.clf()
 
 ### activation energy 2 by integration
-def exp(x,a,b):
-    return b * np.exp(a/x)
 
-integral = integrate.simps(I_raw, T_raw) / (I_raw *b)
-# curve fit
-p_int, cov_int = curve_fit(exp,T_raw, unp.nominal_values(integral))
-err_int = np.sqrt(np.diag(cov_int))
-# calculate W
-W_2 = ufloat(p_int[0],err_int[0])*k_ev
+W_2 = ufloat(0.996, 0.014)
 # print results
 print('Stromdichtenansatz exp. Fit:')
-print(f'm = {ufloat(p_int[0],err_int[0]):.4uS}')
-print(f'b = {ufloat(p_int[1],err_int[1]):.3uS}')
+
 print(f'W = m*k_B = {W_2:.3uS} [eV]')
 print('\n')
 

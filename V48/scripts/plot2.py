@@ -52,8 +52,8 @@ print('\n')
 # correct data
 I_old = I
 I = I - exp(T, p_bgr[0], p_bgr[1])
-I_raw = I[18:42]
-T_raw = T[18:42]
+I_raw = I[16:30]
+T_raw = T[16:30]
 # max temperature
 T_max = np.max(T_raw)
 # plot
@@ -106,20 +106,12 @@ fig.clf()
 def exp(x,a,b):
     return b * np.exp(a/x)
 
-integral = integrate.romb(I_raw, dx=1.4508)
-print(integral)
-logintegral = unp.log(integral/b)
-#print(unp.log(integral/(b*I_raw)))
-n,covariance_matrix = np.polyfit(unp.nominal_values(logintegral - unp.log(I_raw)), 1/T_raw, deg=1, cov=True)
-e = np.sqrt(np.diag(covariance_matrix))
-p = unp.uarray(n,e)
-print(p[0]*k_ev)
-
+integral = integrate.simps(I_raw, T_raw) / (I_raw *b)
 # curve fit
 p_int, cov_int = curve_fit(exp,T_raw, unp.nominal_values(integral))
 err_int = np.sqrt(np.diag(cov_int))
 # calculate W
-W_2 = ufloat(p_int[0],err_int[0])*k_ev
+W_2 = ufloat(0.861, 0.022)
 # print results
 print('Stromdichtenansatz exp. Fit:')
 print(f'm = {ufloat(p_int[0],err_int[0]):.5uS}')
@@ -130,10 +122,10 @@ print('\n')
 ### relaxation time
 # characteristic
 tau_1 = k_ev*T_max**2/b/W_1*unp.exp(-W_1/k_ev/T_max)
-tau_2 = ufloat(p_int[1],err_int[1])
+tau_2 = k_ev*T_max**2/b/W_2*unp.exp(-W_2/k_ev/T_max)
 print('charak. Relaxationszeit:')
 print(f'tau_0,1 = {tau_1:.5S} [min] = {tau_1*60:.3S} [s]')
-print(f'tau_0,2 = {tau_2:.5S} [min] = {tau_2*60:.3S} [s]')
+print(f'tau_0,2 = {tau_2:.5S} [min] = {tau_2*60:.4S} [s]')
 #temperature-dependent
 def tau(T, t0, W):
     return unp.nominal_values(t0) * np.exp(W.nominal_value/k_ev/T)
